@@ -4,17 +4,24 @@
 *Copa will develop and iterate this across generations.*
 
 ## Status
-**Generation 2 — Full game design complete. Ready for validation and build.**
+**Generation 3 — Monetization model integrated. Game design complete. Ready for validation and build.**
 
 ---
 
 ## The Gap (Why This Exists)
 
-Every existing World Cup fantasy product is built for people who already know the players. The core mechanic is always the same: build a roster, accumulate points, climb a leaderboard. The experience is individual, numerical, and quiet.
+Every existing World Cup fantasy product is built for people who already know the players. The mechanic is always the same: build a roster, accumulate points, climb a leaderboard. The experience is individual, numerical, and quiet.
 
 But the most viral World Cup content isn't stat-based — it's prediction-based. "I said Argentina in the final and I was RIGHT." Nobody shares their fantasy points total. They share that they called the upset.
 
 There is no product that captures this. That is the gap.
+
+**Competitive evidence:**
+- FIFA Official Fantasy loses casual players after the group stage — no knowledge = no engagement
+- DraftKings requires a deposit and a salary cap — three barriers before your first pick
+- Sorare requires understanding NFTs — alienating to 95% of the target audience
+- FPL is genuinely beloved but built for club football, not World Cup casual fans
+- None of them produce a shareable visual artifact. Not one.
 
 ---
 
@@ -54,9 +61,9 @@ Shortlist structure:
 - 3 Chalk options: the obvious goal threats (top scorer, main striker) — shown first
 - 3 Bold options: attacking midfielders, second strikers, set piece specialists
 - 1 Daring option: a defender or backup who occasionally scores
-- 1 Heroic option: a goalkeeper... just kidding. A real pick — someone with low probability but genuine chance (e.g., a midfielder known for long shots, a player returning from injury)
+- 1 Heroic option: a real pick with low probability but genuine chance (e.g., a midfielder known for long shots)
 
-Each name is shown with: flag, shirt number, team, and their Boldness Tier icon. Faces/photos if rights allow.
+Each name shown with: flag, shirt number, team, and their Boldness Tier icon. Faces/photos if rights allow.
 
 Scoring: base 20 pts × boldness multiplier.
 - Chalk scorer correct: 20 pts
@@ -64,48 +71,34 @@ Scoring: base 20 pts × boldness multiplier.
 - Daring scorer correct: 40 pts
 - Heroic scorer correct: 60 pts
 
-If the match ends 0–0: no one scores, everyone gets 0 on this pick. The drama of a goalless draw is its own story.
-
 ---
 
 **Pick 3: Upset Meter**
 A slider from 1–5. The question: *"How much of an upset would it be if your Pick 1 result happens?"*
 
-This pick is self-referential — it only pays out if your Pick 1 is correct AND your Pick 1 was at Bold tier or higher.
+Scores when an upset is confirmed:
+- Slider 1: 6 pts / Slider 2: 12 pts / Slider 3: 18 pts / Slider 4: 24 pts / Slider 5: 30 pts
 
-Scoring when an upset is confirmed:
-- Slider 1: 6 pts
-- Slider 2: 12 pts
-- Slider 3: 18 pts
-- Slider 4: 24 pts
-- Slider 5: 30 pts
-
-If no upset (Chalk result): this pick scores 0 regardless. The penalty for calling a big upset that doesn't happen is zero points — you just miss the bonus. This asymmetry is intentional: it encourages confident calls without punishing them with negative points.
+Zero penalty for calling an upset that doesn't happen. This asymmetry is intentional — it encourages confident calls without punishing them.
 
 ---
 
 **Pick 4: One Moment**
 Choose ONE thing you think happens in this match:
-
 - 🧤 **Clean Sheet** — the team you picked to win keeps a clean sheet
-- 🟥 **Red Card** — at least one red card shown in the match
+- 🟥 **Red Card** — at least one red card shown
 - ⏱️ **Stoppage Time Drama** — a goal scored in 85th minute or later
-- 📺 **VAR Overturns** — at least one VAR decision that reverses a call
+- 📺 **VAR Overturns** — at least one VAR decision reverses a call
 - ⚽ **Hat Trick** — any player scores 3+ goals
 
 Scoring: 15 pts if correct, 0 if wrong.
 
-Design note: these are things a casual watcher notices in real time. You don't need to track stats — you need to watch the match. This mechanic rewards the person on the couch equally with the stat-tracker.
-
 ---
 
 **Pick 5: Exact Score (Optional Bonus)**
-Type in the exact final scoreline. Optional — skipping it costs you nothing.
+Type the exact final scoreline. Optional — skipping costs nothing.
 
-Scoring:
-- Exact score correct: **+25 pts**
-- Exact score wrong: **0 pts** (no penalty)
-- Tie-break rule: if two players on a leaderboard are tied, the one who predicted the exact score (even incorrectly but closer) wins
+Scoring: Exact score correct → +25 pts. Wrong → 0 pts.
 
 ---
 
@@ -120,14 +113,6 @@ Scoring:
 | Exact Score (bonus) | 25 pts | — |
 | **Maximum per match** | **160 pts** | |
 
-**Realistic range:**
-- Casual player, mostly Chalk, no upsets: 15–40 pts
-- Good game, one Bold pick correct: 40–70 pts
-- Great game, upset called correctly: 70–110 pts
-- Perfect card (rare, legendary): 130–160 pts
-
-The max is achievable — but only in the exact conditions where you were brave and right. That's the story. That's what gets shared.
-
 ---
 
 ### After the Match: The Card
@@ -136,61 +121,68 @@ Within 15 minutes of final whistle, the player receives their completed **Copa C
 
 **Card anatomy:**
 - Header: match name, flags, final score, date
-- Five pick tiles arranged vertically, each showing:
-  - What you picked
-  - What actually happened
-  - Green (correct) / Red (wrong) / Gold (correct + Daring or Heroic tier)
-- Score: large number in the center — "87 / 160"
-- Narrative label below the score, auto-generated from result:
-  - "You called the upset." (if Bold+ result correct)
-  - "So close. You had the right team." (if result correct, rest wrong)
-  - "Perfect card. This doesn't happen often." (if 120+ pts)
-  - "Better luck next time." (if low score)
-  - "You saw it coming." (if Upset Meter was 4 or 5 and upset confirmed)
+- Five pick tiles: what you picked / what happened / Green (correct) / Red (wrong) / Gold (correct + Daring or Heroic)
+- Score: large number — "87 / 160"
+- Narrative label (auto-selected):
+  - "You called the upset."
+  - "So close. You had the right team."
+  - "Perfect card. This doesn't happen often."
+  - "Better luck next time."
+  - "You saw it coming."
 - Percentile stat: "Your card was better than 78% of Copa players today."
 - CTA footer: "Make your pick for [next match]" + short URL
-- Copa logo, small
+- Copa logo
 
-**Visual style direction:**
-- Dark background (deep navy or near-black) — looks premium on Instagram
-- Gold accent for Heroic picks
-- Team colors in the header
-- Minimal text — the card is scanned, not read
-- Portrait orientation (optimized for Instagram story / phone screenshot)
+**Pro player cards:** Gold foil visual treatment on the card border and score display. Visually distinct when shared. A passive advertisement for Copa Pro — the shared card shows the viewer what Pro looks like.
+
+**Visual style:**
+- Dark navy background — looks premium on Instagram
+- Gold accent for Heroic picks and Pro cards
+- Team colors in header
+- Portrait orientation (Instagram story / phone screenshot optimized)
 
 ---
 
 ### Group Leagues
 
-Any player can create a **Group League** and invite friends via a single link.
+Any player can join a group league for free. Creating a private group league costs $2.99 (first 500 are free).
 
 Group view shows:
-- All members' pick tiles for the current/last match (visible after kickoff locks)
-- Total points leaderboard for the tournament
-- "Bold Call of the Round" — the player who made the highest-multiplier correct pick
+- All members' pick tiles for current/last match
+- Tournament points leaderboard
+- "Bold Call of the Round" — highest-multiplier correct pick
 
-Javier's moment: the group leaderboard card is also shareable. "After 8 matches, here's how your group stands." It auto-generates at the end of each round.
+Auto-generated group leaderboard card at end of each round — shareable.
+
+---
+
+## Monetization Integration
+
+### Copa Pro ($4.99 — full tournament)
+Premium gold card skin, pick-by-pick percentile breakdown, streak tracking, group Pro badge, early form unlock (30 min before public). Core game remains fully free.
+
+### Group League Creator Fee ($2.99)
+Javier pays to create his private league. His friends join free. First 500 leagues free to build proof before the fee activates.
+
+**Non-negotiable free tier:** Making picks, receiving cards, joining groups. The viral loop must stay free. Monetization sits above the viral loop.
 
 ---
 
 ## What Can Be Cut for V1
 
-**V1 must support one match day. Everything below is the absolute minimum:**
-
 | Feature | V1 | V2 |
 |---------|----|----|
-| Prediction form (5 picks) | ✅ Typeform or simple web form | Native app |
+| Prediction form (5 picks) | ✅ Tally.so | Native app |
 | Player identification | ✅ Email + nickname | Full account system |
 | Shortlist per match (8 names) | ✅ Manually curated | API-driven |
-| Card generation | ✅ Manual (Canva template, sent via email) | Automated |
+| Card generation | ✅ Canva template, sent via email | Automated |
 | Score calculation | ✅ Manual spreadsheet | Automated |
-| Group league | ✅ Shared spreadsheet, invite by link | Live UI |
+| Group league | ✅ Shared link + spreadsheet view | Live UI |
 | Shareable card | ✅ Image file sent to player | In-app share button |
+| Copa Pro payment | ✅ Stripe Checkout link in email | In-app purchase |
+| Group creator fee | ✅ Stripe Checkout at group creation | In-app purchase |
 | Leaderboard | ✅ Static, updated daily | Real-time |
-| Notifications | ✅ Email | Push notifications |
 | Account creation | ❌ Optional, post-pick | Required pre-pick |
-
-**The key insight:** V1 can be ~80% manual behind the scenes. What matters is that the card looks good and players share it. We learn whether the mechanic works before we build the technology.
 
 ---
 
@@ -198,13 +190,18 @@ Javier's moment: the group leaderboard card is also shareable. "After 8 matches,
 
 Shared card → landing page → 5 picks → submit (no account) → email to receive result card.
 
-The email is the lock-in mechanism: you give your email to get your card. This builds the waitlist automatically. Every person who plays gives us their email.
+Email is the lock-in: you give your email to get your card. This builds the list automatically.
+
+After the first card is received: **Pro upsell email** sent automatically. "Your card is ready. Want the gold version next time? Copa Pro — $4.99 for the full tournament."
+
+This is the optimal moment to convert: the player has just experienced the product. The "aha moment" is immediately followed by the upgrade offer.
 
 ---
 
 ## Open Questions (Next Generation)
-1. What does the card actually look like? Need a Canva mockup or Figma file.
-2. Which Typeform / no-code form tool handles conditional logic for the 5 picks?
-3. How do we manually curate the shortlist of 8 per match — what's the data source? (Wikipedia squad lists, transfermarkt, official FIFA site)
-4. What domain? copa.gg, playacopa.com, copacard.com — one needs to be registered.
-5. When do we post the V1 validation to r/worldcup — what's the post format?
+1. What does the card actually look like? Need a Canva mockup.
+2. Which tool handles the Stripe payment integration in V1? (Likely: Stripe Checkout link in the confirmation email — no backend needed)
+3. How do we manually curate the shortlist of 8 per match? (Data source: Transfermarkt, Wikipedia squad lists, official FIFA site)
+4. What domain? copacard.com is the primary candidate — register before launch.
+5. Draft the landing page copy — what's the headline? What's the call to action?
+6. When and where does the community validation post go up?

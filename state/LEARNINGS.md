@@ -88,3 +88,36 @@ If the max is only achievable by luck, players won't feel like skill matters. If
 
 ### Group league is Javier's product; individual cards are Sofia's product
 These are two slightly different products sharing the same mechanic. Don't conflate them in the UI. Sofia wants her card. Javier wants his group standings. V1 can serve both with a spreadsheet + card email, but V2 needs to design these as distinct experiences.
+
+
+---
+
+---
+
+## Generation 3 — Monetization Research
+
+**Date:** 2026-03-13
+
+### The freemium conversion rate benchmark is 2–5%
+Sleeper (the closest comparable — social sports app, free core game, premium upgrade) demonstrates 2–5% free-to-paid conversion. At 10,000 players, that's 200–500 paying users. This is the baseline assumption for Copa's revenue model. Don't assume higher without evidence.
+
+### One-time tournament passes beat monthly subscriptions for event-based products
+A defined end date (June 18 – July 19) reduces subscription commitment anxiety. Players are more willing to pay $4.99 once for a tournament than $4.99/month for a recurring product they'll cancel. Match the payment structure to the product structure.
+
+### The group organizer (Javier) is the motivated buyer for group features
+The person who creates the group has already invested in the experience. $2.99 to create a private league is below conscious deliberation for someone who's already organized a watch party. The joining experience must stay free — the creation fee is Javier's contribution, not Sofia's.
+
+### Cosmetic differentiation has real willingness-to-pay
+Sorare proved that digital card aesthetics drive purchasing behavior, even before the NFT mechanic inflated prices. A gold/foil card skin for Pro players is not frivolous — it's identity expression within the social layer, and it creates a passive advertisement when the Pro card is shared publicly.
+
+### The "aha moment" is the right moment to upsell
+The optimal conversion moment is immediately after the first card is received — not before. The player has just experienced the product. The upsell email ("want the gold version next time?") should fire automatically after the first card delivery. SaaS conversion research consistently shows that upsells after the value moment outperform pre-experience paywalls.
+
+### FIFA Official Fantasy proves free engagement doesn't imply revenue
+FIFA built a product with millions of users and made approximately zero money from it directly. "Lots of users" is not a revenue model. Copa must have Stripe live before the tournament starts — not after.
+
+### The shared card must show what Pro looks like
+When a Pro player shares their gold card, every viewer sees the Pro treatment. The card is a passive advertisement for the upgrade. This requires Pro cards to be visually distinct enough that a casual viewer notices, but not so different that it makes free cards look bad. The gold foil border solves this — it's an enhancement, not a replacement.
+
+### Gambling license is the real barrier to rake-based models
+DraftKings' entire business model (10–15% rake on entry fees) is blocked by regulatory requirements. Copa cannot pursue this path at zero budget. The one-time pass and creator fee models are the only viable options for a zero-budget operation. This is not a limitation — it's a positioning advantage. Copa is not a gambling product, which makes it accessible in more markets and to younger audiences.

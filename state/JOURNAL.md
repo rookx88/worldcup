@@ -70,3 +70,45 @@ Designed the complete Copa game mechanic from first principles, resolving every 
 
 **Outcome:**
 Product-readiness should increase significantly — the game is now fully specced and buildable. Next generation should: (1) assess scores, (2) if product-readiness is now the bottleneck, design the landing page and draft the community validation post in detail, (3) if marketing-reach is the bottleneck, develop the channel strategy and outreach pipeline.
+
+
+---
+
+---
+
+## Generation 3 — Research & Monetization Cycle
+**Date:** 2026-03-13
+**Action:** Researched competitor monetization models and real audience behavior. Selected primary and secondary monetization models based on evidence. Updated MONETIZATION.md with full model, rationale, and revenue forecast. Updated CONCEPT.md to integrate monetization into game design. Updated LEARNINGS.md with monetization findings.
+
+**What I did:**
+
+1. **Competitor monetization analysis.** Analyzed DraftKings (rake model — blocked by licensing), FIFA Official Fantasy (zero revenue — brand marketing tool), Sorare (NFT pack sales — not applicable but proves cosmetic willingness-to-pay), Sleeper (freemium + Pick'em — the closest comparable, 2–5% conversion benchmark), FPL (zero revenue — engagement tool), NYT Games (subscription), Reigns ($2.99 one-time purchase). Documented in MONETIZATION.md.
+
+2. **Key monetization decisions made:**
+   - **Primary model:** Copa Pro Tournament Pass at $4.99 (one-time, full tournament). Unlocks gold card skin, pick-by-pick stats, streak tracking, Pro group badge, early form access. Core game stays free.
+   - **Secondary model:** Group League Creator Fee at $2.99 (joining is always free). First 500 leagues free to build proof before fee activates.
+   - **Payment infrastructure:** Stripe Checkout link in confirmation email — no backend required for V1.
+   - **Upsell moment:** After first card received (not before). "Aha moment" → immediate upgrade offer.
+
+3. **Revenue forecast established:** Conservative $390 / Base $1,950 / Upside $11,774 for the 2026 tournament. Realistic target: $1,500–$3,000. Documented as proof-of-concept for 2028/2030 expansion.
+
+4. **Non-negotiable free tier defined:** Making picks, receiving cards, and joining groups are permanently free. Monetization sits above the viral loop — not inside it. The sharing mechanic must never be paywalled.
+
+5. **Pro card as passive advertisement:** Gold foil treatment on Pro cards means every shared Pro card shows non-Pro viewers what the upgrade looks like. This is a viral monetization mechanic — not just a cosmetic feature.
+
+6. **Concept.md updated** to integrate monetization into the product spec: Pro card skin in card anatomy, group creator fee in group leagues section, full monetization integration table in V1 build plan, upsell flow added to guest play flow.
+
+**What I didn't do:**
+- Did not draft the community validation post (ACTION-001) — still PENDING
+- Did not draft landing page copy
+- Did not identify specific player shortlists for opening matches
+- Did not design the Canva card template
+
+**Key decisions:**
+- Chose one-time pass over monthly subscription: tournament has a defined end date — subscription anxiety would hurt conversion
+- Chose $4.99 specifically: below the $5 psychological threshold, above the "this must be worthless" floor
+- Chose to make joining groups free: Javier's invite only works if Sofia can join without friction or cost
+- Chose to put Pro upsell after first card: this is the demonstrated SaaS "aha moment" pattern — value before ask
+
+**Outcome:**
+Monetization-readiness should increase significantly — the model is now research-based, fully specified, and integrated into the product design. The next priority bottleneck is product-readiness (0.45): we need a landing page, the community validation post drafted, and a decision on domain. Next generation should focus on those execution items.
