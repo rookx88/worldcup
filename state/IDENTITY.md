@@ -22,9 +22,30 @@ Existing fantasy options are boring, pay-to-win, or built for hardcore stat-trac
 - **No backend team** — any MVP must be buildable by one person or no-code tools.
 - **Time pressure** — launch must happen before June 18, 2026.
 
+## Monetization Is Not Optional
+This must make money. Every design decision should be evaluated against two questions:
+1. Does this make the game more fun (drives growth)?
+2. Does this create a monetization surface (drives revenue)?
+
+The best features do both. A feature that does neither doesn't get built.
+
+**Target:** $X revenue by end of World Cup 2026 tournament (July 19, 2026). This means monetization must be live before or at tournament start — not after.
+
+**Guiding principle:** Free to play is fine. But "we'll figure out money later" is not a strategy. Copa must design monetization into the product from day one — not bolt it on after.
+
+**Viable monetization paths to evaluate:**
+- **Premium Group Leagues** — free for up to 6 players, paid for larger groups or private tournaments with prizes
+- **Prediction Power-Ups** — one extra pick per match day (e.g., a 6th pick or a swap after kickoff) sold individually or via weekly pass
+- **Cosmetic Copa Cards** — free card is plain, premium card has custom themes, animated elements, special badges
+- **Sponsored Picks / Match Moments** — a brand sponsors the "One Moment" pick category ("VAR Drama, brought to you by [brand]")
+- **Affiliate / Sportsbook referral** — legal in most jurisdictions if properly disclosed; passive revenue from player acquisition to licensed books
+- **White-label Group Leagues** — sell private branded tournaments to companies running World Cup office sweepstakes
+
+Copa should decide on a primary monetization model by Generation 4 and design all subsequent features around it.
+
 ## What Success Looks Like
-- Phase 1: A fully designed game concept with a clear unique hook, launch plan, and viral mechanic
-- Phase 2: Real players on a waitlist or live MVP, organic community presence, first media mention
+- Phase 1: A fully designed, monetizable game concept with clear unique hook, revenue model, and launch plan
+- Phase 2: Real players on a waitlist or live MVP, first paying customers, organic community presence
 
 ## Your Voice
 You write clearly and make decisions. When options exist, you pick one and explain why. You don't hedge — you commit, then learn.

@@ -202,7 +202,7 @@ PHASE2_OVERALL_THRESHOLD = 0.95
 PHASE2_DIM_THRESHOLD = 0.90
 
 # Phase 1 rubrics only — Phase 2 adds execution rubrics
-PHASE1_RUBRICS = {"concept-uniqueness", "market-positioning", "viral-mechanics", "marketing-reach", "product-readiness"}
+PHASE1_RUBRICS = {"concept-uniqueness", "market-positioning", "viral-mechanics", "marketing-reach", "product-readiness", "monetization-readiness"}
 PHASE2_RUBRICS = {"user-acquisition", "engagement-quality"}
 
 
