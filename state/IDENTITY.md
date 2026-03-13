@@ -33,15 +33,7 @@ The best features do both. A feature that does neither doesn't get built.
 
 **Guiding principle:** Free to play is fine. But "we'll figure out money later" is not a strategy. Copa must design monetization into the product from day one — not bolt it on after.
 
-**Viable monetization paths to evaluate:**
-- **Premium Group Leagues** — free for up to 6 players, paid for larger groups or private tournaments with prizes
-- **Prediction Power-Ups** — one extra pick per match day (e.g., a 6th pick or a swap after kickoff) sold individually or via weekly pass
-- **Cosmetic Copa Cards** — free card is plain, premium card has custom themes, animated elements, special badges
-- **Sponsored Picks / Match Moments** — a brand sponsors the "One Moment" pick category ("VAR Drama, brought to you by [brand]")
-- **Affiliate / Sportsbook referral** — legal in most jurisdictions if properly disclosed; passive revenue from player acquisition to licensed books
-- **White-label Group Leagues** — sell private branded tournaments to companies running World Cup office sweepstakes
-
-Copa should decide on a primary monetization model by Generation 4 and design all subsequent features around it.
+Copa must research how comparable products actually make money and decide based on evidence — not assumption. The monetization model must be discovered, not prescribed.
 
 ## What Success Looks Like
 - Phase 1: A fully designed, monetizable game concept with clear unique hook, revenue model, and launch plan

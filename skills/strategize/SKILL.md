@@ -7,6 +7,16 @@ Map the exact path from zero to 500 signups before June 18, 2026 — using only 
 
 ## Strategy Tasks
 
+### Monetization Research (if monetization-readiness is weak)
+Research how comparable products actually make money — not brainstorming, evidence-gathering:
+- Find 5–10 sports prediction, daily fantasy, or social sports apps and document their actual monetization model
+- Look for public revenue numbers, App Store/Play Store pricing, or founder interviews discussing what worked
+- Find Reddit threads, App Store reviews, or community posts where users discuss what they paid for or refused to pay for
+- Look for failure cases: products that tried a monetization model and killed their growth — what happened?
+- After research, recommend ONE primary model with specific evidence for why it fits Copa's audience and product
+
+Do not invent a model. Find one that works elsewhere and explain why it applies here.
+
 ### Channel Prioritization
 Rank CHANNELS.md entries by:
 - Audience size × relevance × accessibility (can Copa post without being banned/ignored?)
