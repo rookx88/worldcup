@@ -70,13 +70,15 @@ Two questions:
 - Fields:
   1. Nickname (text)
   2. Email (email — required to receive card)
-  3. Match result (multiple choice: 3 options with team names)
-  4. First goalscorer (multiple choice: 8 options from curated shortlist)
-  5. Upset meter (rating scale 1–5)
-  6. One moment (multiple choice: 5 options)
-  7. Exact score — home goals (number, optional)
+  3. Match result (multiple choice: 3 options with team names + boldness tier labels)
+  4. First goalscorer (multiple choice: 8 options from curated shortlist + "None / 0-0" option)
+  5. Upset meter (rating scale 1–5, labeled: "1 = expected result" to "5 = massive upset")
+  6. One moment (multiple choice: 5 options with emoji icons)
+  7. Exact score — home goals (number, optional — field label: "Optional bonus: exact score")
   8. Exact score — away goals (number, optional)
-  9. Group league code (text, optional — for Javier-created groups)
+  9. Group league code (text, optional — field label: "Group code (if joining a friend's league)")
+
+**URL parameter support:** Test whether Tally.so supports ?group=COPA-JV4K URL parameter to pre-fill field 9. This enables Javier's invite link UX. If Tally doesn't support it natively, use a redirect: copacard.com/join/COPA-JV4K → Tally URL with hidden group code field.
 
 **Notes:** Each match requires a new form instance (or form logic update). V1 accepts this as a manual task — ~10 minutes per match to update.
 
@@ -92,18 +94,20 @@ Two questions:
 **Spec:**
 - Platform: Canva (free)
 - Dimensions: 1080×1920 (Instagram Story / vertical)
-- Elements:
-  - Dark navy background (#0D1B2A or similar)
-  - Match header: team flags (emoji or image), team names, final score, date
-  - 5 pick tiles: each showing pick label, player choice, result, color (green/red/gold)
-  - Score display: large, centered
-  - Narrative label: 1 line of text (manually chosen from template phrases)
-  - Percentile line: "Better than X% of Copa players"
-  - Footer: copacard.com + Copa wordmark
+- Elements per CONCEPT.md visual spec:
+  - Section 1: Dark navy background (#0D1B2A), match header with team flags, final score (72px white bold), date, gold separator line (#C9A84C)
+  - Section 2: 5 pick tiles in 2×2 + 1 full-width layout. Each tile: pick label (gray, small), player's pick (white, medium), what happened (light gray), border color (green/red/gold), boldness tier badge
+  - Section 3: Score display (96px white + gray /160), narrative label (gold italic), percentile line, Copa wordmark, CTA footer
+- Build two versions: standard (free) and Pro (gold foil border, gold score, Copa Pro badge)
+- Also build: Group Leaderboard card template (landscape, 1080×1080, shows top 5 players with scores)
 
-**Output:** A Canva template where the variable fields can be edited in ~5 minutes per player per match (V1: manually done for each card; V2: automated via Canva API or equivalent)
+**Canva Bulk Create test:**
+- Once template is built, test the Bulk Create feature (Canva Pro feature — $13/month or use free trial)
+- Bulk Create takes a CSV with variable fields → generates one card per row
+- Required CSV columns: PlayerName, MatchResult, GoalscorerPick, UpsetMeter, OneMoment, ExactScore, P1Correct, P2Correct, P3Score, P4Correct, P5Correct, TotalScore, NarrativeLabel, Percentile, NextMatch
+- Estimated setup: 2 hours. After setup: all cards for a match generated in 20 minutes from a filled spreadsheet.
 
-**Action required:** Human approval → Copa drafts the visual spec in more detail next generation, human executes in Canva
+**Action required:** Human approval → Copa drafts visual spec (done in CONCEPT.md), human executes in Canva
 
 ---
 
@@ -114,22 +118,20 @@ Two questions:
 
 **Platform:** Carrd.co (free tier, single page, no-code, fast)
 
+**Full copy:** Written in CONCEPT.md (Landing Page Copy section). Ready to implement.
+
 **Page structure:**
-1. **Hero:** "Pick five things. Get your card. Prove you called it." — with a mockup Copa Card image
-2. **How it works:** Three steps. Illustrated. 30 words max.
-   - "Make 5 predictions before kickoff"
-   - "Watch the match"
-   - "Get your Copa Card — share if you called it"
-3. **Example card:** A real-looking Copa Card showing a completed pick (design it for a past WC match — e.g., 2022 Morocco vs. Spain)
-4. **Waitlist signup:** Email field. CTA: "Get your first Copa Card free — World Cup 2026"
-5. **Group league hook:** "Playing with friends? One person creates a league. Everyone else joins free."
-6. **Copa Pro mention:** One line. "Copa Pro ($4.99) unlocks gold cards and pick breakdowns." No hard sell.
+1. **Hero:** "Prove you called it." + subheadline + CTA button + "Free to play. No account needed. World Cup 2026."
+2. **How it works:** Three steps (written in CONCEPT.md)
+3. **Example card:** Morocco 2–1 Spain mockup (from 2022 — no current player rights issues)
+4. **Waitlist signup:** Email field + "I'm in →" button
+5. **Group league hook:** One paragraph, "Create a league →" CTA
+6. **Copa Pro mention:** One line callout block
+7. **Footer:** Copa wordmark + social links
 
-**Implementation:** Carrd.co free account → publish to copacard.com once domain is registered.
+**Implementation:** Carrd.co free account → publish to copacard.com once domain is registered (ACTION-002 must complete first).
 
-**Copywriting note:** The headline must be about the outcome ("Prove you called it"), not the mechanic ("Make predictions"). Sofia doesn't want to fill out a form. She wants bragging rights.
-
-**Action required:** Human approval → Copa drafts full landing page copy next generation
+**Action required:** Human approval → build on Carrd.co using copy from CONCEPT.md
 
 ---
 
@@ -227,11 +229,59 @@ Hey — building a prediction game for casual fans for the 2026 World Cup. No sa
 
 **What this tests:**
 - Does the Tally.so form work as expected?
-- Can we create a Canva card in under 10 minutes?
+- Can we create a Canva card (Bulk Create) in under 20 minutes?
 - Does the email arrive and include the card correctly?
 - Is the card actually shareable / does it look good?
+- Does the group code pre-fill from URL parameter?
 - What breaks?
 
 **Target event:** Any match with reasonable interest, May 2026.
 
 **Action required:** Human approval → execute internally first (Copa team only), then optionally open to first 20 waitlist members as "founding player beta"
+
+---
+
+## ACTION-011 — Canva Bulk Create Test
+**Type:** Product infrastructure test
+**Status:** PENDING
+**Purpose:** Validate that Canva Bulk Create can generate Copa Cards at scale before tournament starts.
+
+**Spec:**
+- Requires Canva Pro ($13/month — or free 30-day trial)
+- Build a test CSV with 10 fictional player card data rows
+- Upload CSV to Bulk Create against the Copa Card template
+- Evaluate: image quality, variable field accuracy, export time
+- If it works: Canva Bulk Create is the V1.5 card generation method
+- If it breaks: evaluate Bannerbear API as alternative (bannerbear.com — free tier 30 images/month, $49/month for 500)
+
+**Success criteria:** 10 cards generated correctly in < 5 minutes from CSV upload.
+
+**Target date:** Complete before ACTION-010 test run (need it working for May test).
+
+**Action required:** Human approval → execute Canva Bulk Create test
+
+---
+
+## ACTION-012 — Google Sheets Score Calculator Setup
+**Type:** Tool setup
+**Status:** PENDING
+**Purpose:** Build the scoring spreadsheet that converts raw pick data into card scores.
+
+**Spec:**
+- Tab 1: Match Data (one row per match: result, first scorer, moments, exact score, boldness tiers)
+- Tab 2: Player Picks (Tally.so export — one row per player per match)
+- Tab 3: Score Calculator (formulas mapping picks against results, applying multipliers)
+- Tab 4: Leaderboard (SUMIF across all matches per player, ranked)
+- Tab 5: Group Leaderboard (filtered by group code)
+
+**Formulas needed:**
+- Boldness multiplier lookup (VLOOKUP from match data)
+- Upset Meter score: IF(Pick1Correct=TRUE, UpsetSlider×6, 0)
+- Upset Meter gaming prevention: IF(Pick1Tier="Chalk", 0, standard formula)
+- Exact score: IF(AND(HomeGoalsPick=HomeGoalsActual, AwayGoalsPick=AwayGoalsActual), 25, 0)
+- Total score: SUM of all pick scores
+- Percentile: PERCENTRANK across all players for that match
+
+**Output:** A sheet where entering one row of match results automatically calculates all player scores for that match.
+
+**Action required:** Human approval → build spreadsheet (estimated 2 hours)

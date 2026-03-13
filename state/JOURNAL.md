@@ -161,3 +161,52 @@ Marketing-reach score should improve from 0.62 toward 0.80+. The strategy is now
 
 **Next generation priority:**
 Draft the full landing page copy for ACTION-005. This is the conversion bottleneck — everything else is currently traffic going nowhere.
+
+
+---
+
+---
+
+## Generation 5 — Product Readiness
+
+**Date:** 2026-03-13
+
+**Focus:** Close the gap between "designed" and "buildable." Product-readiness was 0.62 — the weakest dimension. This generation addresses the specific gaps blocking a real build.
+
+**What I did:**
+
+1. **Resolved all scoring edge cases.** Four edge cases were unresolved: (1) goalscorer not on shortlist — scores 0 for all, noted on card; (2) Upset Meter gaming — Chalk pick locks Upset Meter to 0 regardless of slider; (3) 0-0 prediction via "None / 0-0" goalscorer option — 25 pts flat; (4) extra time scores — Exact Score uses 90-minute result only. All four are now documented in CONCEPT.md.
+
+2. **Wrote the complete landing page copy.** Full copy from hero headline to footer. Ready for Carrd.co implementation. Headline: "Prove you called it." — outcome-first, not mechanic-first. Three-step explainer, example card section, waitlist CTA, group league hook, Copa Pro callout. No hedging in the copy — it's direct and makes a specific promise.
+
+3. **Resolved the card generation scaling problem.** Manual Canva hits the wall at ~150 players (7.5 hours of card generation). Identified Canva Bulk Create as the V1.5 bridge: one CSV upload generates all cards, dropping workload from 3 min/player to ~20 minutes total. Bannerbear API identified as the V2 automated solution. Added ACTION-011 to test Bulk Create before the tournament.
+
+4. **Wrote CONVERSION.md from scratch.** The full post-pick funnel now exists: discovery → pick submission → card delivery → Pro upsell → group league conversion → referral. Includes email sequence for the full tournament (7 emails), conversion rate targets aligned with Sleeper benchmarks (~3% overall), and anti-patterns (what not to do). This was the empty file — now it's a complete conversion strategy.
+
+5. **Completed the Canva visual spec.** Detailed pixel-level card design: color values, font sizes, tile layout, section dimensions, Pro variant treatment, and group leaderboard card (second template needed). Canva template is now buildable from the spec without further design decisions.
+
+6. **Added group league UX flow (full V1 design).** The Javier flow was described but not designed. Now fully specified: creation form → Stripe Checkout → group code issued → invite link format (copacard.com/join/[CODE]) → URL parameter pre-fills Tally form field 9. The full chain from Javier creating a group to Sofia clicking the link is documented.
+
+7. **Added ACTION-011 (Canva Bulk Create test) and ACTION-012 (Google Sheets score calculator).** Two missing build components now in ACTIONS.md with specs.
+
+8. **Documented score drama curve.** Identified that Copa players experience their score building in real time during the match — goalscorer tension early, result confirmation at 90', exact score at final whistle. This is a retention mechanic that wasn't previously articulated. Players watch differently when they have picks.
+
+**What I didn't do:**
+- Did not execute any external actions (all remain PENDING)
+- Did not build the Canva template (spec written; execution requires human + Canva)
+- Did not test Bannerbear API (ACTION-011 tests Canva first; Bannerbear is fallback)
+
+**Key decisions:**
+- "Prove you called it" as the headline — tested it against "Make five predictions" and "Get your Copa Card." The outcome-first framing wins for Sofia. She doesn't want to fill out a form. She wants to be right about something and have proof.
+- Canva Bulk Create over Bannerbear API for V1.5 — Bulk Create requires no API integration, works within existing Canva workflow, and costs $13/month vs. $49/month for Bannerbear at 500 images. Bannerbear is the right call only when automation is needed at V2 scale.
+- Kept group creation fee at $2.99 but specified "first 500 free" is enforced by honor system in V1 (Stripe link goes live after 500 groups). No backend tracking needed at this stage.
+- Resolved Upset Meter gaming by checking Pick 1 tier, not by adding a visible restriction. Players don't see a warning — the system just correctly scores 0. This keeps the form clean while closing the exploit.
+
+**The single biggest insight this generation:**
+The card generation bottleneck was the hidden product-readiness gap. The game was "designed" but not "buildable at any meaningful scale." Canva Bulk Create closes this gap without any API work or budget. It's a feature that already exists in the tool we were already using — it just wasn't identified. This is the difference between a product that works for 50 beta players and one that works on opening day with 500.
+
+**Outcome:**
+Product-readiness should move from 0.62 to approximately 0.80. Remaining gaps: (1) actual Canva template not yet built, (2) Tally.so URL parameter behavior untested, (3) full loop not yet tested end-to-end. These require execution, not design — and execution is gated on ACTION approvals.
+
+**Next generation priority:**
+ACTION-001 through ACTION-012 are all PENDING. The design phase is effectively complete. The next bottleneck is execution. Priority order for build: ACTION-002 (domain) → ACTION-005 (landing page) → ACTION-003 (Tally form) → ACTION-004 (Canva template + Bulk Create test) → ACTION-012 (scoring spreadsheet) → ACTION-008 (Stripe). These six actions are the MVP. Everything else is marketing layer on top.
