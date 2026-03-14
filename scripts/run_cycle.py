@@ -144,12 +144,12 @@ def _call_api(
             body["tool_choice"] = {"type": "tool", "name": "score_business"}
         try:
             import httpx
-            r = httpx.post(url, headers=headers, json=body, timeout=300)
+            r = httpx.post(url, headers=headers, json=body, timeout=600)
             r.raise_for_status()
             data = r.json()
         except ImportError:
             req = urllib.request.Request(url, data=json.dumps(body).encode(), headers=headers, method="POST")
-            with urllib.request.urlopen(req, timeout=300) as resp:
+            with urllib.request.urlopen(req, timeout=600) as resp:
                 data = json.loads(resp.read())
         # Extract text — handle tool_use response block
         if json_mode:
@@ -174,12 +174,12 @@ def _call_api(
             body["response_format"] = {"type": "json_object"}
         try:
             import httpx
-            r = httpx.post(url, headers=headers, json=body, timeout=300)
+            r = httpx.post(url, headers=headers, json=body, timeout=600)
             r.raise_for_status()
             data = r.json()
         except ImportError:
             req = urllib.request.Request(url, data=json.dumps(body).encode(), headers=headers, method="POST")
-            with urllib.request.urlopen(req, timeout=300) as resp:
+            with urllib.request.urlopen(req, timeout=600) as resp:
                 data = json.loads(resp.read())
         text = data["choices"][0]["message"]["content"] or ""
         usage = data.get("usage", {})

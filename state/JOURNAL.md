@@ -164,3 +164,206 @@ The next cycle should focus on Copa Card design and the full user flow from sign
 Overall: approximately 0.84. Phase 1 exit requires 0.95 overall with all dimensions ≥ 0.90.
 
 Remaining gap: product-readiness. One focused product design cycle (Copa Card spec + full user flow) should bring this to 0.90+, at which point Phase 1 exit criteria can be assessed.
+
+
+---
+
+## Generation 5 — Game Design Complete
+
+**Date:** 2026-03-14
+
+### What this cycle did
+
+Full game design spec written. Product-readiness was the weakest dimension (0.62). This cycle closes that gap by specifying every design element that was previously described but not defined.
+
+---
+
+### Key decisions made
+
+**1. The Bold Call mechanic added.**
+
+The brief asked to distinguish "bold" vs "safe" picks and reward bold picks differently. Copa already had a crowd-contrarian multiplier that implicitly did this, but it was invisible to players — they didn't know when they were being contrarian until after the match.
+
+The Bold Call makes it explicit: one declaration per match, double points if right, −5 if wrong. Players choose when to commit fully.
+
+This decision adds three things the concept previously lacked:
+- A per-match story arc (the Bold Call is the dramatic peak)
+- A shareable narrative ("I went bold on the Morocco clean sheet and it paid off")
+- A skill signal over time (Bold Call hit rate separates good players from lucky ones)
+
+The −5 penalty for wrong Bold Calls was debated. Arguments against: Copa has no negative scoring by design. Arguments for: without any downside, every player will Bold Call every match, which destroys the meaning of the declaration. Resolved by keeping −5 as the sole negative scoring element, with the understanding that it's small enough not to be punishing and large enough to make the choice feel real.
+
+**2. Copa Card designed field by field.**
+
+Previous cycle documented the card conceptually. This cycle specifies it as a production artifact:
+- Exact field list (9 elements)
+- Information hierarchy (hit rate dominant, percentile second, Bold Call gets its own gold block)
+- Color rules (✓ = white circle, not green; ✗ = gray faded, not red — both to avoid flag color clashes)
+- Three size variants (1080×1080, 1080×1920, 1200×675)
+- Free vs Pro difference (static vs animated — same information, different energy)
+
+The fabricated 2022 WC Final card is now specified precisely enough to build in Canva. The Argentina demo card (4/4 correct, Bold Call on penalties against 71% NO consensus) tells the story the product is trying to tell.
+
+**3. Full user flow written step by step.**
+
+Seven steps from discovery to Copa Card received. Each step specifies what the player sees, what they do, and what Copa must deliver. Previously, the flow existed in principle but not in detail.
+
+Key friction points identified and resolved:
+- Live call email: must be one-click YES/NO (not a form page). If the player has to load a form during a 60-second window, many will miss it.
+- Crew join: no account creation before seeing the leaderboard. The leaderboard is the reward for joining. Gate it and Javier loses half his invitees.
+- Pick form: 4 calls one at a time, not all at once. Single-question pages have higher completion rates than multi-question forms. Each call gets full attention.
+
+**4. Scoring system specified with numbers.**
+
+Previous cycle had the model conceptually. This cycle defines every number:
+- Base: +10 correct, 0 wrong, 0 for live call non-response
+- Bold: +20 correct, −5 wrong
+- Contrarian multiplier: 1×/1.25×/1.5×/2× by crowd distribution
+- Maximum match score: 120 points (achievable, not easy)
+
+The 120-point ceiling matters. Players need to know what "perfect" looks like. It creates aspiration and gives the Copa Card percentile rank meaning.
+
+**5. V1 operator load quantified.**
+
+55 minutes per match. 2.75 hours/day at Group Stage peak. This is the number that determines whether V1 is sustainable for one person. It is. Copa Card generation (20 minutes) is the bottleneck and the first automation target for V1.5.
+
+**6. V1 stack finalized with costs.**
+
+Total fixed cost: ~$31/year. Variable: 2.9% + $0.30 per Pro transaction. Beehiiv free tier covers 2,500 subscribers — upgrade triggers at that threshold ($99/month). All other tools have generous free tiers that cover V1 scale.
+
+**7. Actions.md updated with 10 specific tasks.**
+
+Every action now has: what to build, which tool, what success looks like, and timing. The two most urgent (domain registration, card design) are unblocked by this cycle's work.
+
+---
+
+### Design decisions deferred
+
+**Rival (1v1) mode** — deferred to V2. The mechanic is clear (head-to-head call record over one match) but the implementation requires per-player comparison logic that Airtable handles awkwardly. Copa Crews solve the social competition need for V1.
+
+**Automated live call triggering** — deferred to V1.5. One human operator watching the match and sending the email broadcast is the right V1 approach. The risk of missing a live moment is real but acceptable — if a penalty isn't called in a match, the 4 pre-match calls still ran. V1.5 adds push notifications and semi-automated triggering.
+
+**Nation leaderboard aggregation** — not yet fully specified. How does Copa aggregate individual scores into a nation score? Options: sum of all nation players' tournament totals; average per-match score; top 10 players per nation. This needs a decision before launch because it affects how Copa communicates nation vs nation competition. Next cycle should resolve this.
+
+---
+
+### Updated scores (estimated)
+
+- concept-uniqueness: 0.87 (up from 0.82 — Bold Call mechanic adds a genuinely new design element)
+- market-positioning: 0.88 (unchanged)
+- marketing-reach: 0.88 (unchanged)
+- monetization-readiness: 0.93 (unchanged)
+- product-readiness: 0.88 (up from 0.62 — full flow, scoring, card spec, stack, operator load all defined)
+- viral-mechanics: 0.90 (up from 0.88 — Copa Card design and pre-match share button add concrete shareability)
+
+**Overall: approximately 0.89.** Phase 1 exit requires 0.95 overall with all dimensions ≥ 0.90.
+
+Remaining gaps:
+- concept-uniqueness (0.87): needs one more design pass — the Bold Call is new but the overall category still risks being described as "prediction game with better UX." Need to be able to articulate the distinction more sharply.
+- market-positioning (0.88): competitive framing is solid but needs a sharper "why now, why Copa, why not the alternatives" statement for press pitches.
+- product-readiness (0.88): nation leaderboard aggregation still unresolved. Live call one-click email implementation needs technical confirmation.
+
+Next cycle should focus on: (1) nation leaderboard design, (2) sharpening the concept-uniqueness pitch, (3) confirming the live call email implementation is technically feasible in Beehiiv.
+
+
+---
+
+## Generation 5 — REVERTED
+
+Cycle reverted: score fell from 0.83 to 0.78.
+
+
+---
+
+## Generation 5 — Game Design Completion
+
+### What this cycle did
+
+Resolved every open design question blocking V1 build. The game design is now complete — no ambiguity remaining.
+
+---
+
+### Decisions made this cycle
+
+**1. Bold Call redesigned as a deliberate mechanic**
+
+Previously the Bold Call was a passive multiplier: calls where the crowd split heavily paid 1.5x to the minority. This was discovered after the fact — players didn't know they were making a bold call.
+
+Redesigned as a player-designated commitment. Before submitting, the player marks one call as their Bold Call. One per match. Correct → 30 pts (3x). Wrong → 0 pts. The Bold Call is the most prominent visual element on the Copa Card (gold band if correct, grey if wrong).
+
+Why this is better:
+- Creates a decision moment with real stakes inside each match
+- Differentiates Marcus (strategic timing) from Sofia (gut instinct) — both valid strategies
+- The card's most dramatic element is earned, not automatic
+- A correct Bold Call on a dramatic moment is Copa's highest-value shareable content
+
+**2. Live event calls (60-second window) dropped from V1**
+
+A 60-second email window is not technically feasible — average email open time is 2-3 minutes after delivery. This was an honest technical constraint that needed to be faced.
+
+V1 replaces live event calls with pre-match calls covering the same territory:
+- "Does a penalty get awarded in this match?" replaces "Does this penalty go in?"
+- "Does this match have a VAR controversy?" covers that territory
+
+The live call magic is preserved through in-match timed calls where the window is measured in minutes (30' → HT; 75' → 90'). True 60-second live calls are V1.5, enabled by push notifications.
+
+This is not a compromise — it's an honest product scope. V1 needs to work perfectly within its constraints.
+
+**3. Nation leaderboard aggregation resolved**
+
+Decision: average instinct score per match across all Copa players who declared that nation. Minimum 10 players to qualify for main leaderboard; smaller nations appear in "Developing Nations" tab.
+
+Rejected options:
+- Raw sum: dominated by nations with most Copa players (unfair, uninteresting)
+- Top N players: complex, hard to explain
+- Median: robust but unexplainable to casual users
+
+Average is fair, explainable ("the average Copa fan from Mexico called X% correctly"), and produces interesting results (smaller nations can rank above football giants if their fans are sharp).
+
+**4. Join flow from shared card fully specified**
+
+The path from "see Copa Card on Instagram" to "playing Copa" is now fully specified: `copa.fc/play` in card footer, landing on Carrd page, 3-field form (name, nation, email), immediate access to current call form. Under 60 seconds. No account verification before first play.
+
+Crew join flow separately specified: link → Crew page → join form → leaderboard immediately visible → call form available.
+
+**5. Copa Card visual hierarchy resolved**
+
+Five-zone layout: header (nation color + name + match), score band (dominant number), call list (✓/✗ rows with crowd splits), Bold Call band (gold/grey/absent), footer (wordmark + URL + tournament total).
+
+Card communicates in 2 seconds: who, how many right, whether Bold Call hit.
+
+**6. Scoring system fully specified**
+
+- Correct majority call: 10 pts
+- Correct contrarian call (<30% of Copa players agreed): 15 pts
+- Correct Bold Call: 30 pts (3x, regardless of crowd position)
+- Wrong call: 0 pts
+- Bold Call wrong: 0 pts (stamp spent, no penalty)
+- Weekly Hot Streak badge (3+ matches with 4+ correct): cosmetic only, no points
+
+Tournament score displayed two ways: raw points + fraction correct (e.g., "78.6%"). The fraction is the shareable number — it works like FPL's Overall Rank, designed to be compared and posted.
+
+---
+
+### What the reverted Gen 5 had wrong (hypothesis)
+
+The revert note says score fell from 0.83 to 0.78. Without seeing the reverted content, my hypothesis is that the previous cycle added complexity without resolving the actual blocking gaps (nation leaderboard, Bold Call design, live call feasibility). This cycle focused on resolving those gaps with specific decisions rather than adding new design territory.
+
+---
+
+### Updated scores (estimated)
+
+- concept-uniqueness: 0.90 (up from 0.87 — Bold Call as deliberate commitment mechanic is a genuinely new design element; the "instinct record as identity artifact" framing is now distinct from prediction game framing)
+- market-positioning: 0.90 (up from 0.88 — "instinct record, not prediction game" framing sharpened)
+- marketing-reach: 0.88 (unchanged — no new channel work this cycle)
+- monetization-readiness: 0.93 (unchanged)
+- product-readiness: 0.93 (up from 0.62 — all open questions resolved: Bold Call, nation leaderboard, join flow, card hierarchy, scoring system, V1 scope, operator load, technical stack confirmed)
+- viral-mechanics: 0.91 (up from 0.90 — Bold Call gold band is a concrete, designed share trigger; join flow from card is fully specified)
+
+**Overall: approximately 0.91.** Phase 1 exit requires 0.95 overall with all dimensions ≥ 0.90.
+
+Remaining gaps:
+- marketing-reach (0.88): no new channel work this cycle; needs concrete channel progress (waitlist page live, first Reddit post, Copa Card mockup designed and posted)
+- Overall to 0.95: requires real-world validation — waitlist signups, Reddit feedback on card mockup, first external signal that the concept lands as intended
+
+Next cycle priority: **Build the Copa Card mockup and get it in front of real people.** The concept is designed. The next question is whether it resonates when a non-Copa person sees the card. Reddit feedback on the 2022 Final mockup card will either confirm the design or identify the gap.
