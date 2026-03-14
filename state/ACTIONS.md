@@ -35,8 +35,8 @@
 
 ## PENDING: Design Copa Card V1 Template
 
-**Action:** Design Copa Card in Canva using fabricated 2022 World Cup Final scenario
-**Specifications:** (Full spec in CONCEPT.md — Copa Card section)
+**Action:** Build Copa Card Canva template using the full spec in CONCEPT.md (Copa Card — Canva Template Build Spec section)
+**Estimated time:** 45 minutes to build template; 5 min per card thereafter
 
 **Fabricated calls to use for the 2022 Final mockup:**
 - "Does the team that scores first win?" — YES submitted → ✗ wrong (France equalized)
@@ -49,13 +49,68 @@
 **Result:** 5/6 correct, Bold Call landed. Score: ~75 pts. Shows a realistic, exciting card.
 
 **Card must show:**
-- Argentina flag + player name (use "You" or "Copa Player") + blue/white background
+- Argentina flag + player name ("Copa Player") + light blue background
 - "5 / 6 CORRECT · 75 pts"
-- Bold Call gold band: "BOLD CALL ✓ — Called extra time before 75'"
+- Bold Call gold band: "🎯 BOLD CALL ✓ — Called extra time before 75'"
 - Call list with ✓/✗ and crowd splits
 - `copa.fc/play` in footer
 
 **This card is the primary marketing asset.** No Reddit or Twitter posts until this exists.
+
+---
+
+## PENDING: Build Airtable Scoring Base
+
+**Action:** Set up Airtable base using exact schema specified in CONCEPT.md (Airtable Schema section)
+**Estimated time:** 2–3 hours to build and test
+
+**Build order:**
+1. Create base "Copa 2026"
+2. Build Table 1: Players (all fields as specified)
+3. Build Table 2: Matches
+4. Build Table 3: Calls
+5. Build Table 4: Submissions (largest table — do formulas last)
+6. Build Table 5: Crews
+7. Create the five named views specified in the schema
+8. Test with 20 mock players, one mock match, 6 mock calls, 20 mock submissions
+9. Verify: crowd split calculates correctly, contrarian bonus fires when <30%, Bold Call 30 pts correct / 0 pts wrong
+
+**Success metric:** 20 mock players scored correctly for a single match. Nation leaderboard shows correct average. Crew leaderboard shows correct totals.
+
+---
+
+## PENDING: Build Typeform Pre-Match Call Form
+
+**Action:** Build Typeform template using exact spec in CONCEPT.md (Typeform Build Spec section)
+**Estimated time:** 30 minutes
+
+**Build order:**
+1. Create form "Copa Calls — Pre-Match Template"
+2. Add screens 1-11 as specified
+3. Set up Zapier integration: Typeform → Airtable Submissions table
+4. Test end-to-end: submit test response → verify row appears in Airtable with correct fields
+5. Set form close time to a past time → verify "closed" message displays correctly
+
+**Also build:** In-match call form (simpler — one screen, 5 fields)
+
+**Success metric:** Test submission flows through to Airtable correctly. Form shows correct closed message after deadline.
+
+---
+
+## PENDING: Build Beehiiv Email Flows
+
+**Action:** Set up Beehiiv for Copa Card delivery and in-match broadcast emails
+**Estimated time:** 1 hour
+
+**Build the following templates:**
+1. Welcome email: "You're in — your first Copa call form opens before [match name]"
+2. Pre-match reminder: "[Team A vs Team B] — your Copa calls are open → [form link]"
+3. In-match broadcast: "[LIVE] Copa in-match call — [call text] → YES/NO [form link]"
+4. HT check-in (group stage): "Half time — how's your Copa card looking? [brief match context]"
+5. Text Copa Card delivery (free tier): use exact template in CONCEPT.md (Beehiiv Text Copa Card section)
+6. Pro upsell (sent with second text Copa Card): "Want the visual card? Copa Pro — $6.99 for the tournament → [Stripe link]"
+
+**Success metric:** Can send a test Copa Card email to 5 test addresses. Card displays correctly on Gmail mobile, Gmail desktop, and Apple Mail.
 
 ---
 
@@ -66,6 +121,7 @@
 **Content:** Genuine discussion post about the gap in World Cup games. Does NOT mention Copa. Collects community signal. Reply personally to comments.
 **Timing:** Post this week (March 2026)
 **Do not post if:** Subreddit has pinned mod note about promotional posts — read rules first.
+**Prerequisite:** None — this post requires no build work.
 
 ---
 
@@ -75,6 +131,7 @@
 **Post title:** "Working on a new kind of World Cup game — here's what the player card looks like after a match. Would you share this?"
 **Content:** Show the 2022 Final mockup card. Ask for honest feedback. Collect email signups in comments from interested people.
 **Timing:** April 2026 (after card design is complete)
+**Prerequisite:** Copa Card V1 Template must be built first.
 
 ---
 
@@ -84,6 +141,7 @@
 **Copy:** "Building a World Cup game where you call match moments in real time. You get a card like this after every match. The gold band is your Bold Call — one call per match where you go all in. Would you post this?"
 **Attach:** Copa Card mockup image (2022 Final scenario)
 **Timing:** Same week as r/worldcup post (April 2026)
+**Prerequisite:** Copa Card V1 Template must be built first.
 
 ---
 
@@ -102,36 +160,7 @@
 **Action:** Launch announcement post to r/worldcup, r/USMNT, r/mexico, r/england, r/brasil
 **Timing:** June 1, 2026 (stagger by 3 days between subreddits)
 **Content:** "Copa is live for World Cup 2026 signups. [Brief explanation of Copa Calls + Bold Call mechanic]. Copa Card from a practice match attached. Sign up here: [link]"
-**Note:** Requires waitlist page live and Airtable crew flow functional.
-
----
-
-## PENDING: Build Airtable Scoring Base
-
-**Action:** Set up Airtable base for call scoring, player records, and Crew leaderboards
-**Structure needed:**
-- Players table (name, email, nation, total points, calls correct, calls total, Pro status)
-- Calls table (match, call text, correct answer, crowd split YES%, crowd split NO%)
-- Submissions table (player → call → answer → points awarded)
-- Crews table (crew name, creator, members list, total score)
-- Formula fields: crowd split contrarian detection, Bold Call 3x multiplier, nation average score
-
-**Success metric:** Can input 20 test players, simulate one match, generate accurate scores and a Crew leaderboard.
-**Timing:** Build before June 1.
-
----
-
-## PENDING: Build Beehiiv Email Flow
-
-**Action:** Set up Beehiiv for Copa Card delivery and in-match broadcast emails
-**Flows needed:**
-1. Welcome email (signup confirmation + nation selection confirmed)
-2. Pre-match reminder (sent 2hrs before kickoff: "Your Copa call form is open →")
-3. In-match broadcast (manual send at 30' or 75' trigger: "In-match call now open — [call text] → [form link]")
-4. Copa Card delivery (sent within 30min of final whistle: subject = "Your Copa Card — [Match]", preview = "[X/Y correct]. [Bold Call result].")
-5. Pro upsell (sent with second Copa Card if player has shared first card — see CONVERSION.md)
-
-**Success metric:** Can send broadcast email to 100-person test list in under 2 minutes.
+**Prerequisite:** Landing page live, Airtable base functional, Typeform built.
 
 ---
 
