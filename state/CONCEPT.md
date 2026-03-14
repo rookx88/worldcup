@@ -7,6 +7,8 @@
 
 **Implementation specs restored** — Generation 9. Airtable schema, Beehiiv Copa Card template structure, Typeform build spec, and Canva card template spec fully specified. Concept-uniqueness framing sharpened. Product-readiness gap closed.
 
+**Zero-barrier first-play flow designed** — Generation 10. The anonymous first-play experience fully specified: what a new player sees when they click a Copa Card link, the exact screens, the friction model, and how anonymous submissions convert to accounts. This closes the last product-readiness gap.
+
 ---
 
 ## The Gap This Fills
@@ -259,6 +261,209 @@ The fraction is the shareable number. "I finished at 78.6%" works like FPL's Ove
 
 ---
 
+## Zero-Barrier First-Play Flow — Full Specification
+
+This section describes what happens when someone encounters Copa for the first time — specifically via a shared Copa Card — and wants to play. This is the most critical user journey. If it breaks, the viral loop breaks.
+
+### The Entry Point
+
+The primary entry point for new players is not the landing page. It is a **shared Copa Card** — seen in a WhatsApp group chat, posted on Twitter/X, or texted directly. The new player sees something like:
+
+> *"I went 6/7 in the Argentina match — called the 94th minute equalizer as my Bold Call 🎯"* + [card image]
+
+They tap the image or a link below it. What they see next determines whether Copa grows.
+
+### Design Principles for the First-Play Flow
+
+1. **The first call form must be the first screen.** Not a landing page. Not an explainer. Not a signup wall. The calls. If there's a match in progress or coming up, they should be able to answer calls within 10 seconds of tapping the link.
+
+2. **Identity collection happens after the first submission, not before.** Name, nation, and email are collected on the confirmation screen — after they've already committed their calls. By then, they have a stake. The "why should I give you my email?" question answers itself: "so we can send you this card."
+
+3. **Nation selection is not optional.** It's the first identity choice and the card skin driver. But it's a single tap from a visual grid — not a text input, not a dropdown of 211 countries. Show the 32 World Cup nations as flag tiles. Tap yours. Done.
+
+4. **No email verification before first play.** Email is collected but not verified before the Copa Card is sent. Verification (if ever required) is a V1.5 concern. The card goes to whatever email they gave.
+
+### The First-Play Screen Sequence
+
+**Screen 0 — Entry from shared card link**
+
+URL format: `copa.fc/play/match/[match-id]`
+
+This URL is embedded in every shared Copa Card. It always resolves to the call form for that specific match. If the match is still accepting submissions (pre-kickoff or in-match window open), the player goes directly to Screen 1. If the match is closed, they see Screen 0B.
+
+**Screen 0B — Match closed, next match open**
+
+If the linked match is closed (past kickoff, no in-match window open):
+
+> **You just missed this one.**
+> Argentina vs France is locked — but [Next Match] is open.
+> [→ Make your calls for [Next Match]] [→ See the leaderboard]
+
+Never show a dead end. Always point to the next live action.
+
+---
+
+**Screen 1 — Nation selection (new player only)**
+
+*Shown only to first-time visitors. Returning players (cookie recognized) skip to Screen 2.*
+
+> **Pick your nation.**
+> Your Copa Card wears their colors.
+
+32 flag tiles in a grid. Tap one. No text input. Nations not in the 2026 World Cup: show a "neutral" option (a globe icon) for fans following a team that didn't qualify.
+
+*Why nation first, not name first:* Nation is the identity hook. Picking Mexico before answering a single call makes every call feel like it matters more. Name is personal. Nation is tribal. Tribal identity is stickier.
+
+No continue button needed — tapping a nation tile advances to Screen 2.
+
+---
+
+**Screen 2 — The call form**
+
+This is the core screen. Identical to the returning player experience. 5-6 calls, one per screen (Typeform style — one call at a time, not a long scrolling form).
+
+Each call screen shows:
+- The call question (large, bold)
+- YES button / NO button (large, equal weight — no visual hint toward either)
+- Below the buttons: "Copa players are split [X% / Y%]" — this is updated every few minutes from current aggregate. Seeing the crowd split makes the decision feel more real and raises stakes.
+- Small text: "Choose boldly — one answer per match earns 3x points"
+
+No progress bar during calls — it implies an end, which implies effort. The calls should feel lightweight, not like a form to complete.
+
+After the last pre-match call, one additional screen:
+
+> **Your Bold Call.**
+> One of your answers is worth triple if it lands. Which one?
+> [Tap to select from their 5 answers — radio button list]
+> [Or: "Skip — I'll play it safe"]
+
+The Skip option is intentional: not everyone wants to commit. The card will show "No Bold Call" which creates its own FOMO on the next match.
+
+---
+
+**Screen 3 — Capture (identity collection)**
+
+*This screen appears after call submission, before the card is generated.*
+
+> **Your calls are locked.**
+> We'll send your Copa Card within 30 minutes of the final whistle.
+
+Three fields, that's all:
+- First name (or nickname — whatever you want on your card)
+- Nation [pre-filled from Screen 1 — just confirm with a tap]
+- Email address
+
+Below the fields:
+
+> "Your Copa Card goes here after the match. No password. No account. Just your card."
+
+[→ Get my Copa Card]
+
+No checkbox. No terms. No marketing opt-in language. The implicit agreement is: you give your email, we send your card. That's the deal.
+
+**If the player has already submitted for this match (cookie detected):** Skip this screen entirely. They're registered. Show their current submission summary instead.
+
+---
+
+**Screen 4 — Confirmation**
+
+> **You're in. 🎉**
+> [Name]'s Copa Card for [Match] is coming.
+> Final whistle: [time] · Card arrives: within 30 minutes after.
+
+Below, one optional action:
+
+> **Playing with a group?**
+> Share Copa with your crew — see who called it right.
+> [→ Share this match] [copy link that goes to Screen 1 for a new player]
+
+No Crew creation on this screen. No Pro upsell. No clutter. The one optional action is sharing — because the player who just submitted is the most likely to share in the next 60 seconds.
+
+Pro upsell comes in the Copa Card email (post-match), not here.
+
+---
+
+### Returning Player Flow
+
+A player who has submitted before (recognized by cookie or email):
+
+1. Taps a Copa Card link
+2. Goes directly to Screen 2 (call form) — nation already set, no Screen 1
+3. Submits calls
+4. Goes to Screen 4 (confirmation) — no Screen 3, already have their details
+5. Card arrives by email as before
+
+The returning flow is: **link → calls → done.** Frictionless.
+
+If Copa cannot identify the returning player (cleared cookies, new device), they see Screen 1 but their email on Screen 3 will merge with existing account if the email matches a known player. Airtable deduplication handles this: if submitted email matches existing player row, append new submission to that player's record rather than creating a new row.
+
+---
+
+### Anonymous Submission Handling (V1 Edge Case)
+
+A player who drops off after Screen 2 (submitted calls but did not complete Screen 3) is an anonymous submission:
+
+- Their calls **do count** toward crowd split calculations (they played, they just didn't leave their email)
+- Their calls **do not count** toward any named leaderboard
+- No Copa Card is generated (no email to send it to)
+- The confirmation screen (Screen 4) shows instead of Screen 4's standard content:
+
+> **Your calls are locked. But we can't send your card.**
+> Add your name and email to get your Copa Card after the match.
+> [Name field] [Email field] → [Send me my card]
+
+This is a soft recovery — shown immediately after call submission for anyone who hasn't given their email yet. It converts some anonymous submissions into named players without requiring them to go back.
+
+---
+
+### The Copa Card Link in Shared Cards
+
+Every Copa Card (visual and text) must contain exactly one link:
+
+`copa.fc/play/match/[match-id]`
+
+This link does two things:
+1. Takes a new player directly to the call form for that match (if open)
+2. Takes a returning player directly to the call form (skipping identity screens)
+
+The link also carries a referral parameter: `?ref=[player-id]`
+
+When a new player signs up via a referral link, the referring player's Airtable record gets a `referrals` count increment. In V1, this is tracked but not surfaced in the product. In V1.5, the referral count appears on the Copa Card footer ("Brought 3 friends to Copa").
+
+---
+
+### What This Flow Eliminates
+
+The following friction points are explicitly eliminated from V1:
+
+- ❌ Email verification before first play
+- ❌ Password creation at any point in V1
+- ❌ "Learn how Copa works" onboarding screen before first call
+- ❌ Terms of service checkbox
+- ❌ App download prompt
+- ❌ Landing page as the entry point for card-referred new players
+- ❌ Crew creation or upsell during the first-play flow
+
+Every eliminated item was a potential drop point. The zero-barrier promise is only real if the flow enforces it technically, not just in principle.
+
+---
+
+### V1 Technical Implementation of the First-Play Flow
+
+**Screen 1 (Nation selection):** Typeform — image-choice question with 32 flag images. Copa operator uploads flag images once. Answer stored as hidden field in subsequent screens.
+
+**Screen 2 (Call form):** Existing Typeform pre-match template. Nation answer passed via hidden field from Screen 1.
+
+**Screen 3 (Identity capture):** Final Typeform screen — three fields (name, nation confirm [display only, not re-entered], email). Submission triggers Zapier → Airtable row create/update.
+
+**Screen 4 (Confirmation):** Typeform "thank you" screen. Custom message with match details and share link. Share link constructed as `copa.fc/play/match/[match-id]?ref=[player-id]` — player-id pulled from Airtable via Zapier response.
+
+**Returning player detection:** Typeform does not natively support "remember this user." V1 workaround: pre-match reminder email to known players contains a unique link that includes their player-id as a URL parameter. The Typeform reads this parameter as a hidden field and skips Screen 1 and Screen 3. New players arriving from a shared card (no player-id in URL) see the full flow.
+
+This means returning players who use the email link have the frictionless experience. Returning players who tap a friend's shared card and don't have their player-id in the URL will see Screen 1 again — acceptable V1 friction. V1.5 resolves this with proper cookie/session handling.
+
+---
+
 ## Edge Cases and Resolution Rules
 
 These rules exist so the Copa operator can score every match without judgment calls.
@@ -338,6 +543,7 @@ This is the full checklist for one Copa operator to run a single match. Written 
 - Set form close time = kickoff time (Typeform scheduled close)
 - Copy form URL
 - Send pre-match reminder email via Beehiiv (subject: "[Team A vs Team B] — your Copa calls are open")
+- Update `copa.fc/play/match/[match-id]` redirect to point to new Typeform URL
 
 ### T-0 (kickoff)
 
@@ -513,5 +719,130 @@ This is the free-tier Copa Card. Same data as the visual card, formatted as a cl
 ### Preview text format
 `[X/Y correct] · Bold Call [hit/missed] · [Z pts]`
 
-### Email body structure
+---
 
+## V1 Feature Set
+
+**The V1 rule:** If it requires something beyond Airtable, Typeform, Beehiiv, Canva, Carrd, Stripe, and basic Zapier automation — it's V1.5.
+
+| Feature | V1 | V1.5 |
+|---------|-----|-------|
+| 5-6 binary calls per match | ✅ IN | |
+| Bold Call designation | ✅ IN | |
+| Email Copa Card delivery (text format, free) | ✅ IN | |
+| Visual Copa Card (Canva, Pro players + top 3) | ✅ IN | |
+| Crowd split scoring | ✅ IN | |
+| Contrarian bonus | ✅ IN | |
+| Pre-match call form (Typeform) | ✅ IN | |
+| In-match call broadcast (Beehiiv) | ✅ IN | |
+| Zero-barrier first-play flow (Typeform + Zapier) | ✅ IN | |
+| Anonymous → named player conversion | ✅ IN | |
+| Nation selection at signup | ✅ IN | |
+| Tournament leaderboard (Airtable view, manual export) | ✅ IN | |
+| Nation leaderboard (Airtable rollup) | ✅ IN | |
+| Crew creation and invite (manual link, Airtable) | ✅ IN | |
+| Crew leaderboard | ✅ IN | |
+| Stripe payment (Copa Pro, $6.99) | ✅ IN | |
+| Manual Pro activation (operator sets flag in Airtable) | ✅ IN | |
+| Referral tracking (URL param → Airtable increment) | ✅ IN | |
+| Password / login system | | V1.5 |
+| App (iOS/Android) | | V1.5 |
+| Automated visual card generation | | V1.5 |
+| Automated Pro activation (Stripe webhook → Airtable) | | V1.5 |
+| Spanish-language forms and cards | | V1.5 |
+| Referral badge (surfaced in product) | | V1.5 |
+| Cookie-based returning player detection | | V1.5 |
+| Animated Copa Card skins | | V1.5 |
+| Extended analytics (percentile breakdowns) | | V1.5 |
+| Crew vs. Crew challenge mode | | V1.5 |
+
+---
+
+## Airtable Schema
+
+### Table 1: Players
+
+| Field | Type | Notes |
+|-------|------|-------|
+| player_id | Autonumber | Primary key |
+| name | Single line text | Display name on Copa Card |
+| email | Email | Used for Copa Card delivery |
+| nation | Single line text | 2-letter ISO code (e.g., MX, US, AR) |
+| is_pro | Checkbox | Set manually by operator after Stripe payment |
+| referral_count | Number | Incremented when a player's referral link is used by a new player who completes signup |
+| referred_by | Single line text | player_id of referring player (if applicable) |
+| created_at | Created time | Auto-set |
+| total_calls_made | Rollup | COUNT of linked Submissions where submission is not anonymous |
+| total_calls_correct | Rollup | COUNT of linked Submissions where is_correct = TRUE |
+| total_points | Rollup | SUM of linked Submissions points field |
+| instinct_pct | Formula | {total_calls_correct} / {total_calls_made} — displayed as percentage on Copa Card footer |
+
+### Table 2: Matches
+
+| Field | Type | Notes |
+|-------|------|-------|
+| match_id | Autonumber | Primary key |
+| match_code | Single line text | e.g., "MEX-POL-GS1" |
+| team_a | Single line text | Full team name |
+| team_b | Single line text | Full team name |
+| kickoff_time | Date/time | Local to operator timezone |
+| stage | Single select | Group Stage / Round of 16 / Quarter-Final / Semi-Final / Final |
+| status | Single select | Upcoming / Open / Live / Closed / Scored |
+| form_url_prematch | URL | Typeform pre-match form URL |
+| form_url_inmatch | URL | Typeform in-match form URL (generated per match) |
+| play_link | Formula | "copa.fc/play/match/" & {match_id} — the shareable link embedded in all cards |
+
+### Table 3: Calls
+
+| Field | Type | Notes |
+|-------|------|-------|
+| call_id | Autonumber | Primary key |
+| match | Link to Matches | |
+| call_text | Long text | The question as shown to players |
+| call_type | Single select | Pre-match / In-match |
+| slot | Single select | Goal Volume / Match Shape / Nation Specific / Event / Knowledge / Live State |
+| trigger_time | Single line text | "Kickoff" for pre-match; "30'" or "75'" for in-match |
+| correct_answer | Single select | YES / NO — filled post-match |
+| yes_count | Rollup | COUNT of linked Submissions where submitted_answer = YES |
+| no_count | Rollup | COUNT of linked Submissions where submitted_answer = NO |
+| crowd_pct_yes | Formula | {yes_count} / ({yes_count} + {no_count}) |
+| is_contrarian_threshold_active | Formula | IF({yes_count} + {no_count} >= 50, TRUE, FALSE) |
+
+### Table 4: Submissions
+
+| Field | Type | Notes |
+|-------|------|-------|
+| submission_id | Autonumber | Primary key |
+| player | Link to Players | Null if anonymous |
+| call | Link to Calls | |
+| match | Link to Matches | |
+| submitted_answer | Single select | YES / NO |
+| is_bold_call | Checkbox | TRUE if this submission is the player's Bold Call for this match |
+| submitted_at | Date/time | Auto-set by Zapier on creation |
+| is_correct | Formula | IF({submitted_answer} = {call.correct_answer}, TRUE, FALSE) |
+| crowd_position | Formula | IF({submitted_answer} = "YES", {call.crowd_pct_yes}, 1 - {call.crowd_pct_yes}) |
+| is_contrarian | Formula | IF({crowd_position} < 0.30 AND {call.is_contrarian_threshold_active}, TRUE, FALSE) |
+| points | Formula | IF({is_bold_call} AND {is_correct}, 30, IF({is_correct} AND {is_contrarian}, 15, IF({is_correct}, 10, 0))) |
+
+### Table 5: Crews
+
+| Field | Type | Notes |
+|-------|------|-------|
+| crew_id | Autonumber | Primary key |
+| crew_name | Single line text | Set by Javier at creation |
+| created_by | Link to Players | Must be Pro player |
+| invite_link | Formula | "copa.fc/crew/" & {crew_id} |
+| members | Link to Players | All players who joined via invite link |
+| member_count | Count | Auto-calculated |
+| crew_total_points | Rollup | SUM of all member total_points |
+| crew_avg_points | Formula | {crew_total_points} / {member_count} |
+
+### Named Views
+
+| View name | Table | Filter | Sort | Purpose |
+|-----------|-------|--------|------|---------|
+| "Global Leaderboard" | Players | is_pro = any, total_calls_made > 0 | total_points DESC | Tournament-wide ranking |
+| "Nation Leaderboard" | Players | Group by nation | avg total_points DESC | Nation vs nation standings |
+| "This Match — Submissions" | Submissions | match = [current match] | submitted_at ASC | Real-time view during match |
+| "Unscored Matches" | Matches | status = Closed, correct_answer IS EMPTY | kickoff_time DESC | Operator scoring queue |
+| "Pro Players" | Players | is_pro = TRUE | created_at ASC | For manual card generation |

@@ -59,6 +59,32 @@
 
 ---
 
+## PENDING: Build Typeform First-Play Flow
+
+**Action:** Build the zero-barrier first-play Typeform using the spec in CONCEPT.md (Zero-Barrier First-Play Flow section)
+**Estimated time:** 45 minutes (adds Screen 1 nation-selector to the existing pre-match form spec)
+
+**Build order:**
+1. Create master form "Copa Calls — Full First-Play Flow"
+2. Screen 1: Image-choice question — 32 World Cup nation flags as tiles. Single select. Answer stored as hidden field `nation`.
+3. Screens 2-7: 5-6 call questions (one per screen, YES/NO buttons)
+4. Bold Call screen: Radio button list of their 5 answers. Skip option included.
+5. Screen 3 (identity): Name, nation confirm (display only), email. Submission triggers Zapier.
+6. Screen 4 (confirmation): Custom thank you screen with match details and share link.
+7. Set up logic: URL parameter `?pid=[player-id]` → skip Screens 1 and 3 (returning player flow)
+8. Set up Zapier: Typeform submission → Airtable Submissions table row create + Players table upsert (match on email)
+
+**Also build:** Separate in-match call form (5 screens: 1 call + Bold Call option + identity capture if not known + confirmation)
+
+**Test cases to verify:**
+- New player (no URL params): sees all screens, data lands in Airtable as new player row
+- Returning player (pid in URL): skips Screen 1 and 3, submission linked to existing player row
+- Anonymous drop-off (submitted calls, no email): anonymous submission row in Airtable, no player link
+
+**Success metric:** End-to-end test with 5 real email addresses. Submissions appear correctly in Airtable. Returning player URL skips identity screens correctly.
+
+---
+
 ## PENDING: Build Airtable Scoring Base
 
 **Action:** Set up Airtable base using exact schema specified in CONCEPT.md (Airtable Schema section)
@@ -74,26 +100,9 @@
 7. Create the five named views specified in the schema
 8. Test with 20 mock players, one mock match, 6 mock calls, 20 mock submissions
 9. Verify: crowd split calculates correctly, contrarian bonus fires when <30%, Bold Call 30 pts correct / 0 pts wrong
+10. Verify: anonymous submission (no player link) counts toward crowd split but not leaderboard
 
-**Success metric:** 20 mock players scored correctly for a single match. Nation leaderboard shows correct average. Crew leaderboard shows correct totals.
-
----
-
-## PENDING: Build Typeform Pre-Match Call Form
-
-**Action:** Build Typeform template using exact spec in CONCEPT.md (Typeform Build Spec section)
-**Estimated time:** 30 minutes
-
-**Build order:**
-1. Create form "Copa Calls — Pre-Match Template"
-2. Add screens 1-11 as specified
-3. Set up Zapier integration: Typeform → Airtable Submissions table
-4. Test end-to-end: submit test response → verify row appears in Airtable with correct fields
-5. Set form close time to a past time → verify "closed" message displays correctly
-
-**Also build:** In-match call form (simpler — one screen, 5 fields — spec in CONCEPT.md)
-
-**Success metric:** Test submission flows through to Airtable correctly. Form shows correct closed message after deadline.
+**Success metric:** 20 mock players scored correctly for a single match. Nation leaderboard shows correct average. Crew leaderboard shows correct totals. Anonymous submission counted in crowd split only.
 
 ---
 
@@ -104,13 +113,15 @@
 
 **Build the following templates (using exact structure in CONCEPT.md — Beehiiv Text Copa Card section):**
 1. Welcome email: "You're in — your first Copa call form opens before [match name]"
-2. Pre-match reminder: "[Team A vs Team B] — your Copa calls are open → [form link]"
-3. In-match broadcast: "[LIVE] Copa in-match call — [call text] → YES/NO [form link]"
+2. Pre-match reminder: "[Team A vs Team B] — your Copa calls are open → [form link]" — include match time, brief call preview
+3. In-match broadcast: "[LIVE] Copa in-match call — [call text] → YES/NO [form link]" — time-sensitive, must arrive within 2 min of send
 4. HT check-in (group stage): "Half time — how's your Copa card looking? [brief match context]"
-5. Text Copa Card delivery (free tier): use exact template in CONCEPT.md (Beehiiv Text Copa Card section)
+5. Text Copa Card delivery (free tier): same call-by-call structure as visual card, formatted in email HTML
 6. Pro upsell (sent with second text Copa Card): "Want the visual card? Copa Pro — $6.99 for the tournament → [Stripe link]"
 
-**Success metric:** Can send a test Copa Card email to 5 test addresses. Card displays correctly on Gmail mobile, Gmail desktop, and Apple Mail.
+**Deliverability note:** Beehiiv sends via their own infrastructure. Test deliverability to Gmail, Apple Mail, and Outlook before tournament starts. In-match broadcasts are time-sensitive — confirm average send delay is under 3 minutes.
+
+**Success metric:** Test Copa Card email to 5 addresses. Displays correctly on Gmail mobile, Gmail desktop, and Apple Mail. In-match test broadcast arrives within 3 minutes of send.
 
 ---
 
@@ -128,6 +139,25 @@
 - After payment: Copa operator manually sets `is_pro` = TRUE in Airtable for the player's email
 
 **Success metric:** Test payment processed. Stripe dashboard shows the charge. Manual Pro activation workflow confirmed.
+
+---
+
+## PENDING: Set Up Match Play URL Routing
+
+**Action:** Configure URL routing so `copa.fc/play/match/[match-id]` redirects to the correct Typeform for each match
+**Tool:** Carrd custom domain + redirect rules, or a simple Notion page with embedded redirect, or a free redirect service (short.io or rebrandly)
+**Estimated time:** 30 minutes
+
+**How it works:**
+- Each match has a unique match_id in Airtable (e.g., match_id = 1 for Mexico vs Poland)
+- Before each match, operator creates a redirect: `copa.fc/play/match/1` → the Typeform URL for that match's call form
+- This redirect URL is hardcoded into every Copa Card for that match
+- When a new player taps the card link, they go directly to the call form for that match
+- If the form is closed, they see the Typeform closed message + Copa operator has pre-written the closed screen copy ("You just missed this one — here's the next match")
+
+**V1 implementation:** Short.io free plan allows custom domain redirects with quick editing. Operator updates the redirect target before each match's form goes live.
+
+**Success metric:** `copa.fc/play/match/1` redirects to correct Typeform. Updating the redirect target takes under 60 seconds. Closed form shows correct message.
 
 ---
 
@@ -177,7 +207,7 @@
 **Action:** Launch announcement post to r/worldcup, r/USMNT, r/mexico, r/england, r/brasil
 **Timing:** June 1, 2026 (stagger by 3 days between subreddits)
 **Content:** "Copa is live for World Cup 2026 signups. [Brief explanation of Copa Calls + Bold Call mechanic]. Copa Card from a practice match attached. Sign up here: [link]"
-**Prerequisite:** Landing page live, Airtable base functional, Typeform built.
+**Prerequisite:** Landing page live, Airtable base functional, Typeform built, URL routing configured.
 
 ---
 
