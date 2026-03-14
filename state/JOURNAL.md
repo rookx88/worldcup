@@ -94,3 +94,73 @@ Monetization is now resolved with evidence. V1 scope is now defined. The remaini
 - Scoring model edge cases (product-readiness)
 
 Next cycle should be full product design: Copa Card spec, user flow from signup to first card, Crew setup flow. That cycle should bring product-readiness above 0.70 and set up the final design cycle.
+
+
+---
+
+## Generation 4 — Launch Strategy
+
+**Date:** 2026-03-13
+
+### What this cycle addressed
+
+Marketing-reach was at 0.62 — the weakest dimension alongside product-readiness. The prior CHANNELS.md had the right channel categories but lacked specificity: no named targets, no posting cadence, no viral loop mechanics, no week-by-week plan, no 500-signup model.
+
+This cycle built the full zero-budget launch strategy. Everything is now specific and actionable.
+
+### Key decisions made
+
+**1. Podcasts are the highest-leverage channel.**
+
+The offer to podcasts is frictionless for them and costs Copa nothing: run a listener Crew, we handle everything, you get content (reading out listener Copa Cards on air). This is a genuine value exchange. Ten named podcasts identified with follower counts, contact routes, and rationale. Target: 5 partnerships confirmed before June 10. Even 2 confirmed partnerships with 200K+ listeners each can deliver 300–400 signups in a single episode drop.
+
+**2. The viral loop has two distinct paths — mapped them both.**
+
+The Sofia path: play → receive card → share card → friend sees → clicks → joins. The Javier path: discover Copa → create Crew → share link → 8-12 friends join free → each enters Sofia path.
+
+The critical friction points are card quality (must look shareable), join flow speed (under 60 seconds, no password), and WhatsApp link preview rendering (requires Open Graph meta tags). All three are solvable before launch.
+
+**3. The 500 signup model is explicit now.**
+
+150 from Reddit posts. 200 from podcast partnerships. 100 from Copa Card sharing virality. 50 from first Javier crews. Total: 500. This is conservative — one viral post or one podcast mention can 5x any single source. But the model doesn't depend on a lucky break; it works even with average outcomes.
+
+**4. Week-by-week calendar built.**
+
+March: Build and seed (landing page, card mockup, first Reddit seed posts).
+April: Pre-launch feedback (card mockup posts, waitlist growth, Crew flow testing).
+May 1: Podcast pitches go out.
+June 1: Open for full signups (not just waitlist).
+June 10: Press pitches.
+June 17: Pre-tournament reminder to all signups.
+June 18: Match 1. Copa Cards go out within 30 minutes of final whistle.
+
+**5. Confirmed what Copa does NOT need to do.**
+
+TikTok and Instagram Reels are P3 — Copa cannot produce enough video content to matter there. The Copa Card is the content; players generate it. Copa's job is seeding 5 example videos and then getting out of the way.
+
+Press is P3 — one pitch, one timing (June 10), treat as a bonus not a foundation.
+
+Product Hunt is P4 — wrong audience, wrong timing.
+
+### What this cycle did not address
+
+Product-readiness is still at 0.62. Specifically:
+- Copa Card visual design is documented as an action but not executed
+- Crew join flow (Airtable implementation) is specified but not built
+- Rival mode mechanics remain unresolved
+- Scoring edge cases unaddressed
+
+The next cycle should focus on Copa Card design and the full user flow from signup to first card received. That's the remaining gap in Phase 1 exit criteria.
+
+### Updated scores (estimated)
+
+- concept-uniqueness: 0.82 (unchanged — not addressed this cycle)
+- market-positioning: 0.92 (unchanged)
+- marketing-reach: 0.82 (up from 0.62 — specific targets, calendar, viral loop, 500-signup model now exist)
+- monetization-readiness: 0.93 (unchanged)
+- product-readiness: 0.62 (unchanged — next cycle target)
+- viral-mechanics: 0.90 (up from 0.88 — viral loop fully mapped with friction points identified)
+
+Overall: approximately 0.84. Phase 1 exit requires 0.95 overall with all dimensions ≥ 0.90.
+
+Remaining gap: product-readiness. One focused product design cycle (Copa Card spec + full user flow) should bring this to 0.90+, at which point Phase 1 exit criteria can be assessed.
