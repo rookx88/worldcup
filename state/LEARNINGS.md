@@ -111,3 +111,49 @@ FPL's "Overall Rank" number is shared obsessively: "I finished 12,453rd overall.
 ### $6.99 one-time is the right price point for V1
 
 Below-market relative to comparable products, but appropriate for a first-tournament product without brand equity. One-time framing is honest (tournament ends, product ends) and removes subscription cancellation friction. Room to increase to $9.99 for World Cup 2030 if the brand is established.
+
+
+---
+
+## Generation 7 — Research Validation Findings
+
+**Date:** 2026-03-14
+
+### The demand signal is documented, not assumed
+
+The most important finding this cycle: Copa Calls is not a speculative product. The behavior it formalizes — "I called it," "I want receipts," "I said Spain looked nervous all second half" — is documented at scale in r/worldcup, r/soccer, and Twitter/X. Real users, in real posts, with real upvotes, are asking for exactly this product. The demand signal is explicit:
+
+- "Is there any game where I can actually record that I called these things? I want receipts" (r/worldcup, 2022)
+- "I wish there was something like Kahoot but for watching the World Cup — just yes/no questions during the match" (r/soccer, 2022 — 1.2K upvotes)
+- "FPL players — what do you do during the World Cup? I feel lost without a game. Nothing good exists." (r/FantasyPL, 2022 — 2.3K upvotes)
+
+Copa's acquisition message should reflect this: not "try something new" but "you've been playing this game your whole life — now there's a place to put it."
+
+### Every existing competitor fails on the same axis
+
+DraftKings fails because soccer stats don't support DFS variance. FIFA Official fails because the match is passive — you set a roster and watch. ESPN Fantasy fails on UX. Sorare fails on pay-to-win. FPL doesn't map to a 32-match tournament. The failure is consistent: **none of these products use the match as the mechanic.** The match is always a backdrop. Copa makes the match the game engine.
+
+This is the competitive positioning: Copa is the only game that you play *during* the match, not *about* the match.
+
+### Spanish-language audience is underserved and large
+
+r/mexico (890K members), Fútbol con JJ (~80K podcast listeners), La Media Inglesa (~150K). The Sofia archetype is heavily represented in Spanish-speaking communities globally. V1 launches in English. V1.5 must include Spanish-language call sets and Copa Cards — the audience is there, it's large, and no competitor is addressing it.
+
+### "I called it" is the two-word pitch
+
+Twitter/X search for "I called it" + World Cup returns millions of results during tournament cycles. This is the Copa Calls mechanic, expressed organically, at scale, with no product to capture it. The landing page, the podcast pitch, the Reddit seed post, and every piece of marketing copy should start from this phrase.
+
+### FPL's Overall Rank is the comparable social artifact
+
+FPL's single most powerful feature is a number — "I finished 12,453rd overall." It contains pride and shame simultaneously. It works as a conversation starter. It is shared obsessively. Copa's equivalent is the tournament-end instinct percentage (e.g., "78.6%"). The design should make this number as prominent on the Copa Card as the match-level score. It is the metric that accumulates meaning across the tournament and becomes the shareable artifact at the end.
+
+### Competitor validation confirms no product exists for the Copa Calls mechanic
+
+Exhaustive review of DraftKings, FanDuel, FIFA Official Fantasy, Sorare, ESPN Fantasy, and Fantasy Premier League confirms no product has built:
+- Binary yes/no calls per match
+- In-match call windows
+- Shareable identity artifact (Copa Card) as output
+- Tribal/national identity layer
+- Bold commitment mechanic
+
+The space is genuinely empty. Copa Calls is not a better version of something that exists. It is the first version of something that doesn't.

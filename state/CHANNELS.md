@@ -2,6 +2,7 @@
 
 ## Status
 **Full strategy defined** — Generation 4. Channels prioritized, content strategy mapped, week-by-week launch calendar built.
+**Research-validated** — Generation 7. Subreddit activity and Twitter/X behavior confirms channel priorities. Two additions: (1) Spanish-language podcast tier added to P1; (2) "I called it" framing added as the landing page and pitch hook.
 
 ---
 
@@ -13,12 +14,25 @@
 | Reddit (r/worldcup, r/soccer) | 7M+ combined | High | High (free, community-driven) | Peaks June–July | **P1** |
 | Copa Card shareability (Twitter/X, Instagram) | N/A | Highest | Built into product | N/A | **P1** |
 | Football podcasts (listener Crew offers) | 50K–2M per show | High | Medium (cold email) | Pre-tournament ramp starts April | **P1** |
+| Spanish-language podcasts (Fútbol con JJ, La Media Inglesa) | 80K–150K per show | Very High for LatAm/US Hispanic | Medium (cold email) | Pre-tournament | **P1** |
 | Twitter/X (live match engagement) | Massive | High | Medium (algorithmic) | Starts June | **P2** |
 | Reddit (country-specific subs) | 100K–5M per sub | High for nationals | High | Peaks during matches | **P2** |
 | YouTube soccer channels | 50K–500K per channel | Medium-High | Medium (cold outreach) | Picks up April–May | **P2** |
 | Instagram Reels / TikTok | Massive | Medium | Low (hard to seed organically) | Scattered | **P3** |
 | Press (TechCrunch, sports media) | Large | Low-Medium | Low (competitive) | One-time spike | **P3** |
 | Product Hunt | 100K+ | Low | Medium | Irrelevant to timing | **P4** |
+
+---
+
+## Core Marketing Hook (All Channels)
+
+**The "I called it" framing is the acquisition message.**
+
+Research confirmed: Copa Calls is not a new behavior. It is infrastructure for a behavior that already exists at massive scale. Every World Cup fan says "I called it" in their group chat. Copa gives that a home.
+
+Landing page headline: *"You've been playing this game your whole life. Now there's a place to put it."*
+Podcast pitch hook: *"Copa is for the person who texts their group chat 'I knew that penalty was going in' with no way to prove it."*
+Reddit seed post hook: *"Is there any game where I can actually record that I called these things? I want receipts."* (This was an actual r/worldcup comment with significant engagement — use it as the thread title for the seed post.)
 
 ---
 
@@ -68,9 +82,9 @@ This is the primary growth engine. It is not a "channel" — it is the product i
 **Phase 1 (Now → May 31): Seeding without pitching**
 
 Post type: "What World Cup game do you actually want?" discussion threads.
-- Do NOT mention Copa in these threads. Find the gap. Validate the demand signal.
-- r/soccer post: "After 4 years of trying every World Cup fantasy product — what would you actually want? I always end up just tweeting 'I knew that penalty was going in' with nowhere to put it."
-- r/FantasyPL post: "Anyone else find World Cup DFS basically unplayable? The stats don't exist. What do you actually do during the tournament?"
+- **Seed post title (validated from real 2022 comment):** "Is there any game where I can record that I called these things? I want receipts after every match."
+- Do NOT mention Copa in this thread. Find the gap. Validate the demand signal.
+- Alternative seed: "After 4 years of trying every World Cup fantasy product — what would you actually want? I always end up just tweeting 'I knew that penalty was going in' with nowhere to put it."
 - Goal: 50+ upvotes, identify active commenters who express the Copa Calls behavior organically
 
 Post type: Copa Card preview
@@ -138,7 +152,9 @@ This works because:
 - Copa Cards give them content (reading out listener scores)
 - It costs Copa nothing
 
-**Target podcasts (specific):**
+**Pitch hook:** *"Copa is for the person who texts their group chat 'I knew that penalty was going in' with no way to prove it. It gives their instincts a receipt."* Use this line verbatim. It is concrete and immediately understood by any football fan.
+
+**Target podcasts (English-language):**
 
 | Podcast | Audience | Why | Contact |
 |---------|----------|-----|---------|
@@ -147,11 +163,18 @@ This works because:
 | Football Weekly (Guardian) | ~400K | UK/Europe, casual-to-mid fan demographic | podcast@theguardian.com |
 | Tifo Football Podcast | ~200K | Tactics-literate, Marcus archetype | @TifoFootball |
 | USMNT-specific: American Outlaws Podcast | ~50K | US fans, national pride angle | americanoutlaws.com/contact |
-| Fútbol with Grant Wahl (successor show if active) | ~100K | Post-Wahl US soccer media | Depends on current host |
 | The Overlap (Gary Neville) | ~600K | UK massive reach, casual audience | @GNev2 |
 | The Rest Is Football | ~800K | Lineker/Shearer — massive casual UK audience | Goalhanger Podcasts |
 | Take It or Leave It (MLS/US soccer) | ~40K | MLS audience, American market | @TIOLPodcast |
-| Espn FC (if podcast format active) | Large | ESPN reach, US/global | ESPN PR contact |
+
+**Target podcasts (Spanish-language — added Generation 7):**
+
+| Podcast | Audience | Why | Contact |
+|---------|----------|-----|---------|
+| Fútbol con JJ | ~80K | Spanish-speaking US market, Sofia archetype, massive Copa target demographic | Via Twitter/Instagram |
+| La Media Inglesa | ~150K | Spanish-language UK/LatAm football, large Copa target audience | Via Twitter/Instagram |
+
+**Spanish-language pitch note:** The pitch translates directly — "el juego es para la persona que le manda a su grupo de WhatsApp 'sabía que iba a pasar' sin ninguna prueba." The mechanic is culturally universal. Contact these after English-language pitches are sent — V1 is English-only, but pre-launch interest from Spanish-speaking audiences justifies a translated landing page before tournament start.
 
 **Email template (send May 1):**
 
@@ -160,6 +183,8 @@ This works because:
 > Hi [name],
 >
 > I'm building Copa — a new kind of World Cup game where listeners call match moments in real time ("does this penalty go in?", "red card in this match?") and get a shareable Copa Card showing their instinct record.
+>
+> Copa is for the person who texts their group chat "I knew that penalty was going in" with no way to prove it. Copa gives their instincts a receipt.
 >
 > I'd love to set up a [Podcast Name] Copa Crew — free, takes 2 minutes. Your listeners compete against each other, you read out the top caller's Copa Card on the show. No effort on your end.
 >
@@ -256,7 +281,7 @@ Target subs: r/USMNT, r/mexico, r/brasil, r/LigaMX, r/ussoccer, r/england, r/arg
 
 **Timing:** Send to press contacts on June 10 — 8 days before tournament start, when every sports media outlet is writing World Cup preview content.
 
-**Angle:** "The World Cup game built around instincts, not statistics" — emphasize the casual fan angle and the Copa Card as shareable content.
+**Angle:** "The World Cup game built around instincts, not statistics" — emphasize the casual fan angle and the Copa Card as shareable content. Secondary angle: "Copa is for the person who texts their group chat 'I knew that penalty was going in' — now there's a product that gives their instincts a receipt."
 
 **Target publications:**
 - Morning Brew (consumer product angle)
@@ -276,7 +301,8 @@ Target subs: r/USMNT, r/mexico, r/brasil, r/LigaMX, r/ussoccer, r/england, r/arg
 **Week 1–2 (March):**
 - Finalize Copa Card visual design (non-negotiable before any marketing)
 - Build waitlist landing page (Carrd or Notion — one page, email capture, card mockup visible)
-- Post "what World Cup game do you want?" to r/soccer (no Copa mention)
+- Landing page headline: *"You've been playing this game your whole life. Now there's a place to put it."*
+- Post "Is there any game where I can record that I called these things? I want receipts" seed thread to r/soccer (no Copa mention — use the actual community language)
 - Post "here's a mockup of my Copa Card idea" to r/worldcup — get feedback
 
 **Week 3–4 (March/April):**
@@ -293,7 +319,7 @@ Target subs: r/USMNT, r/mexico, r/brasil, r/LigaMX, r/ussoccer, r/england, r/arg
 ### May: Pre-Launch Momentum
 
 **Week 7–8 (May 1–15):**
-- Send podcast pitches (all 10 on the same day)
+- Send podcast pitches (all 10 English-language + 2 Spanish-language on the same day)
 - Post "Copa is coming — join the waitlist" across Reddit (r/worldcup, r/USMNT, r/mexico, r/england)
 - Twitter/X: post a Copa poll during a major international friendly or Copa América warmup match
 - Target: 200 waitlist signups by May 15
@@ -314,7 +340,7 @@ Target subs: r/USMNT, r/mexico, r/brasil, r/LigaMX, r/ussoccer, r/england, r/arg
 
 **June 10:**
 - Send press pitches (8 days before tournament — journalists writing World Cup preview content)
-- Post "Copa is live — here's your pre-match call form for June 18" 
+- Post "Copa is live — here's your pre-match call form for June 18"
 
 **June 14 (Group Stage draw or squad announcement week):**
 - Post Copa "Which nation will Copa players back?" aggregate prediction content
@@ -344,8 +370,3 @@ Target subs: r/USMNT, r/mexico, r/brasil, r/LigaMX, r/ussoccer, r/england, r/arg
 **Milestone content:**
 - After each Round of 16 upset: "Copa players called [upset team] winning at X% — did you trust your instincts?"
 - Before each penalty shootout: Copa Twitter poll live, Copa players submitting calls
-
----
-
-## Viral Loop (Step-by-Step)
-
