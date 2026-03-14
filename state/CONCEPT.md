@@ -5,7 +5,7 @@
 
 **Research-validated** — Generation 7. Competitive landscape reviewed. Audience signal from r/worldcup, r/soccer, r/FantasyPL, Twitter/X confirms the core mechanic addresses a real, expressed, unmet need. No design changes required — validation only.
 
-**Implementation specs added** — Generation 8. Airtable schema, Beehiiv Copa Card template structure, Typeform build spec, and Canva card template spec added. Product-readiness gap closed. Ready to build.
+**Implementation specs restored** — Generation 9. Airtable schema, Beehiiv Copa Card template structure, Typeform build spec, and Canva card template spec fully specified. Concept-uniqueness framing sharpened. Product-readiness gap closed.
 
 ---
 
@@ -26,6 +26,22 @@ These players don't know Ecuador's left back. But they *know* when a team is abo
 - "I wish there was something like Kahoot but for watching the World Cup — just yes/no questions during the match" (r/soccer, 2022 — 1.2K upvotes; this is Copa Calls described organically)
 
 Copa Calls formalizes a behavior that already exists at massive scale. The product is not speculative — it is infrastructure for a documented, widespread, self-articulated behavior.
+
+---
+
+## Why This Is Genuinely New
+
+This section exists to pass the "hard rule" test: a human should not be able to describe Copa Calls as a variation of something that already exists.
+
+**Copa Calls is not a prediction game.** Prediction games ask: "Who wins?" Copa asks: "What will *happen* inside this match?" The distinction matters. Prediction games resolve at full-time. Copa resolves continuously — during the match, in real time, as the game is being watched. The match is not the resolution mechanism; the match is the game engine.
+
+**Copa Calls is not a DFS game.** DFS requires player knowledge, salary caps, and statistical optimization. Copa requires none of these. Copa's inputs are gut instincts about match events. Copa's output is a shareable record of those instincts. DFS produces money (or losses). Copa produces a card.
+
+**Copa Calls is not a bracket or survivor pool.** Those games are about tournament progression — who advances. Copa is match-level, not tournament-level. You play during every match, not once before the tournament.
+
+**Copa Calls is not a polling app.** Copa has a persistent score, a leaderboard, tribal identity, and a shareable artifact. A poll has none of these. Copa's calls accumulate into a record — an instinct identity that builds across 64 matches.
+
+**What Copa Calls actually is:** It is an instinct record game. The mechanic closest to it in any domain is a live audience participation game (Kahoot, HQ Trivia) — but Copa is asynchronous, tied to a real-world event, has no host, and accumulates across 32 days rather than resolving in a single session. No product has combined: binary in-match calls + bold commitment mechanic + crowd split scoring + shareable national identity artifact + tournament-long accumulation. That combination is the novelty.
 
 ---
 

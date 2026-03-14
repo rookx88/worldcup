@@ -91,7 +91,7 @@
 4. Test end-to-end: submit test response → verify row appears in Airtable with correct fields
 5. Set form close time to a past time → verify "closed" message displays correctly
 
-**Also build:** In-match call form (simpler — one screen, 5 fields)
+**Also build:** In-match call form (simpler — one screen, 5 fields — spec in CONCEPT.md)
 
 **Success metric:** Test submission flows through to Airtable correctly. Form shows correct closed message after deadline.
 
@@ -102,7 +102,7 @@
 **Action:** Set up Beehiiv for Copa Card delivery and in-match broadcast emails
 **Estimated time:** 1 hour
 
-**Build the following templates:**
+**Build the following templates (using exact structure in CONCEPT.md — Beehiiv Text Copa Card section):**
 1. Welcome email: "You're in — your first Copa call form opens before [match name]"
 2. Pre-match reminder: "[Team A vs Team B] — your Copa calls are open → [form link]"
 3. In-match broadcast: "[LIVE] Copa in-match call — [call text] → YES/NO [form link]"
@@ -111,6 +111,23 @@
 6. Pro upsell (sent with second text Copa Card): "Want the visual card? Copa Pro — $6.99 for the tournament → [Stripe link]"
 
 **Success metric:** Can send a test Copa Card email to 5 test addresses. Card displays correctly on Gmail mobile, Gmail desktop, and Apple Mail.
+
+---
+
+## PENDING: Set Up Stripe Payment Link
+
+**Action:** Create a Stripe payment link for Copa Pro ($6.99 one-time)
+**Tool:** Stripe (no-code payment link — no backend required)
+**Estimated time:** 15 minutes
+
+**Configuration:**
+- Product: "Copa Pro — World Cup 2026"
+- Price: $6.99 one-time (not subscription)
+- Collect: name, email
+- Success page: redirect to "Thanks — you're Copa Pro. Your next card will be the full visual version." (Carrd page)
+- After payment: Copa operator manually sets `is_pro` = TRUE in Airtable for the player's email
+
+**Success metric:** Test payment processed. Stripe dashboard shows the charge. Manual Pro activation workflow confirmed.
 
 ---
 
