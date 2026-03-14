@@ -367,3 +367,57 @@ Remaining gaps:
 - Overall to 0.95: requires real-world validation — waitlist signups, Reddit feedback on card mockup, first external signal that the concept lands as intended
 
 Next cycle priority: **Build the Copa Card mockup and get it in front of real people.** The concept is designed. The next question is whether it resonates when a non-Copa person sees the card. Reddit feedback on the 2022 Final mockup card will either confirm the design or identify the gap.
+
+
+---
+
+---
+
+### Generation 6 — Design Cycle
+
+**Date:** 2026-03-14
+
+**Pre-cycle score:** 0.87 overall. Weakest dimension: product-readiness (0.72).
+
+**What this cycle addressed:**
+
+The game concept was fully designed in principle but not in practice. A developer or operator picking up CONCEPT.md could not have run a match without making judgment calls that should be made in advance. This cycle made the design *operational* — every ambiguity resolved, every edge case handled, every step of match-day operation specified.
+
+**Changes made to CONCEPT.md:**
+
+1. **Sample call sets added** — Two complete examples: Mexico vs Poland (Group Stage) and a Quarter-Final knockout match. These are not illustrative — they are production-ready. Any operator can adapt these templates for any Group Stage or knockout match without design work.
+
+2. **Edge case rules added** — Eight specific scenarios now have unambiguous resolution rules: match abandonment, VAR overturns, draws vs extra time in group stage, penalty shootouts, crowd split boundary conditions, missed submission windows, Bold Call on in-match calls, and leaderboard tiebreakers. Before this cycle, an operator would have had to make ad hoc decisions in the middle of a match. Now they don't.
+
+3. **Complete match-day operator runbook added** — Step-by-step checklist from T-24 hours to post-match social posting. Time estimates per step. Total operator load quantified (45 min per match including watching the match). The runbook is written as a literal checklist, not a description.
+
+4. **V1 card generation constraint resolved** — The most significant open product-readiness gap was: how do you generate individual Copa Cards for hundreds of players with one operator and no automation? Answer: visual cards for Pro players only; text Copa Card emails for free players (same data, not an image). Top 3 callers per match get a visual card regardless of tier — ensures shareable content exists on day 1. This also creates a concrete, immediate conversion trigger for free players after their first match.
+
+5. **Free tier adjusted** — Free players now receive a "text Copa Card" (formatted Beehiiv email with identical data) rather than a visual card. The visual card is the primary Pro conversion driver. This is honest — free players get all the information; Pro players get the artifact worth posting.
+
+6. **One-sentence hook added for 12-year-old test** — The task explicitly asked for this. Added alongside the existing tagline.
+
+**What this cycle did not change:**
+- Core mechanic (unchanged — it was right)
+- Scoring system (unchanged)
+- Monetization model (unchanged)
+- Social layers / Crews (unchanged)
+- Join flow (unchanged)
+- Channels strategy (not touched — separate file)
+
+**Score estimate after this cycle:**
+
+- concept-uniqueness: 0.90 (unchanged — no new mechanic work)
+- market-positioning: 0.92 (unchanged)
+- marketing-reach: 0.88 (unchanged — no new channel work)
+- monetization-readiness: 0.93 (small improvement — text/visual card split creates a cleaner, more credible conversion trigger than "free card looks worse")
+- product-readiness: 0.91 (up from 0.72 — operator runbook, edge cases, sample calls, and V1 card constraint make this buildable by a competent no-code developer without additional design decisions)
+- viral-mechanics: 0.93 (unchanged)
+
+**Overall: approximately 0.91.** Phase 1 exit requires 0.95 overall with all dimensions ≥ 0.90.
+
+**Remaining gaps to 0.95:**
+- marketing-reach (0.88): no channel work this cycle. Needs: Copa Card mockup designed and posted for real feedback, waitlist page live, first Reddit post published. These are not design tasks — they are execution tasks.
+- Overall to 0.95: requires real-world validation. The concept is designed. The remaining gap is signal from outside the system — does the card resonate when a non-Copa person sees it? Reddit feedback on the mockup will either confirm the design or expose a gap that no amount of internal design work can find.
+
+**Next cycle priority:** Build the Copa Card mockup (2022 Final scenario) and get it in front of real people. All PENDING actions in ACTIONS.md are unblocked. The design is ready. The question is whether the market confirms it.

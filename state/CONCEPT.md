@@ -1,7 +1,7 @@
 # Game Concept
 
 ## Status
-**Full design complete** — Generation 5. All open design questions resolved. Ready for build.
+**Full design complete** — Generation 6. Match-day flow, call writing rules, edge cases, and V1 operator runbook fully specified. Ready for build.
 
 ---
 
@@ -24,6 +24,8 @@ The demand signal is visible without a product to capture it: post-match threads
 **Tagline:** *Trust your instincts. Prove you felt it first.*
 
 **Hook (one sentence):** Copa asks you five yes-or-no questions about each World Cup match — you answer by gut, the match answers for real, and you get a shareable card showing exactly what you called.
+
+**Version a 12-year-old can understand:** Before each game, answer five yes/no questions about what's going to happen. After the game, you get a card showing how many you got right. One answer per game is your "Bold Call" — if that one hits, you get way more points.
 
 **Why this isn't a prediction game:** There are no stakes, no money, no odds. You're not forecasting outcomes for gain — you're building an instinct *record*. The card is an artifact of what you felt during the match. That's a different psychological frame, and it's what makes the card worth sharing.
 
@@ -68,11 +70,11 @@ After each match, Copa generates your **Copa Card**: a shareable visual showing 
 - "Will this match be decided by a single goal?"
 - "Does the team that scores first win?"
 - "At least one goal from a set piece — yes or no?"
-- "Does a penalty get awarded in this match?" *(replaces 60-second live call in V1)*
+- "Does a penalty get awarded in this match?"
 - "More or fewer than 2.5 total goals?"
 
 **In-match timed calls** (window opens mid-match, closes at a defined trigger):
-- "Does this team score before half time?" (opens at 30', closes at HT whistle — 15+ minute window, feasible via email broadcast)
+- "Does [Team X] score before half time?" (opens at 30', closes at HT whistle — 15+ minute window, feasible via email broadcast)
 - "Does this match go to extra time?" (opens at 75', closes at 90' whistle — knockout rounds only)
 
 **One Copa editorial team designs 5-6 calls per match before kickoff.** Calls are selected to be answerable by any fan watching the match — no statistical knowledge required. The goal is that every call feels answerable by instinct alone, while rewarding those with deeper football knowledge.
@@ -82,6 +84,60 @@ After each match, Copa generates your **Copa Card**: a shareable visual showing 
 - At least one call per match must be "gut-feel accessible" (not dependent on knowing team form)
 - At least one call per match must reward football knowledge (team tendency, manager style, tournament context)
 - In-match calls must have a minimum 10-minute open window (V1 email delivery constraint)
+
+### Sample Call Set — Match 1: Mexico vs Poland (Group Stage)
+
+This is a real example of what Copa would publish for a Group Stage match. Used as the template for all Group Stage call writing.
+
+**Pre-match calls (form opens 24hrs before kickoff, closes at kickoff):**
+
+1. "Red card in this match?" — YES / NO
+   *(Gut accessible. Poland's physical defensive style means cards are possible. Mexico games tend to be heated.)*
+
+2. "More or fewer than 2.5 total goals?" — MORE / FEWER
+   *(Classic over/under. Both teams play tactically in Group Stage openers — FEWER is defensible gut call.)*
+
+3. "Does the first team to score win this match?" — YES / NO
+   *(Tests intuition about match control. Mexico historically vulnerable to leads slipping. YES is ~60% in World Cup Group Stage history.)*
+
+4. "Does Mexico score from open play in the first half?" — YES / NO
+   *(Nation-specific call activates tribal identity. Mexico fans will feel this viscerally.)*
+
+5. "At least one set piece goal in this match?" — YES / NO
+   *(Rewards knowledge — Poland's Lewandowski is a set piece threat, Mexico's corners are dangerous. Crowd will split roughly 50/50.)*
+
+**In-match call (email sent at 30', window closes at HT whistle):**
+
+6. "Does this match reach half time goalless?" — YES / NO
+   *(Opens at 30' with score visible — players use live match state to answer. A 0-0 at 30' makes YES credible; a goal already scored makes NO obvious. Crowd split is real-time information.)*
+
+**Bold Call instruction on form:** "Before submitting, mark one answer as your Bold Call. If it hits, you earn 3x points. Choose wisely — or choose boldly."
+
+### Sample Call Set — Knockout Round: Quarter-Final
+
+**Pre-match calls:**
+
+1. "Does this match go to extra time?" — YES / NO
+   *(Higher stakes = more draws. More credible as a pre-match call in knockouts.)*
+
+2. "Clean sheet for either team?" — YES / NO
+   *(Simple, resolves at final whistle. Rewards knowledge of defensive records.)*
+
+3. "Both teams score in the first half?" — YES / NO
+   *(Harder to predict. Crowd tends to say NO. Contrarian bonus if YES hits.)*
+
+4. "Red card in this match?" — YES / NO
+   *(Knockout nerves increase cards. More credible in knockouts than group stage.)*
+
+5. "Does the match winner score first?" — YES / NO
+   *(Replaces "first scorer wins" with a slightly different framing for variety.)*
+
+**In-match call (opens at 75', closes at 90' whistle):**
+
+6. "Does this match go to extra time?" — YES / NO
+   *(Same call as #1, but now players have 90 minutes of evidence. A player who called YES pre-match might lock in YES again with high confidence. A player who called NO might reconsider.)*
+
+   *Note: #1 and #6 can be the same question. They are independent calls — pre-match intuition vs. late-match read. Players who called YES pre-match and then YES again at 75' are rewarded twice if ET occurs. This is intentional: rewarding conviction.*
 
 ---
 
@@ -103,7 +159,7 @@ After each match, Copa generates your **Copa Card**: a shareable visual showing 
 
 ### Match Score Range
 - Typical correct call: 10 pts
-- Typical contrarian correct: 15 pts  
+- Typical contrarian correct: 15 pts
 - Bold Call correct: 30 pts
 - Practical ceiling per match (5 calls, all correct contrarian + Bold Call): ~105 pts
 - Realistic engaged player range per match: 30–60 pts
@@ -145,6 +201,149 @@ The fraction is the shareable number. "I finished at 78.6%" works like FPL's Ove
 
 ---
 
+## Edge Cases and Resolution Rules
+
+These rules exist so the Copa operator can score every match without judgment calls.
+
+### Match Abandonment
+- If a match is abandoned before 90' (or 120' in extra time), all calls for that match are voided.
+- Players receive 0 points and the match is excluded from their tournament record.
+- Copa Card is not generated for that match.
+- If the match is replayed, Copa generates a new call set for the rescheduled fixture.
+
+### VAR Overturns
+- Copa scores calls on the **official final result** as confirmed at the final whistle, including all VAR decisions.
+- A penalty awarded then overturned by VAR: call scored as NO penalty awarded.
+- A red card rescinded by VAR: call scored as NO red card.
+- Copa does not issue corrections after the Copa Card has been sent. The final whistle state is final.
+
+### Draws and Extra Time (Group Stage)
+- "Does this match go to extra time?" is only offered in knockout rounds.
+- In group stage, a draw is a draw. "Does the first team to score win?" scores NO if the match ends in a draw.
+- "Will this match be decided by a single goal?" scores as per the final group stage score (e.g., 1-0 = YES, 1-1 = NO, 2-1 = NO).
+
+### Penalty Shootouts
+- Shootout results do not affect Copa calls. Copa calls resolve at the end of 90' regulation (or 120' extra time if applicable).
+- "Does this match go to extra time?" resolves YES if the match reaches extra time (regardless of shootout outcome).
+- "Clean sheet for either team?" resolves based on regulation + extra time goals only.
+
+### Crowd Split Edge Case
+- If crowd split lands exactly at 30% (boundary for contrarian bonus), the call is scored as majority (10 pts, not 15 pts). The threshold is **strictly less than** 30%.
+- If fewer than 50 players have submitted the call, contrarian bonus is suspended for that call (not enough data to compute a meaningful crowd split). All correct calls score 10 pts regardless of position.
+
+### Player Misses the Submission Window
+- If a player does not submit before the pre-match deadline, they receive 0 pts for that match.
+- No retroactive submissions. No exceptions.
+- In-match call: if the player does not submit the in-match call within the window, the in-match call is scored as a miss (0 pts, does not count toward their "calls total").
+- A missed in-match call does not appear on the Copa Card (does not show ✗ — it is simply absent).
+
+### Bold Call on In-Match Call
+- A player may designate the in-match call as their Bold Call.
+- The timing rule applies: they must select Bold Call before the in-match window closes.
+- If they already submitted pre-match calls without a Bold Call designation, they may still designate the in-match call as Bold Call (one Bold Call per match total — not one per call type).
+
+### Ties on Leaderboard
+- Tournament leaderboard ties broken by: (1) higher percentage correct (calls correct ÷ total calls), (2) more total calls made, (3) earlier account creation.
+- Nation leaderboard ties broken by: more total calls made by nation's Copa players. Nations with more engaged fans break ties upward.
+
+### Call Ambiguity (Pre-Match)
+- If Copa publishes a call that becomes unanswerable (e.g., "Does [Player] score?" and player is injured in warmup), the call is voided for all players. Voided calls do not appear on Copa Cards.
+- Copa reserves the right to void a call up to kickoff. After kickoff, all calls stand.
+
+---
+
+## Complete Match-Day Operator Flow
+
+This is the full checklist for one Copa operator to run a single match. Written as a literal runbook.
+
+### T-24 hours (day before match)
+
+**Step 1: Write the call set (5 min)**
+- Open Call Writing Template (Airtable form)
+- Write 5 pre-match calls using Call Selection Principles
+- Write 1 in-match call (note: trigger time = 30' for group stage, 75' for knockouts)
+- Confirm all 5-6 calls are unambiguous and resolvable
+- Enter calls into Airtable Calls table (match, call text, call type, trigger time)
+- Save correct answers column as blank (fill post-match)
+
+**Step 2: Publish pre-match Typeform (5 min)**
+- Open Typeform template for pre-match calls
+- Copy call text from Airtable into form fields
+- Set Bold Call radio button field (appears after all 5 calls)
+- Set form close time = kickoff time (Typeform scheduled close)
+- Copy form URL
+- Send pre-match reminder email via Beehiiv (subject: "[Team A vs Team B] — your Copa calls are open")
+
+### T-0 (kickoff)
+
+**Step 3: Confirm pre-match form is closed (1 min)**
+- Verify Typeform is showing "closed" to new submissions
+- Export submissions to Airtable via Typeform → Airtable Zap (or manual export if Zap is not set up)
+
+### During match (live watch required)
+
+**Step 4: Trigger in-match call (2 min)**
+- At the designated trigger time (30' or 75'), send Beehiiv broadcast
+- Subject: "[LIVE] Copa in-match call — [Team A vs Team B]"
+- Body: Call text + YES/NO Typeform link (separate in-match form)
+- Window closes: at half-time whistle (30' call) or 90' whistle (75' call)
+- Operator sets reminder on phone for window close time
+
+**Step 5: Note key match events (ongoing)**
+- Track: goals (scorer, time, type — open play / set piece / penalty), cards, penalties awarded, substitutions that affect calls
+- This takes 2 minutes post-match to finalize — worth noting during match so nothing is missed
+
+### T+0 (final whistle)
+
+**Step 6: Score the calls (10 min)**
+- In Airtable, enter correct answers for all calls (YES or NO)
+- Airtable formula: for each submission, compare player answer to correct answer → calculate base points (10 or 0)
+- Run crowd split calculation: for each call, count YES submissions ÷ total submissions
+- Identify contrarian callers (<30% position, correct): update their points to 15
+- Identify Bold Call submissions: if Bold Call answer = correct answer → 30 pts. If wrong → 0 pts.
+- Spot-check 3 random player scores manually to confirm formula is working
+- Estimated time once Airtable is set up: 10 min
+
+**Step 7: Update leaderboards (5 min)**
+- Airtable Players table auto-updates running totals via rollup fields
+- Nation leaderboard: check average score per nation updates
+- Crew leaderboards: check all active Crews show updated scores
+- Verify "On Fire" badge logic (3+ consecutive matches with 4+ correct) — manual check for now
+
+### T+15 to T+30 (post-match)
+
+**Step 8: Generate Copa Cards (15 min)**
+- Open Canva Copa Card template
+- For each player: populate name, nation, match, score, call list, Bold Call result
+- V1 workflow: generate top 5 cards manually (top 3 scorers + any Bold Call highlights)
+  - Mass card generation is not feasible manually — see V1 constraint below
+- Export all cards as PNG (1080×1080)
+
+**V1 Copa Card generation constraint:** Generating individual cards for every player manually is not feasible at scale. V1 solution:
+  - Auto-generate cards for top 3 players per match (manually, ~5 min each)
+  - All other players receive a **text-format Copa Card via email**: formatted email with their score, call results, and Bold Call outcome, designed to look like the card
+  - Text Copa Card has the same information; it is less visually shareable
+  - Players who want the visual card: upgrade to Pro (Pro players get visual card generated within 30 min of final whistle)
+  - This creates a natural Pro conversion trigger: "I want my card to look like that"
+
+**Step 9: Send Copa Cards via Beehiiv (5 min)**
+- Beehiiv broadcast to all match players
+- Subject: "Your Copa Card — [Team A] vs [Team B]"
+- Preview text: "[X/Y correct]. [Bold Call hit/missed]."
+- Body: visual card (for Pro) or text card (for free) + link to leaderboard
+- Include: "Your tournament instinct score: [X correct / Y total — Z%]"
+- Include: one-tap link to tomorrow's call form (if a match is scheduled)
+
+**Step 10: Post to social (5 min)**
+- Twitter/X: post top Copa Card image + "Yesterday's top caller went [X/Y] in [Match]. They called [Bold Call]. [Card image]"
+- If notable crowd split data: "Copa players were split [X%/Y%] on [call]. They were [right/wrong]."
+- Reddit match thread: post crowd call aggregate as a comment (not a new post)
+
+**Total operator time per match: ~45 minutes (including match watch)**
+**Group Stage peak: 3 matches/day × 45 min = ~2.25 hours/day**
+
+---
+
 ## The Copa Card — Full Visual Specification
 
 **Format:** 1080×1080px primary (Instagram square). 1080×1920px secondary (Stories).
@@ -173,24 +372,25 @@ The fraction is the shareable number. "I finished at 78.6%" works like FPL's Ove
 
 **Design principle:** Card must communicate in 2 seconds — who, how many right, whether the Bold Call hit. The nation color makes it immediately recognizable as "that person's country" when shared in a group chat.
 
+**V1 Card generation tiers:**
+- **Pro players:** Full visual card (Canva-generated, exported PNG, emailed within 30 min of final whistle)
+- **Free players:** Text Copa Card email (same data, formatted for email — not a PNG image, but not ugly)
+- **Top 3 callers per match:** Visual card generated and posted publicly on Copa social (free players included — being top 3 earns a visual card regardless of tier)
+
 ---
 
 ## The Tribal Layer
 
 Every player declares their **nation** at signup. The Copa Card is skinned in that nation's colors. Nation leaderboards aggregate individual scores.
 
-**Nation Leaderboard — full specification (resolved):**
+**Nation Leaderboard — full specification:**
 - Metric: **average instinct score per match** across all Copa players who declared that nation
 - Formula: sum of all nation players' points ÷ total calls made by nation players
 - Minimum qualification: **10 Copa players** must have declared the nation to appear on the main leaderboard
 - Nations below 10 players appear on a "Developing Nations" tab — visible, not excluded
 - Leaderboard question: "Which nation has the sharpest fans?"
 - Updates once per day during group stage; after each match during knockouts
-
-This design is:
-- Fair (not dominated by nations with most Copa players)
-- Explainable ("the average Copa instinct score for [Nation] fans")
-- Interesting (smaller nations can rank above Brazil/Germany if their fans are sharp callers)
+- Ties broken by: total calls made by nation's players (more engaged fans win the tiebreak)
 
 ---
 
@@ -234,15 +434,16 @@ Head-to-head against one specific friend over a single match. Deferred to V2 —
 
 ### What V1 includes
 - Pre-match call form (Typeform, opens 24hrs before kickoff, closes at kickoff)
-- One in-match timed call per match (email broadcast via Beehiiv at the trigger time — e.g., 30' mark; window closes at half-time)
-- Post-match Copa Card generation (Canva template; manually produced for each match within 30 minutes of final whistle)
-- Copa Card delivered to player's email
+- One in-match timed call per match (email broadcast via Beehiiv at the trigger time; window closes at half-time or 90' whistle)
+- Post-match Copa Card: **visual card for Pro players** (Canva, within 30 min of final whistle); **text Copa Card for free players** (formatted email with identical data)
+- Top 3 callers per match receive a visual card regardless of Pro status — posted publicly on Copa social
 - Copa Crews via shared Airtable-backed leaderboard link
 - Nation selection at signup
 - Bold Call designation in call form (radio button: "This is my Bold Call")
 - Scoring in Airtable with crowd-split contrarian multiplier applied post-match
 
 ### What V1 defers
+- **Mass visual card generation for free players:** V1 uses text Copa Card email for free players. V1.5 automates card generation for all players.
 - **Live event calls (60-second window):** Not feasible via email. Replaced by pre-match calls covering the same territory ("Does a penalty get awarded?"). Reinstated in V1.5 with push notifications.
 - **Automated live call triggering:** V1.5 after tournament proves the model
 - **Native app:** V1.5
@@ -252,16 +453,19 @@ Head-to-head against one specific friend over a single match. Deferred to V2 —
 - **Referral link automation:** V1 is manual (email referral code post-purchase, tracked in spreadsheet)
 
 ### What V1 does not compromise
-- **Copa Card quality.** Must look good enough to post on Instagram. Non-negotiable. The card is the growth engine.
+- **Copa Card visual quality for Pro players.** Must look good enough to post on Instagram. Non-negotiable. The Pro card is the conversion trigger.
+- **Text Copa Card data completeness.** Free players must see their full score, all call results, and Bold Call outcome. The format is text; the information is not degraded.
+- **Top 3 public cards.** The top 3 callers per match always get a visual card posted publicly. This ensures shareable content exists even with zero Pro players on day 1.
 - **Crew join flow friction.** Must be under 60 seconds. No account creation before first play.
-- **Bold Call on every card.** Even in V1, every card shows the Bold Call outcome. This is the card's hero element.
+- **Bold Call on every card.** Even in V1, every card (visual and text) shows the Bold Call outcome. This is the card's hero element.
 
 ### V1 Technical Stack
 | Function | Tool |
 |----------|------|
 | Call submission | Typeform |
 | Data / scoring / leaderboards | Airtable |
-| Card design | Canva (template-based) |
+| Card design (Pro) | Canva (template-based) |
+| Text Copa Card (free) | Beehiiv (formatted email template) |
 | Email delivery | Beehiiv |
 | Payment | Stripe |
 | Landing page + join flow | Carrd |
@@ -269,13 +473,15 @@ Head-to-head against one specific friend over a single match. Deferred to V2 —
 
 ### V1 Operator Load
 One person. Copa operator:
-- Sets call form before each match (5 min)
+- Writes call set before each match (5 min)
+- Sets call form and schedules close time (5 min)
 - Sends in-match email broadcast at trigger time (2 min — watching match, one button)
 - Scores calls in Airtable post-match (10 min — automated with formulas once set up)
-- Generates Copa Cards in Canva (15 min per match — template, fill in scores, export)
+- Generates visual Copa Cards in Canva for Pro players + top 3 (15 min per match)
 - Sends Copa Cards via Beehiiv (5 min)
+- Posts to social (5 min)
 
-**Group Stage load:** Up to 3 matches/day × ~30 min/match = ~90 min/day. Manageable solo.
+**Group Stage load:** Up to 3 matches/day × ~45 min/match = ~2.25 hours/day. Manageable solo.
 **Knockout Stage:** 1-2 matches/day — lighter load, more time for card quality.
 
 ---
@@ -302,13 +508,14 @@ Copa Calls is the only game where the match itself is the game engine and the ou
 
 ### Free Tier (must remain excellent)
 - Play all calls for every match
-- Receive standard Copa Card after each match (nation skin, full Bold Call display)
+- Receive text Copa Card after each match (full data: score, call results, Bold Call — text format)
 - Join one Copa Crew (cannot create)
 - Tournament leaderboard access (read-only)
 
 ### Pro Tier — $6.99/tournament
 **Identity expression (Sofia):**
-- Animated Copa Card skin (nation colors, animated elements)
+- **Visual Copa Card** (1080×1080 PNG, delivered within 30 min of final whistle) — primary conversion driver
+- Animated Copa Card skin (V1.5)
 - Nation-exclusive visual frames for milestone moments
 - "Copa Pro" badge on public leaderboard
 
@@ -326,22 +533,27 @@ Copa Calls is the only game where the match itself is the game engine and the ou
 ### Conversion Triggers
 | Archetype | Trigger Moment | Message |
 |-----------|---------------|---------|
-| Sofia | After first Copa Card received + shared | "Your card, but animated — Copa Pro" |
+| Sofia | After first text Copa Card received | "Get the visual card — Copa Pro ($6.99 for the whole tournament)" |
 | Javier | At Crew creation wall | "Create your Crew → upgrade takes 30 seconds" |
 | Marcus | After 5th Copa Card, blur the analytics | "You're calling set pieces better than most Copa players. See your full breakdown." |
 
-**Rule:** Never upsell before first Copa Card is delivered.
+**Rule:** Never upsell before first Copa Card (text or visual) is delivered.
 
 ---
 
 ## Open Questions (Resolved This Cycle)
 - ✅ Copa Card visual hierarchy — fully specified above
-- ✅ Nation leaderboard aggregation — average per-player score, min 10 players
+- ✅ Nation leaderboard aggregation — average per-player score, min 10 players, ties by engagement
 - ✅ Rival mode in V1 — deferred to V2; Crews solve the social need
 - ✅ Live call (60-second) feasibility in Beehiiv — not feasible; replaced by pre-match calls covering same territory
 - ✅ Bold Call as deliberate mechanic — designed as player-designated, not algorithmically assigned
 - ✅ Join flow from shared card — fully specified above
+- ✅ Edge cases — abandoned matches, VAR overturns, missed windows, crowd split thresholds — all resolved
+- ✅ V1 card generation constraint — text Copa Card for free players; visual card for Pro; top 3 callers get visual regardless
+- ✅ Match-day operator runbook — step-by-step checklist with time estimates
+- ✅ Sample call sets — two complete examples (Group Stage + Knockout Quarter-Final)
 
 ## Remaining Open Questions
 - None blocking V1 build.
-- Nation leaderboard UI: how are ties broken? (Tiebreaker: total calls made — nations with more engaged players break ties upward. To be specified at build time.)
+- **Airtable schema:** Exact field types and formula syntax to be confirmed at build time (not a design question — an implementation detail).
+- **Beehiiv text Copa Card template:** HTML/CSS formatting to be designed at build time.
