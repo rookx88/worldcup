@@ -1,28 +1,29 @@
 # Rubric: concept-uniqueness
 
-**What it measures:** Is the game mechanic genuinely novel — something that has never existed before, not a variation or simplification of an existing product?
+**What it measures:** Is the game mechanic genuinely novel — not a variation of anything that already exists, not a reskin, not a simplification of a known category.
 
-## Scoring Guide
+## Automatic Disqualifiers (score = 0.10 if any apply)
+
+These are hard fails. If the concept matches any of these patterns, it scores 0.10 regardless of other qualities:
+
+- The core loop involves a player **predicting or guessing an outcome** and being right or wrong. This includes: match result predictions, player performance predictions, tournament bracket picks, in-match event predictions, yes/no calls about match events. **Prediction in any form is disqualified.**
+- The concept is an existing game (Wordle, Kahoot, Fantasy Sports, Bracket Challenge, etc.) **with World Cup theming applied.** Reskins are not new mechanics.
+- The game could exist with a different sport, different event, or no live event at all. If the World Cup is just a backdrop and not essential to the mechanic, it is not Copa.
+- The mechanic has been described by the user as "still prediction-adjacent" or rejected in prior cycles. Copa has already rejected: Prediction Cards, Live Instinct Calls.
+
+## Scoring Guide (for concepts that pass disqualifiers)
 
 | Score | Meaning |
 |-------|---------|
-| 0.0–0.2 | No concept defined |
-| 0.2–0.4 | Concept exists but is clearly a variation of an existing product (prediction game, DFS, bracket, etc.) |
-| 0.4–0.6 | Has a novel element but the core loop resembles something that already exists |
-| 0.6–0.8 | Genuinely different mechanic — cannot be described as "X but for Y" — but inspiration sources are visible |
-| 0.8–0.9 | Fully novel: no existing product does this, the mechanic exploits World Cup's unique properties specifically |
-| 0.9–1.0 | Unmistakably new: makes people say "I've never seen that before" — the World Cup is essential to why it works, not just the theme |
-
-## Disqualifying Patterns (score ≤ 0.4 if any apply)
-- It is a prediction game
-- It is a salary cap / roster builder
-- It is a season-long points accumulator
-- It is a bracket challenge
-- It is an NFT / collectible game
-- It can be described as "[existing game] but simpler / for casual fans / for World Cup"
+| 0.10 | Fails a disqualifier |
+| 0.3–0.5 | Novel framing but mechanic is recognizable as a known category |
+| 0.5–0.7 | Genuinely different mechanic, but World Cup is not essential to why it works |
+| 0.7–0.85 | Novel mechanic that the World Cup's specific properties make better |
+| 0.85–0.95 | Unmistakably new — no existing product does this, World Cup is essential |
+| 0.95–1.0 | Makes people say "I've never seen anything like this" — the combination of mechanic + World Cup context is irreplaceable |
 
 ## Key Questions
-- Could this game exist without the World Cup, with a different theme? (If yes, the World Cup is just a skin — score lower)
-- What property of the World Cup specifically makes this mechanic possible or better?
-- Has anyone built this before? Can you find it if you search?
-- Would a person who has played DraftKings, FPL, and FIFA Fantasy say "I've never seen anything like this"?
+- Could this game run during the NBA Finals, the Oscars, or without any live event at all? (If yes: World Cup is just a skin — score lower)
+- Is the inspiration visibly from outside sports? (Good sign — the best mechanic will come from somewhere unexpected)
+- Has Copa documented real research evidence before proposing this? (If concept appeared without research backing: score lower)
+- Would someone who has played DraftKings, FPL, Wordle, and bracket challenges say "I've never seen anything like this"?
