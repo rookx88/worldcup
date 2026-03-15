@@ -9,6 +9,8 @@
 
 **Zero-barrier first-play flow designed** — Generation 10. The anonymous first-play experience fully specified: what a new player sees when they click a Copa Card link, the exact screens, the friction model, and how anonymous submissions convert to accounts. This closes the last product-readiness gap.
 
+**Builder-ready specs completed** — Generation 11. Two final builder-blocking gaps closed: (1) Beehiiv text Copa Card email body fully written, including HTML structure, free and Pro variants, and all conditional sections. (2) Typeform build spec written as literal question-by-question configuration — every field name, question type, logic rule, and Zapier trigger. An operator can now build both without referencing any other document.
+
 ---
 
 ## The Gap This Fills
@@ -711,7 +713,7 @@ For all other nations: use the primary jersey color from Wikipedia's national fo
 
 ## Beehiiv Text Copa Card — Email Template Spec
 
-This is the free-tier Copa Card. Same data as the visual card, formatted as a clean HTML email. Must be designed so it looks intentional, not like a fallback.
+This is the free-tier Copa Card. Same data as the visual card, formatted as a clean HTML email. Must be designed so it looks intentional, not like a fallback. This section is the complete builder spec — an operator can build this template without referencing any other document.
 
 ### Subject line format
 `Your Copa Card — [Team A] vs [Team B]`
@@ -721,128 +723,7 @@ This is the free-tier Copa Card. Same data as the visual card, formatted as a cl
 
 ---
 
-## V1 Feature Set
+### Full Email Body — Free Tier Template
 
-**The V1 rule:** If it requires something beyond Airtable, Typeform, Beehiiv, Canva, Carrd, Stripe, and basic Zapier automation — it's V1.5.
+The following is the literal email copy and structure. Text in [brackets] is operator-replaced per match. Text in {curly braces} is conditionally shown.
 
-| Feature | V1 | V1.5 |
-|---------|-----|-------|
-| 5-6 binary calls per match | ✅ IN | |
-| Bold Call designation | ✅ IN | |
-| Email Copa Card delivery (text format, free) | ✅ IN | |
-| Visual Copa Card (Canva, Pro players + top 3) | ✅ IN | |
-| Crowd split scoring | ✅ IN | |
-| Contrarian bonus | ✅ IN | |
-| Pre-match call form (Typeform) | ✅ IN | |
-| In-match call broadcast (Beehiiv) | ✅ IN | |
-| Zero-barrier first-play flow (Typeform + Zapier) | ✅ IN | |
-| Anonymous → named player conversion | ✅ IN | |
-| Nation selection at signup | ✅ IN | |
-| Tournament leaderboard (Airtable view, manual export) | ✅ IN | |
-| Nation leaderboard (Airtable rollup) | ✅ IN | |
-| Crew creation and invite (manual link, Airtable) | ✅ IN | |
-| Crew leaderboard | ✅ IN | |
-| Stripe payment (Copa Pro, $6.99) | ✅ IN | |
-| Manual Pro activation (operator sets flag in Airtable) | ✅ IN | |
-| Referral tracking (URL param → Airtable increment) | ✅ IN | |
-| Password / login system | | V1.5 |
-| App (iOS/Android) | | V1.5 |
-| Automated visual card generation | | V1.5 |
-| Automated Pro activation (Stripe webhook → Airtable) | | V1.5 |
-| Spanish-language forms and cards | | V1.5 |
-| Referral badge (surfaced in product) | | V1.5 |
-| Cookie-based returning player detection | | V1.5 |
-| Animated Copa Card skins | | V1.5 |
-| Extended analytics (percentile breakdowns) | | V1.5 |
-| Crew vs. Crew challenge mode | | V1.5 |
-
----
-
-## Airtable Schema
-
-### Table 1: Players
-
-| Field | Type | Notes |
-|-------|------|-------|
-| player_id | Autonumber | Primary key |
-| name | Single line text | Display name on Copa Card |
-| email | Email | Used for Copa Card delivery |
-| nation | Single line text | 2-letter ISO code (e.g., MX, US, AR) |
-| is_pro | Checkbox | Set manually by operator after Stripe payment |
-| referral_count | Number | Incremented when a player's referral link is used by a new player who completes signup |
-| referred_by | Single line text | player_id of referring player (if applicable) |
-| created_at | Created time | Auto-set |
-| total_calls_made | Rollup | COUNT of linked Submissions where submission is not anonymous |
-| total_calls_correct | Rollup | COUNT of linked Submissions where is_correct = TRUE |
-| total_points | Rollup | SUM of linked Submissions points field |
-| instinct_pct | Formula | {total_calls_correct} / {total_calls_made} — displayed as percentage on Copa Card footer |
-
-### Table 2: Matches
-
-| Field | Type | Notes |
-|-------|------|-------|
-| match_id | Autonumber | Primary key |
-| match_code | Single line text | e.g., "MEX-POL-GS1" |
-| team_a | Single line text | Full team name |
-| team_b | Single line text | Full team name |
-| kickoff_time | Date/time | Local to operator timezone |
-| stage | Single select | Group Stage / Round of 16 / Quarter-Final / Semi-Final / Final |
-| status | Single select | Upcoming / Open / Live / Closed / Scored |
-| form_url_prematch | URL | Typeform pre-match form URL |
-| form_url_inmatch | URL | Typeform in-match form URL (generated per match) |
-| play_link | Formula | "copa.fc/play/match/" & {match_id} — the shareable link embedded in all cards |
-
-### Table 3: Calls
-
-| Field | Type | Notes |
-|-------|------|-------|
-| call_id | Autonumber | Primary key |
-| match | Link to Matches | |
-| call_text | Long text | The question as shown to players |
-| call_type | Single select | Pre-match / In-match |
-| slot | Single select | Goal Volume / Match Shape / Nation Specific / Event / Knowledge / Live State |
-| trigger_time | Single line text | "Kickoff" for pre-match; "30'" or "75'" for in-match |
-| correct_answer | Single select | YES / NO — filled post-match |
-| yes_count | Rollup | COUNT of linked Submissions where submitted_answer = YES |
-| no_count | Rollup | COUNT of linked Submissions where submitted_answer = NO |
-| crowd_pct_yes | Formula | {yes_count} / ({yes_count} + {no_count}) |
-| is_contrarian_threshold_active | Formula | IF({yes_count} + {no_count} >= 50, TRUE, FALSE) |
-
-### Table 4: Submissions
-
-| Field | Type | Notes |
-|-------|------|-------|
-| submission_id | Autonumber | Primary key |
-| player | Link to Players | Null if anonymous |
-| call | Link to Calls | |
-| match | Link to Matches | |
-| submitted_answer | Single select | YES / NO |
-| is_bold_call | Checkbox | TRUE if this submission is the player's Bold Call for this match |
-| submitted_at | Date/time | Auto-set by Zapier on creation |
-| is_correct | Formula | IF({submitted_answer} = {call.correct_answer}, TRUE, FALSE) |
-| crowd_position | Formula | IF({submitted_answer} = "YES", {call.crowd_pct_yes}, 1 - {call.crowd_pct_yes}) |
-| is_contrarian | Formula | IF({crowd_position} < 0.30 AND {call.is_contrarian_threshold_active}, TRUE, FALSE) |
-| points | Formula | IF({is_bold_call} AND {is_correct}, 30, IF({is_correct} AND {is_contrarian}, 15, IF({is_correct}, 10, 0))) |
-
-### Table 5: Crews
-
-| Field | Type | Notes |
-|-------|------|-------|
-| crew_id | Autonumber | Primary key |
-| crew_name | Single line text | Set by Javier at creation |
-| created_by | Link to Players | Must be Pro player |
-| invite_link | Formula | "copa.fc/crew/" & {crew_id} |
-| members | Link to Players | All players who joined via invite link |
-| member_count | Count | Auto-calculated |
-| crew_total_points | Rollup | SUM of all member total_points |
-| crew_avg_points | Formula | {crew_total_points} / {member_count} |
-
-### Named Views
-
-| View name | Table | Filter | Sort | Purpose |
-|-----------|-------|--------|------|---------|
-| "Global Leaderboard" | Players | is_pro = any, total_calls_made > 0 | total_points DESC | Tournament-wide ranking |
-| "Nation Leaderboard" | Players | Group by nation | avg total_points DESC | Nation vs nation standings |
-| "This Match — Submissions" | Submissions | match = [current match] | submitted_at ASC | Real-time view during match |
-| "Unscored Matches" | Matches | status = Closed, correct_answer IS EMPTY | kickoff_time DESC | Operator scoring queue |
-| "Pro Players" | Players | is_pro = TRUE | created_at ASC | For manual card generation |

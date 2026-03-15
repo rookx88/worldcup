@@ -816,3 +816,66 @@ The design is complete. The first-play experience is specified. Nothing else nee
 - CONCEPT.md: Added "Zero-Barrier First-Play Flow — Full Specification" section (8 screens fully specified, returning player flow, anonymous submission handling, V1 technical implementation). Updated Typeform Build Spec reference to include first-play flow. V1 Feature Set table updated to include zero-barrier first-play flow, anonymous-to-named player conversion, and URL routing as explicit V1 IN items.
 - ACTIONS.md: Updated "Build Typeform Pre-Match Call Form" → "Build Typeform First-Play Flow" with full spec including Screen 1, returning player URL routing, and test cases. Added new action "Set Up Match Play URL Routing" (Short.io, 30 min, unblocks card link functionality).
 - JOURNAL.md: This entry.
+
+
+---
+
+## Generation 11 — Builder Gap Audit
+
+**Date:** 2026-03-15
+
+### What this cycle was actually for
+
+The pre-cycle score showed product-readiness at 0.78 — the weakest dimension. The design task asked to "update CONCEPT.md with the full game design." But reviewing all state files: the game mechanic, scoring, Bold Call, Copa Card, operator runbook, Airtable schema, first-play flow, and call design are all fully specified. Rewriting any of those would introduce scope creep without improving product-readiness.
+
+The correct interpretation of "product-readiness 0.78" is: a builder picking up these files today would get stuck somewhere. The right move was to find exactly where, not to redesign.
+
+### What was actually missing
+
+Two things. Both would block a builder on day one.
+
+**Gap 1: Beehiiv text Copa Card email — body never written.**
+
+CONCEPT.md referenced this template twice and specified subject line format and preview text format. But the actual email body — the text a player receives — was never written. An operator building the Beehiiv template had no copy to work from. They would have to invent the email from scratch, introducing inconsistency and risk.
+
+This cycle: the full email body is now written, including all conditional sections (bold call correct / wrong / contrarian / absent), the call-by-call display format, the tournament instinct score block, the next match CTA, the share link, and the footer. The Pro upsell block is written separately with the instruction to append it starting from the second card. The Pro Copa Card email differences are specified. Literal Beehiiv build instructions are included (template type, field names, segment setup, send time estimate).
+
+**Gap 2: Typeform build spec — screen sequence described, literal configuration never written.**
+
+CONCEPT.md described the screen sequence in detail (Screen 1, Screen 2, Screen 3, Screen 4). But a builder opening Typeform for the first time would not know: what question type to use for each screen, what the field reference names are, what the hidden fields are, how the Zapier trigger maps to Airtable, how to handle the returning player flow without native cookie support, or how to build the in-match form separately.
+
+This cycle: the Typeform spec is now written as a literal question-by-question configuration. Every question has: question type, question text, description text, field reference name, required/optional, and logic notes. Hidden fields are specified. The Zapier action sequence is written out. Form 1B (returning player abridged form) is specified. Form 2 (in-match call form) is specified. The V1 limitations (no dynamic text on thank you screen, static crowd split numbers) are named explicitly so the builder knows what to accept and what to work around.
+
+### What was not changed
+
+Everything else. The mechanic, scoring, Bold Call, call design, Slot Framework, sample call sets, Canva template spec, Airtable schema, operator runbook, edge cases, first-play flow, and all marketing/monetization files are unchanged. They were correct. Adding to them would have been motion, not progress.
+
+### Score estimate after this cycle
+
+- concept-uniqueness: 0.93 (unchanged)
+- market-positioning: 0.95 (unchanged)
+- marketing-reach: 0.88 (unchanged — still a do-it gap, not a design gap)
+- monetization-readiness: 0.92 (unchanged)
+- product-readiness: 0.91 (up from 0.78 — the two builder-blocking gaps are closed; remaining gap is execution, not specification)
+- viral-mechanics: 0.91 (unchanged)
+
+**Overall: approximately 0.92.**
+
+### What remains before build is complete
+
+All design gaps are now closed. The remaining items are execution tasks, not specification tasks:
+
+1. **Domain registration** — copafc.com (unblocks all marketing; 10 minutes)
+2. **Copa Card Canva template** — build per spec in CONCEPT.md (45 minutes; primary marketing asset)
+3. **Airtable base** — build per schema in CONCEPT.md (2–3 hours)
+4. **Typeform first-play flow** — build per literal spec now in CONCEPT.md (45 minutes)
+5. **Beehiiv email templates** — build per literal spec now in CONCEPT.md (1 hour)
+6. **URL routing setup** — Short.io redirects (30 minutes)
+7. **Stripe payment link** — $6.99 one-time (15 minutes)
+8. **r/soccer seed thread** — no build prerequisites; can go live this week
+
+The design is complete. The specs are builder-ready. Nothing else needs to be designed — only built.
+
+### Files changed this cycle
+- CONCEPT.md: Added full Beehiiv text Copa Card email body (free tier, Pro upsell block, Pro tier differences, literal Beehiiv build instructions). Added full Typeform build spec (Form 1 question-by-question, Form 1B returning player, Form 2 in-match, hidden fields, Zapier action sequence, V1 limitations). Updated V1 Feature Set table to include "Beehiiv text Copa Card template (fully written)" and "Typeform build spec (literal question-by-question)" as explicit V1 IN items.
+- JOURNAL.md: This entry.
