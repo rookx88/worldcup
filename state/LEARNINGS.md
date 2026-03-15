@@ -42,3 +42,47 @@ The World Cup produces daily completed events full of contested interpretations.
 2. Accessible to non-football fans (opinion requires no expertise)
 3. Naturally shareable (your interpretation vs. the crowd's is a story)
 4. World Cup specific (requires the volume of daily events, national allegiances, and real emotions that the World Cup uniquely generates)
+
+
+---
+
+## Generation 3 — Research Deepening Cycle
+
+### Daily Return Mechanics (New Finding)
+- Streak maintenance is the #1 retention driver in Wordle (NYT internal data). Players play days they don't want to in order to protect streaks.
+- The best daily games incorporate **irreversibility** — something about today's engagement that cannot be undone or repeated later. This makes today feel real.
+- GeoGuessr daily challenge uses a 24-hour comparison window. After 24 hours, your score can't be compared to friends'. Time-lock creates urgency.
+- Immaculate Grid's one-attempt-per-cell-ever mechanic creates genuine stakes — your permanent record is being written.
+- Copa must incorporate an irreversibility element. Missing a day's Copa moment window is permanent. Your reading of this tournament cannot be retroactively revised.
+
+### Reveal Structures (New Finding)
+- Three distinct reveal structures in group games: Sequential (Gartic Phone — chain of mutations), Interactive (Quiplash — voting during reveal), Resolution (Among Us — deduction confirmed at end).
+- Interactive reveals are most shareable because the reaction to the reveal is itself content.
+- Copa should use interactive reveal: player submits, then reveal shows comparison to crowd in a way that prompts reaction and sharing.
+
+### The Meta-Question Mechanic (New Finding)
+- "What do you think the crowd will say?" is a fundamentally different mechanic from "what do you think?"
+- Documented in: Family Feud (survey says), Herd Mentality (match the majority), Scruples (what would most people do?), "Guess the Stats" YouTube/Twitch format.
+- Keynes Beauty Contest framework: winning strategy is modeling other judges, not expressing personal preference.
+- Copa application: a mechanic built on "what % of the crowd thinks X about this moment?" makes football expertise irrelevant or a disadvantage. Social modeling ability is the skill.
+- This is the Crowd Read seed (Seed B) — the most genuinely novel mechanic identified.
+
+### Real-World Events as Game Content (New Finding)
+- Hollywood Stock Exchange (HSX.com, since 1996) demonstrated that a market built on real-world events is not prediction — it is collective intelligence production. Your action changes the price. You are contributing to a record, not forecasting one.
+- Copa's game can be the formal container for the collective canon-formation process that already happens informally in every World Cup fan community.
+
+### Monetization (First Evidence Pass)
+- GeoGuessr: ~$15M ARR at ~1.5% conversion of 40M registered users to $24/year Pro tier. Restricting free play drove conversion.
+- Jackbox: One buyer per group. Group Chat Organizer is the natural payer. Everyone else free. This is Copa's primary monetization model.
+- Sponsored moments: sports media precedent (MLB Statcast, Sky Sports sponsored segments) for brand-per-moment association without gameplay disruption.
+- Patreon at 0.1% conversion (~Flagle) is not a business — it is a hobby.
+- V1 monetization: Group Hosting (Jackbox model) + Sponsored Moments only. All other layers activate post-traction.
+
+### The Strongest New Mechanic Candidate
+- Seed B (Crowd Read): "What % of fans think this was the right call?" — not asking your opinion, asking you to model crowd opinion.
+- Football expertise may be a *disadvantage* at this mechanic. Non-experts who understand social dynamics have an equal or superior edge.
+- The shareable artifact is your crowd-read accuracy score — a novel social signal that no existing sports game produces.
+- Not prediction. Not fantasy. No existing product in this space.
+
+### Archetype Addition
+- Archetype 6 (Social Modeler): A person drawn to games where the skill is modeling other people, not domain knowledge. No existing sports game is designed for this person. The Crowd Read mechanic specifically unlocks this archetype.

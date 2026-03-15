@@ -50,3 +50,37 @@ Design cycle: select one or more seeds, develop into a game concept with mechani
 
 ### Decision
 No mechanic proposed this cycle. Research-only cycle completed as specified.
+
+
+---
+
+**Date:** 2026-03-16
+**Phase:** 1 — Design & Strategy
+**Action:** Second full research pass (Generation 3). Deepened findings across five areas. Added two new research areas: games using real-world events as content, and the meta-question mechanic. Full evidence pass on monetization.
+
+### What Was Done
+- Deepened research on daily return mechanics: identified the irreversibility pattern as the key driver of daily return that Gen 2 underweighted. Documented evidence from Wordle streaks, Immaculate Grid permanent records, GeoGuessr 24-hour windows.
+- Deepened research on group game reveal structures: identified three distinct types (sequential, interactive, resolution) and why interactive reveal is most shareable.
+- New research area: games built on real-world events as content. Hollywood Stock Exchange, KnowYourMeme canon formation, Herd Mentality board game. Key finding: a mechanic where players contribute to a collective record rather than forecast one is a distinct non-prediction category.
+- New research area: the meta-question mechanic ("what will the crowd say?" vs. "what do you think?"). Documented in Family Feud, Scruples, Herd Mentality, YouTube/Twitch "Guess the Stats" format, Keynes Beauty Contest framework. Key finding: this mechanic makes football expertise irrelevant — social modeling ability is the skill.
+- Full monetization evidence pass: GeoGuessr (~$15M ARR, 1.5% conversion), Jackbox (one buyer per group model), sponsored moments (sports media precedent), Patreon failure mode (Flagle 0.1% conversion). Identified Copa's V1 monetization stack: Group Hosting (Jackbox model) + Sponsored Moments.
+- Generated five new mechanic seeds (A through E) building on Gen 3 research, not repeating Gen 2 seeds.
+- Added Archetype 6 (Social Modeler) to PLAYERS.md.
+
+### Key New Findings
+- The irreversibility mechanic is what makes daily games feel real — today's engagement cannot be undone.
+- "What % of the crowd thinks X?" is a non-prediction, non-fantasy, expertise-agnostic mechanic. The Crowd Read (Seed B) is the strongest novel candidate.
+- Jackbox model (one buyer per group) is the correct V1 monetization target. Group Chat Organizer pays; friends join free.
+- Sponsored moments (brand per Copa Canon moment) is viable from launch without a large user base.
+
+### Files Updated
+- CONCEPT.md: Full Gen 3 research report appended. Five new mechanic seeds added.
+- MONETIZATION.md: Evidence-based monetization model written for first time.
+- PLAYERS.md: Archetype 6 (Social Modeler) added. Mechanic fit column added to all archetypes.
+- LEARNINGS.md: Gen 3 learnings appended.
+
+### Next Cycle
+Design cycle: Select one or more seeds, develop into a full game concept with mechanic, viral loop, shareable artifact, and monetization model. Strongest candidates going into design: Seed B (Crowd Read) and Seed A/D (Canon Vote / Interpretation Gap). Design must answer: what is the exact daily interaction? What does the shareable artifact look like? What creates daily return?
+
+### Decision
+Research cycle two complete. No mechanic named or designed this cycle. Research-only as specified.
