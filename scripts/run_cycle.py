@@ -37,14 +37,14 @@ def _detect_provider(prefer_claude: bool = False) -> tuple[str, str, str]:
         return ""
 
     if prefer_claude:
-        # Try Claude OAuth first
+        # Prefer direct Anthropic API key over OAuth (OAuth has been returning 400 errors)
+        key = os.environ.get("ANTHROPIC_API_KEY", "")
+        if key and not key.startswith("sk-ant-oat"):
+            return "anthropic", key, "https://api.anthropic.com/v1"
+        # Fall back to Claude OAuth
         token = _openclaw_oauth()
         if token:
             return "anthropic-oauth", token, "https://api.anthropic.com/v1"
-        # Fall back to direct Anthropic API key
-        key = os.environ.get("ANTHROPIC_API_KEY", "")
-        if key:
-            return "anthropic", key, "https://api.anthropic.com/v1"
 
     # OpenAI direct
     key = os.environ.get("OPENAI_API_KEY", "")
@@ -612,7 +612,7 @@ def main() -> None:
     print(f"  ABA — business cycle generation {next_gen}")
     print(f"{'='*48}\n")
 
-    provider, api_key, base_url = _detect_provider(prefer_claude=True)
+    provider, api_key, base_url = _detect_provider(prefer_claude=False)
     agent_model = PROVIDER_MODELS.get(provider, {}).get("agent", args.model)
     print(f"  Provider: {provider} | Agent model: {agent_model}")
     total_in = total_out = 0
@@ -652,7 +652,7 @@ def main() -> None:
     prompt = _build_prompt(next_gen, state, pre, skill_text)
 
     if not args.dry_run:
-        response, in_tok, out_tok = _call_api(api_key, prompt, model=agent_model, provider=provider, base_url=base_url, max_tokens=32768)
+        response, in_tok, out_tok = _call_api(api_key, prompt, model=agent_model, provider=provider, base_url=base_url, max_tokens=8192)
         total_in += in_tok
         total_out += out_tok
         print(f"  Agent responded ({in_tok}in / {out_tok}out tokens)")

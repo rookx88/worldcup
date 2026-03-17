@@ -1,60 +1,83 @@
 # Marketing Channels
 
 ## Status
-Initial channel observations from research. To be developed in design cycle.
+Updated for prioritized zero-budget launch path — as of March 2026.
 
 ---
 
-## Community Observations (Research Phase)
+## Channel Prioritization Matrix
 
-### High-Priority Channels
-
-**WhatsApp / Telegram Groups (World Cup Group Chats)**
-- Documented: Every social circle creates a World Cup group chat. Estimated hundreds of millions active globally during the tournament.
-- Behavior: Meme drops, hot takes, highlight sharing, viewing party coordination.
-- Opportunity: If the game produces a shareable artifact (a card, a verdict, a reading) that makes sense when dropped into a group chat, this is the primary zero-budget distribution channel.
-- Constraint: Cannot deep-link directly into group chats. Must produce shareable content that the Group Chat Organizer archetype naturally wants to share.
-
-**Twitter / X**
-- Historically the primary live sports commentary platform.
-- World Cup 2022: Twitter saw massive spikes in football-related content during matches.
-- Opportunity: Match-day shareable artifacts dropped during/after matches can spread in football Twitter communities.
-- Constraint: Organic reach declining. Works best if artifact is visually distinct and immediately legible.
-
-**TikTok / Instagram Reels**
-- 2022 Qatar World Cup: Major fan reaction content spikes. The reaction *to* the event becomes content.
-- Opportunity: If the game produces something that people find surprising or funny (e.g., "78% of people blamed the referee, I blamed the manager" reveals), this has TikTok reaction content potential.
-- Constraint: Need the game to produce surprising or absurd outputs worth filming a reaction to.
-
-**Reddit (r/soccer, national subreddits)**
-- r/soccer: One of the largest sports communities online.
-- National subreddits during World Cup: r/Morocco, r/USMNT etc. spike in activity.
-- Opportunity: If the game produces interesting aggregate data ("only 12% of fans think that red card was deserved"), this is shareable as a post, not just a card.
-- Constraint: Reddit community resists overt promotion. Must provide genuine value or interesting data.
-
-**Discord (Football Communities)**
-- Large football Discord servers run ongoing World Cup discussions.
-- Opportunity: Group play mechanic could be native to Discord. Bot integration possible.
-- Constraint: Requires bot development for native integration; can also work with a link-drop model.
-
-### Secondary Channels
-
-**YouTube** — Gap-day consumption behavior. Potential for data-driven recap content ("Here's how Copa players read the Argentina game"). Low priority for V1.
-
-**Podcasts (Football fan podcasts)** — The Athletic, The Guardian Football Weekly, national team fan podcasts. Guest appearances or sponsorship opportunities at scale. Pre-launch relationship building. Zero-budget approach: outreach with genuine game data/story.
-
-**Football fan newsletters** — Tifo Football, tactical newsletters. If game produces interesting aggregate data about how fans interpret matches, this is a natural fit for newsletter content.
+| Channel                                 | Audience Size         | Relevance           | Accessibility   | Copa Fit                                     | Priority |
+|------------------------------------------|----------------------|---------------------|-----------------|-----------------------------------------------|----------|
+| WhatsApp / Telegram Groups               | 100M+ (WC 2022 est.) | Max. Social/fan mix | High            | Shareable card fits behavior of group chat    | 1        |
+| Twitter / X                              | 10M+                 | High. Real-time WC  | Medium-High     | Shareable images, hashtags, DM to creators    | 2        |
+| Reddit (r/soccer, national subs)         | 5M+ active/month     | High. Int'l/casual  | Medium          | Aggregate insights, match threads             | 3        |
+| TikTok / IG Reels                        | Huge (50M+)          | Medium (younger)    | Medium-Low      | Needs video/card reactions, memeable moments  | 4        |
+| Discord (footy servers)                  | 500K+                | High, core fans     | Medium          | Outreach via mods/admins, bot op optional     | 5        |
+| Podcasts / YouTube (50k–500k channels)   | Variable             | Med-High, niche     | Medium          | Guest spots/mentions, pitched directly        | 6        |
+| Email Waitlist (owned)                   | To build             | High, direct        | Max             | Prelaunch signups                            | Highest  |
+| Football Newsletters                     | 250K+                | Med, informed fans  | Low             | Data recap/feature pitch                     | 7        |
 
 ---
 
-## Key Distribution Insight (From Research)
-The games that spread without paid advertising all had one thing in common: **the shareable output was the advertisement**. Wordle's emoji grid IS the ad. GeoGuessr's map screenshot IS the ad. The game Copa builds must produce a shareable artifact that is intrinsically interesting to people who haven't played yet.
+## Channel Details and Content Plan
 
-This means the shareable artifact is not a feature — it is a design constraint. The game mechanic must be designed *backward* from: "what would someone drop into a WhatsApp group that would make three people immediately want to play?"
+### Email Waitlist (Owned Asset)
+- **Role:** Primary conversion asset. All campaigns drive here.
+- **Content:** Clean waitlist page (see ACTIONS.md), mimicking Wordle/Connections minimalism. One sample Copa Card mockup, one-line value prop. No fluff.
+- **Pre-launch:** Launch page ASAP, drive all social & outreach here.
+- **Tournament:** Used for daily recap/match reads notification.
+
+### WhatsApp / Telegram Groups
+- **Role:** Viral spread via shareable Copa Card; group chat is *distribution channel* and *product surface.*
+- **Content:** Player-generated — every result card; paid organizer group results; meme recaps.
+- **Strategy:** Guidance text for sharing (“Drop your Copa Card in your football group chat after every reveal!”). Seed a few authentic groups (see PIPELINE.md), encourage group leaderboard signups.
+
+### Twitter / X
+- **Role:** Exponential reach platform for Copa Cards, especially through visually distinctive image posts.
+- **Content:** Copa match cards, bold/funny results, real Copa Canon moments; quote-tweets of major football debate threads (“Here’s what Copa readers said”); GIFS/memes on VAR/controversial moments.
+- **Frequency:** 2-5 tweets per match day; retweets of user cards.
+- **Pre-launch:** Copa handle build-up (post concept, call for waitlist); reach out to creators for co-posting at launch.
+
+### Reddit (r/soccer, nat'l team subs)
+- **Role:** Thought-leadership by providing “Here’s what 200 fans thought about today’s VAR (Copa Reads results)”; also, targeted meme engagement.
+- **Content:** After-match posts with aggregate Copa Read %s, Copa Canon reveal posts, “Did you agree with the crowd?” polls.
+- **Prelaunch:** “Would you play this?” poll in r/soccer meta; DM mods for “fan-made WC game” post clearance.
+- **During WC:** Post match-by-match data, summary highlights after major games.
+
+### TikTok / IG Reels
+- **Role:** High-virality channel for surprise/miss moments (“I was 80% offside, but Copa crowd said 12!”).
+- **Content:** Short video reactions to result reveals, meme recaps, “here’s how my Copa Card went today” selfie-vids.
+- **Strategy:** Seed with a few creator DMs (see PIPELINE.md); submit template with audio prompts for reactions.
+
+### Discord (football/game servers)
+- **Role:** Niche community. Group play possible here if bot made, otherwise shareable links/cards.
+- **Content:** Copa Card post channels, live match threads with daily cards pinned.
+- **Prelaunch:** DM server admins for “World Cup games” section/announcement.
+- **During WC:** Drop group leaderboard cards, run Copa Card of the day contest.
+
+### Podcasts / YouTube (mid-size)
+- **Role:** Endorsements, chatter in fan communities. Especially valuable in weeks pre-WC.
+- **Content:** Short guest spots (“How we built a game that’s not a prediction or fantasy -- Copa Reads”), offer demo cards, invite listeners to join.
+- **Strategy:** Outreach to pre-identified 10 (see PIPELINE.md) — focus on small/medium size for greater engagement.
+
+### Football Newsletters
+- **Role:** Niche, but highly credible. Opportunity for “Did you see Copa Read’s crowd verdict on the ref?” inclusion.
+- **Content:** Offer aggregate data (graphs, trends), “how fans really saw England–USA”.
+- **Pre-launch:** Volunteer data for newsletter roundups, free content for match previews.
 
 ---
 
-## Channels to Avoid (Based on Research)
-- **Paid social advertising** — budget constraint, and viral daily games don't grow this way.
-- **App store optimization alone** — viral daily games are often web-first (Wordle was a website, not an app).
-- **Influencer sponsorships** — budget constraint, and authenticity of organic play is the credibility signal.
+## Channel Execution Stages
+
+1. **Immediate (Mar–Apr):** Waitlist live, Twitter handle started, targeted DMs to creators/mods, posts in r/soccer meta and group chat DMs
+2. **Early Build (Apr–May):** Copa Card mockups in use, podcast and newsletter outreach tees up launch-week content; Discord server direct DMs
+3. **Launch Week (June 10–18):** Copa Cards blitz — every channel, Copa Canon launch, friends/influencer challenge, pod/YT guest slots drop
+4. **During Tournament:** Daily cards, match recaps, aggregate posts, UGC (+ meme) push
+
+---
+
+## What Not To Prioritize
+
+- Paid advertising, app store installs, “influencer” contracts, product hunt—do not produce viral growth; ignore unless organic avenues saturated.
+- Discord bot—do not build for V1 (too resource/time intensive), focus on shareable card drop instead.

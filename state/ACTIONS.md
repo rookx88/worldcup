@@ -95,3 +95,21 @@
 **Why:** June 18 is the wrong day to discover that the submission form breaks under load or that generating the reveal card takes 3 hours.
 
 **Urgency:** Schedule for May 2026. At least one test run before tournament start.
+
+---
+
+## PENDING — Pre-Launch Outreach DMs/Emails
+
+**Action:** Draft and send outreach messages to:
+- Top 10+ influencers/creators (see PIPELINE.md)
+- r/soccer and relevant Reddit mods
+- Admins of large football Discord servers
+- Hosts of target YouTube/podcasts
+
+**What:** 3-sentence pitch to try the new not-prediction World Cup daily game; invite to join waitlist and, if interested, a launch-week guest group leaderboard or exclusive preview card for their audience.
+
+**Reason:** Seeding social proof, UGC, and potentially the first viral loops. Each “authentic” group join can produce dozens of organic installs/signups. See PIPELINE.md for names and structure.
+
+**Urgency:** By mid-April 2026—allows weeks to build relationships, coordinate launch-week plugs.
+
+---

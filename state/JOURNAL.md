@@ -147,3 +147,17 @@ Either: (1) build the V1 no-code stack and complete editorial workflow; or (2) e
 
 ### Decision
 Design cycle complete. Copa Reads is the game. One concept, fully designed, grounded in three cycles of research. No further design research needed — transition to build cycle.
+
+
+---
+
+## March 26, 2026 — Launch & Growth Pre-Flight
+
+### What was done:
+- Updated CHANNELS.md with a prioritized, evidence-based channel strategy targeting WhatsApp group chats as viral core, with Twitter, Reddit, and TikTok as the social surround. Email waitlist set as highest-priority asset for capturing/activating traffic.
+- Updated PIPELINE.md with a concrete list of 14 influencer/community targets (across Twitter/YouTube/Podcasts/Reddit/Discord), with reasons and planned approaches, including seeding strategy.
+- ACTIONS.md updated with a new "Pre-Launch Outreach DMs/Emails" action, specifying immediate steps for creator/community outreach, including what to offer/ask and urgency (mid-Apr).
+- For each, focused on minimizing friction for friend-of-friend viral conversion and ensuring entries are directly actionable.
+
+### Why:
+Copa’s growth bottleneck is pre-tournament zero-budget activation. WhatsApp group chat seeding + public Copa Cards unlocks viral spread unique to 2022–2026 WC behavior; waitlist focus ensures no early traffic is wasted. Influencer seeding focused on not-too-large creators and community mods maximizes engagement and social proof—500 signups pre-June 18 is only possible with tactical, frictionless viral loop and multiple seeds. Wrote actions as PENDING to be approved/executed as next steps; pipeline log will track DM/response outcomes.
