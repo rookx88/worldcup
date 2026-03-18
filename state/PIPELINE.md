@@ -4,52 +4,56 @@
 
 ---
 
-## Influencer & Community Target Map (Initial 10+)
+## Influencer & Community Target Map (10+ Priority List, Mar 2026)
 
 ### Twitter/X
-1. @MenInBlazers (300k+) — High engagement on global WC discourse, quirky tone
-2. @FootyAccums (900k) — Viral football memes, match moments
-3. @Zonal_Marking/Michael Cox (150k) — Football tactics, trusted by smart/casuals
-4. @USMNTOnly (120k) — US nat'l focus; big for North America 2026
+1. **@MenInBlazers (300k+)** – Irreverent, huge WC reach, meme-friendly (DM, business email)
+2. **@FootyAccums (900k)** – Viral football clips, controversy engagement (DM)
+3. **@Zonal_Marking (Michael Cox, 150k)** – Football tactics, trusted insight (DM)
+4. **@USMNTOnly (120k)** – US nat’l, North America fan base (DM, tweet tag)
+5. **@ShePlaysGames (68k)** – Women’s/Game culture crossover (DM, collab)
 
 ### YouTube/Podcast
-5. Tifo Football (YT: 1M, Podcast: 50k+) — Known for accessible, narrative-driven content
-6. Rabona TV (YT: 500k) — Engaged, story/narrative focused, open to fan products
-7. The Cooligans (Podcast: ~20k) — US-based, irreverent take on soccer culture
-8. Guardian Football Weekly (Podcast: 80k) — Trusted, not too big to ignore
-9. FootyPrime (Podcast: ~7k) — Canadian WC hype, mid-size, accessible
+6. **Tifo Football (YT: 1M, Podcast: 50k)** — Narrative-driven, analytical yet accessible (email, guest pitch)
+7. **Rabona TV (YT: 500k)** — Story & meme-driven, strong group community (YT DM)
+8. **The Cooligans (Podcast: 20k)** — US-based, inclusive humor, WhatsApp use (IG DM, podcast email)
+9. **FootyPrime Podcast (YT: 12k / Pod: 10k)** — Canadian, mid-size, conversational (email)
+10. **Scouted Football (YT: 30k, Twitter: 80k)** — Younger-skewing, group-chat-using (email, Twitter DM)
 
-### Reddit
-10. r/soccer mods — Largest soccer subreddit, possible pin or meta post
-11. r/WorldCup mods — Seasonal surge; open to event-based games/content
-12. r/USMNT, r/MLS — National subreddits; high engagement, especially for 2026 host nations
+### Reddit & Discord
+11. **r/soccer** – Meta/pin thread pitch to mods for “how the crowd actually saw…” (modmail)
+12. **r/WorldCup** – Every-four-years crowd, special-event content (modmail)
+13. **r/USMNT** – National, US (modmail)
+14. **Discord “The Football Chat” (35k)** – Group recaps, shared cards contest (admin DM)
+15. **Discord “FIFA World Cup Community” (60k)** – Largest global server (admin DM)
 
-### Discord
-13. “The Football Chat” (35k+) — approaching server admins
-14. “FIFA World Cup Community” (60k) — large, mod outreach
+*Extra: Add response tracking column for sent DMs, reply, date, next steps.*
 
 ---
 
 ## Outreach Offers/Approach
 
-- **What to offer:** Early game demo link, exclusive Copa Card templates, shout-outs / features for participating creators, “How fans really saw [big call] in today’s match,” cross-promo in-game.
-- **How to reach:** DM on Twitter/Discord, business email (public in bios), Reddit modmail, podcast guest inquiry forms.
+- **Offer:** Early demo, Copa Card for their audience, leaderboard for their group, possibility to be on first “Copa Canon” reveal, code for private group play
+- **How to reach:** DM/Twitter, podcast guest forms, email, Reddit modmail, Discord DM
 
 ---
 
 ## Seeding Plan
 
-- Reach out to 10 creators/pods by mid-April 2026 with: (a) short invite pitch, (b) link to waitlist, (c) offer to be part of launch content or to run first “group leaderboard.”
+- First, DM 10 creators/5 community admins by early April 2026
+- Track responses, amplify successful conversions by RTing/sharing Cards public
+- Friend-of-friend viral path: Group Cards in WhatsApp/Discord, create visible social proof
 
 ---
 
 ## Track/Expand
 
-- Add more YouTubers below 50k+ subs (special focus: English, Spanish, French, Arabic creators for host & diaspora markets).
-- Monitor Discord/Reddit engagement—expand list with responsive admins/mods.
+- Add mid-tier creators in Spanish, French, Arabic (targeting host/diaspora spread)
+- Monitor Discord/Reddit responsiveness; expand if first contacts positive
+- Log all outreach events and replies
 
 ---
 
 ## Next Steps
-- Draft DMs/emails to above; log sent/responses per channel
-- Log group chat organizer friend-of-friend outreach post-launch (real viral seed)
+- Draft 2–3 outreach message templates—one for creators, one for group admins/mods (to ACTIONS.md)
+- Log who was contacted, response, and any resulting collaborations

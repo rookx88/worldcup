@@ -175,3 +175,16 @@ Copa’s growth bottleneck is pre-tournament zero-budget activation. WhatsApp gr
 - Design phase essentially fully locked. Ready for shift to build, waitlist, and creator outreach (Phase 2, pending metrics).
 
 Reasoning: Design clarity and shareability are complete strengths. No further major mechanic changes anticipated before launch unless test run surfaces reliability issues.
+
+
+---
+
+## March 29, 2026 — Zero to 500 Signup Growth Strategy & Pre-Launch Channel Plan
+
+- Updated CHANNELS.md with a ranked, evidence-based channel prioritization for Copa's zero-budget launch: WhatsApp/Telegram Groups as main viral vehicle, Twitter/X and Reddit as main public reach, Email Waitlist as highest-priority owned asset. For each, defined precise content types, poster, and match-to-channel fit. Added week-by-week execution steps.
+- Updated PIPELINE.md with a concrete list of 15+ specific creators, podcasts, Twitter handles, Discords, and subreddits—each with direct approach channel, rationale, and offer. Clarified the offer specificity (early demo, “Copa Card” for their audience, group leaderboard) for higher response rates. Included instructions to track responses and expand reach, especially for international markets and those serving diaspora fans.
+- ACTIONS.md: Added PENDING items for DM templates (both influencer and community admin), keyed to outreach execution in April, and clarified the group seeding and viral loop steps.
+- No changes to monetization approach; Jackbox (group pay) and sponsored moment remain best-fit per available market evidence.
+- This cycle focused on mapping a mechanically sound, frictionless viral loop: play → get card → share in group chat or on Twitter/Reddit → friend sees card → clicks to landing or waitlist → plays now or signs up for next match. Group hosting payment (Jackbox) and shareable Card artifact are core to organic spread and conversion.
+- Growth bottleneck: conversion from share to first play, overcome by minimal-steps lander (email-only) and clear next-action CTA.
+- Next cycle: execute first wave of DMs using new templates; log responses and adapt outreach accordingly; push waitlist page live.

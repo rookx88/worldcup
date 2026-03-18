@@ -113,3 +113,12 @@
 **Urgency:** By mid-April 2026—allows weeks to build relationships, coordinate launch-week plugs.
 
 ---
+
+## PENDING — DM Templates for Outreach
+
+**Action:** Draft 2–3 message templates for:  
+- Creators/influencers (“guest group/feature your audience’s Card in-game”)  
+- Mods/admins (“can we post shareable daily scorecards in your server/thread?”)  
+
+**Why:** Speed up personal outreach and minimize friction.  
+**Urgency:** With first DMs (early April 2026)
