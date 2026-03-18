@@ -161,3 +161,17 @@ Design cycle complete. Copa Reads is the game. One concept, fully designed, grou
 
 ### Why:
 Copa’s growth bottleneck is pre-tournament zero-budget activation. WhatsApp group chat seeding + public Copa Cards unlocks viral spread unique to 2022–2026 WC behavior; waitlist focus ensures no early traffic is wasted. Influencer seeding focused on not-too-large creators and community mods maximizes engagement and social proof—500 signups pre-June 18 is only possible with tactical, frictionless viral loop and multiple seeds. Wrote actions as PENDING to be approved/executed as next steps; pipeline log will track DM/response outcomes.
+
+
+---
+
+## March 27, 2026 — Game Mechanic & V1 Spec Finalized
+
+- CONCEPT.md fully rewritten with the complete Copa Reads game mechanic, daily flow, shareable card structure, group play mode, and V1 MVP cut defined. This version incorporates all research and is structured for reader clarity and external reference.
+- ACTIONS.md unchanged (all tasks still PENDING, accurate for current phase).
+- Key design decisions: 100% non-prediction; crowd-read mechanic only possible with World Cup moments; no fantasy/roster/stat elements anywhere. Additive points (not streaks), daily irreversibility mechanic, and group WhatsApp/Discord viral loop fully described.
+- Group Card (Organizer version) and permanent Copa Canon (crowd archive) retained, as is manual editorial ops for V1.
+- All V1 feature cuts and “what makes this new” arguments made explicit for reference when updating landing page or pitching to creators.
+- Design phase essentially fully locked. Ready for shift to build, waitlist, and creator outreach (Phase 2, pending metrics).
+
+Reasoning: Design clarity and shareability are complete strengths. No further major mechanic changes anticipated before launch unless test run surfaces reliability issues.
