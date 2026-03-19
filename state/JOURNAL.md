@@ -201,3 +201,15 @@ Reasoning: Design clarity and shareability are complete strengths. No further ma
 - Launch week schedule detailed: prelaunch social proof, waitlist urgency, mod/creator co-announcement is key for jump-starting viral loop. Focus remains on frictionless share-to-signup, maximizing group play and social proof sharing to ordinary fans, not just football experts.
 - Metrics to watch: waitlist conversion per channel/collab, Card shares per daily user, Discord/Reddit engagement posts approved, group pass conversion.
 - Next phase: Approve/review DMs and seed first outreach. Build OUTREACH.md. Move to first public sample Cards. No product mechanic changes required.
+
+
+---
+
+## April 1, 2026 — Zero-to-500 Signup Launch Path Strategy Update
+
+- CHANNELS.md fully updated with channel-by-channel, week-by-week organic launch strategy targeting first 500 signups. Now ranks WhatsApp/Telegram group virality as top channel, with Twitter/Reddit/Discord and owned email waitlist as core conversion and retention drivers. For each, defined content (pre-launch, launch, in-tournament), post frequency, and source (Copa, UGC, creator), and outlined why each fits Copa’s viral loop and signup friction points.
+- PIPELINE.md updated with 15 named creators/mods/podcasts/Discords, each with rationale, outreach method, and specific value to viral loop. Expansion to diaspora/language groups added for May. Offer and outreach mapped for each partner.
+- ACTIONS.md: Added new PENDINGs for DM templates (for all partner types), OUTREACH.md log setup, and Group Card social proof seeding. All next-step actions for April (templates, DM tracking, social proof testimonial push) are explicit.
+- Core loop clarified: Player → Card → group/public share → join/waitlist via easy URL → play. Minimal step onboarding, no paywall, one-click frictionless share.
+- This strategy prioritizes the Group Chat Organizer, leverages match-day meme/FOMO cycles, and shifts “social proof” from leaderboard to “our group’s take vs the world,” creating meaningful share triggers for casuals and superfans alike.
+- No changes needed to product or monetization for this cycle; execution moves to outreach, testimonial capture, and public awareness ahead of test runs.

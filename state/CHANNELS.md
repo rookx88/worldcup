@@ -2,10 +2,11 @@
 
 ## Status
 Re-ranked as of March 30, 2026, post-strategy cycle. Channel priority, content plan, and assignments clarified for zero-budget, pre-tournament activation.
+## Updated April 1, 2026 — Zero-to-500 Signup Launch Path
 
 ---
 
-## Channel Prioritization Matrix (March 30, 2026)
+## Channel Prioritization Matrix (Final, April 2026)
 
 | Channel                                 | Audience Size         | Relevance           | Accessibility      | Copa Fit                                       | Priority |
 |------------------------------------------|----------------------|---------------------|--------------------|-----------------------------------------------|----------|
@@ -22,83 +23,79 @@ Re-ranked as of March 30, 2026, post-strategy cycle. Channel priority, content p
 
 ## Channel Content & Execution Plan
 
-### 1. WhatsApp / Telegram Groups (**TOP PRIORITY**)
-- **Pre-launch:** No public posting; seeded sample Cards to friend circles/moderators for UGC/testimonials.
-- **Launch week:** Shareable Copa Cards in small/large groups; Group Cards via Organizer.
-- **Tournament:** Players post Cards natively after each reveal (“How did we do?”). Copa Group Card artifact distributed post-match.
-- **Content:** Visual Card, Group leaderboard recap, minimal text.
-- **Who posts:** Players (user-generated, viral).
+### 1. WhatsApp / Telegram Groups (**HIGHEST IMPACT**)
+- **Pre-launch (now–June 1):** Seed sample Copa Read Cards with friend circles, key WhatsApp group admins, and Discord group leaders. Encourage drop-in sharing and testimonial capture.  
+- **Launch week (June 10–18):** Push group Cards (Organizer version) via early buyers into 5–10 large active groups.  
+- **During tournament:** Players auto-share daily Cards to group chats; Group Organizers post leaderboards after reveals.
+- **Content:** Visual Copa Read Card, Group Cards, concise leaderboards.
+- **Who posts:** Users + Organizers (key viral lever).
+- **Frequency:** Daily (after match reveals), with surge during high-drama matches.
 
 ### 2. Twitter / X
-- **Pre-launch:** Copa account shares teaser cards, “not prediction” threads, waitlist push. Reach out to small-mid creators for demo/react.
-- **Launch week:** Copa live-tweets Cards, match moment debates, RTs creator/user Cards (social proof).
-- **Tournament:** Daily Cards and memes, reply-chain invitation to “beat the crowd” for each game.
-- **Content:** Card screenshots, reaction threads, share contests, quote memes.
-- **Who posts:** Copa + creators + any player (viral).
+- **Pre-launch:** Announce waitlist, tease visual Cards, meme-friendly “not a prediction game” explainers. DM outreach to meme/football creators for joint “beat the crowd” challenges.
+- **Launch week:** Live tweet first public Cards, tag creators, seed memes. Recruit 3–5 creators for “show your Card” public threads.
+- **During tournament:** Copa main/creator accounts post Card reveals, “who matched the crowd?” memes, debate prompts around dramatic Reads.
+- **Content:** Card images, gap stories, meme spins, group challenge prompts.
+- **Who posts:** Copa, creators, any player (high UGC potential).
+- **Frequency:** 1–2x per match, reaction surges for big moments.
 
-### 3. Reddit (r/soccer, r/WorldCup, r/nationalteams)
-- **Pre-launch:** Pitch mods with meta/concept thread (“Would you play...?”) and sample Card.
-- **Launch week:** Result/meta thread after each big match, “Copa crowd vs. r/soccer — agree?” Poll post after major moments.
-- **Tournament:** Card recaps, crowd/vote reveals, drama moments shared in live threads.
-- **Content:** Crowd consensus visuals, highlight debates, aggregate stats.
-- **Who posts:** Copa, mods (with permission), and UGC contributions.
- 
-### 4. Email Waitlist (owned asset)
-- **Pre-launch:** Signups from every channel, “your Card” preview.
-- **Launch week:** Launch announcement, clear “Play match 1 now” CTA.
-- **Tournament:** Per-player Copa Card delivery after each match played.
-- **Content:** Card result, simple CTA for next round, minimal promo.
-- **Who posts:** Copa.
+### 3. Reddit (r/soccer, national team subs)
+- **Pre-launch:** Pitch mods with a single “would you play X?” meta post and demo Card; seek approval for launch week “official Card reveal” threads.
+- **Launch week:** Post first group Card after opening matches; meta thread for “Copa crowd vs r/soccer” after each high-profile match.
+- **During tournament:** Daily aggregate Card, meme comments, controversial Read recaps, AMAs during match gaps.
+- **Content:** Crowd consensus visuals, “our take vs the world,” highlight drama.
+- **Who posts:** Copa, pre-approved mods, UGC with permission.
+- **Frequency:** Every match for recaps, more for drama/controversy.
+
+### 4. Email Waitlist (Owned Asset)
+- **Pre-launch:** Launch minimal landing (Carrd/Webflow); drive every first signup from other channels to email.
+- **Launch week:** Announce “Match 1 now live” email to all signups.
+- **During tournament:** Daily Card delivery (to those who played), recap for absentees, streak-based FOMO nudges after 2–3 matches.
+- **Content:** Copa Card PNG, “how close are you to the crowd?” prompt, streak reminders.
+- **Who posts:** Copa auto/manual send.
+- **Frequency:** 1 per reveal per match.
 
 ### 5. Discord (football servers)
-- **Pre-launch:** DM admins with pitch (“run a private group leaderboard?”), drop sample Cards.
-- **Launch week:** Copa Group Card pinned in partner servers.
-- **Tournament:** Group leaderboard Cards, meme triggers, result reveals after matches.
-- **Content:** Recap images, leaderboard updates, meme contests.
-- **Who posts:** Copa, server admins, users.
+- **Pre-launch:** DM server admins for early launch leaderboard; pin cards for “test group game.”
+- **Launch week:** Group leaderboards, meme contests (“best Card gap”), Copa Canon archive reveal.
+- **During tournament:** Post daily recap Cards, organize mini-group showdowns (USMNT, Brazil, etc).
+- **Content:** PNG images, leaderboard embeds, meme triggers.
+- **Who posts:** Copa, admins, key UGC sharers.
+- **Frequency:** Daily, plus event-driven posts.
 
 ### 6. TikTok / IG Reels
-- **Pre-launch:** Seed to micro-creators for “Copa Card reaction” video.
-- **Launch week:** Demo video with “how did your group see the moment?” reaction prompt.
-- **Tournament:** Card reveal reaction/duet memes.
-- **Content:** Card reveals, meme spins, group reaction edits.
-- **Who posts:** Creators, users (target: 3–5/wk in tournament).
+- **Pre-launch:** Seed to micro-creators for Copa Card reaction duets.
+- **Launch week:** Demo videos, how-to-play segments, “did your group match the crowd?” challenges.
+- **During tournament:** User reaction duets, meme spins on wildest “gap” Reads.
+- **Content:** Card reveals, meme edits, challenge tags.
+- **Who posts:** Creators, users (3–5 stories/duets per week).
+- **Frequency:** Episodic; 2–3x per match week.
 
 ### 7. YouTube/Podcasts
-- **Pre-launch:** Outreach to 10–12 small/mid creators for guest/demo.
-- **Launch week:** Short explainer slot, “guess the crowd” on-air segment.
-- **Tournament:** Inclusion in group reaction/prediction content, Card screenshots.
-- **Content:** Demo playthrough, group reaction, host challenge.
-- **Who posts:** Copa as guest, creators.
+- **Pre-launch:** 10 targeted approaches for 60–120 sec explainer/demo slot.
+- **Launch week:** Short group “playthrough” or Card reveal segment in creator shows.
+- **During tournament:** Copa Cards featured in creator group reacts, topical tie-ins (post-match, post-drama).
+- **Content:** Demo play, reaction cut-ins, feature “can you read the crowd?” challenge.
+- **Who posts:** Copa (as guest), show hosts, creators.
+- **Frequency:** 2–5x per week among partners.
 
 ### 8. Football Newsletters
-- **Pre-launch:** Pitch for “crowd verdict” segment, Copa Card as UGC.
-- **Launch week:** Aggregate crowd reaction on key matches.
-- **Tournament:** Recap or meme inclusion.
-- **Content:** “How the world saw it” segment, Card PNG/graphic.
-- **Who posts:** Copa (B2B pitch), newsletter authors.
+- **Pre-launch:** Pitch “crowd consensus moment” mini-segment.
+- **Launch week:** Copa Card snippets in newsletter match recaps.
+- **During tournament:** Copa Canon and wildest Reads shared as quick UGC blocks.
+- **Content:** Recap graphics, crowd-rich data snippets.
+- **Who posts:** Copa pitch, newsletter authors.
 
 ---
 
-## Channel Week-by-Week Plan
+## Week-by-Week Plan (April–June 18, 2026)
 
-**April 1–May 15:**  
-- Waitlist live; sample Cards seeded to WhatsApp circles (friends, player 0s), DMs sent to Twitter, Discord, Reddit mods/creators.  
-- Pitch and gain mod/creator approval for public content posts in June.
-
-**May 16–June 9:**  
-- Build social proof: user-generated Cards from early opt-ins, group tests, demo reactions.  
-- Approve detailed Reddit/Discord launch post content; collect “why I played” micro-stories as UGC.
-
-**June 10–17 (Launch Blast):**  
-- Public Card sharing begins on WhatsApp, Reddit, Twitter/X, Discord.  
-- Target is 3+ creator inclusions or watched group competitions (live or pre-recorded).
-
-**June 18+:**  
-- Daily: Copa posts 2–3 Cards to Twitter/Reddit/Discord, amplify creator Cards.  
-- All new Cards have “share now” CTA on artifact; WhatsApp/Discord pushes keep group engagement rolling.  
-- Weekly: Copa sends streak/recap email to waitlist, anchor moment recaps on Reddit.
+- **April 1–7:** Landing page live, first Cards seeded to WhatsApp/Discord, begin DMing creator/podcast/admin pipeline.
+- **April 8–30:** Secure mod/creator posting approvals, capture 10+ testimonials/social proof Cards, let group Cards circulate in high-relevance WhatsApp/Discord/test servers.
+- **May 1–15:** Approve/QA public posts, finalize pipeline partner commitments, amplify UGC Cards on Twitter/Reddit, build need-to-play urgency.
+- **May 16–June 9:** Waitlist push, Card FOMO (“can your group beat the Copa crowd?”) via all channels; target 200+ signups from 5+ viral group Cards.
+- **June 10–18:** Public launch — daily Cards, leaderboard Cards to all live WhatsApp/Discord group chats, daily Twitter/Reddit reveals, TikTok/IG meme pushes, creators post demo result videos. Target viral loop: live group challenge Cards circulating match-by-match.
 
 ---
 
-# END UPDATE (March 30, 2026)
+# END UPDATE (April 1, 2026)

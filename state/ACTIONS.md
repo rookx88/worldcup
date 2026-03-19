@@ -131,3 +131,13 @@
 **Fields:** Name, channel/contact, message date, response, next action/followup, result (UGC/feature/testimonials)
 **Why:** Ensures no “lost lead,” enables timely follow-up and metric tracking.
 **Urgency:** Track all outreach from April 2026 onward.
+
+---
+
+## PENDING — Group Card Social Proof Seeding
+
+**Action:** Collect and share 5+ social proof Copa Read Cards from key group chats and friendly Discords during pre-launch.
+**How:** Obtain explicit permission to share screenshots of group Cards (WhatsApp, Discord, Twitter), then post them on public and owned channels as “look how our group compared to the world.”
+**Why:** Drives credibility and FOMO for new groups to host/join and increases share-to-signup conversion in core viral loop.
+**Urgency:** First round by May 2026, with seeding in next pipeline outreach.
+
