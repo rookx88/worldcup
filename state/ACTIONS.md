@@ -122,3 +122,12 @@
 
 **Why:** Speed up personal outreach and minimize friction.  
 **Urgency:** With first DMs (early April 2026)
+
+---
+
+## PENDING — Outreach Tracking
+
+**Action:** Set up OUTREACH.md log for all influencer, mod, and admin contacts
+**Fields:** Name, channel/contact, message date, response, next action/followup, result (UGC/feature/testimonials)
+**Why:** Ensures no “lost lead,” enables timely follow-up and metric tracking.
+**Urgency:** Track all outreach from April 2026 onward.

@@ -188,3 +188,16 @@ Reasoning: Design clarity and shareability are complete strengths. No further ma
 - This cycle focused on mapping a mechanically sound, frictionless viral loop: play → get card → share in group chat or on Twitter/Reddit → friend sees card → clicks to landing or waitlist → plays now or signs up for next match. Group hosting payment (Jackbox) and shareable Card artifact are core to organic spread and conversion.
 - Growth bottleneck: conversion from share to first play, overcome by minimal-steps lander (email-only) and clear next-action CTA.
 - Next cycle: execute first wave of DMs using new templates; log responses and adapt outreach accordingly; push waitlist page live.
+
+
+---
+
+## March 30, 2026 — Organic Launch Path Strategy Cycle
+
+- CHANNELS.md re-ranked for Copa's zero-to-500 pre-tournament target, emphasizing WhatsApp/Telegram Groups as the highest-priority viral vector among real fans, followed by Twitter/X (meme, debate, creator engagement), Reddit (meta and recap posts), and owned email waitlist (retention/onboarding core). Each has new, channel-specific content plans and assignments, mapped to week-by-week pre/tournament execution.
+- PIPELINE.md updated with spring 2026 targets: 10+ specific Twitter/YouTube/Podcast/Reddit/Discord creators and communities, each with why-them, priority content, and specific offer/In-fit for Copa's viral loop. Seeding plan and tracking process outlined for April–June.
+- ACTIONS.md: Added PENDING items for (1) message template drafting (creators, mods/admins) and (2) an explicit OUTREACH.md tracking action to ensure all DMs, modmails, and collaborations are tracked through initial reply to outcome.
+- Viral loop clarified: player → Card artifact → share in group social context or public channel → social proof “proof-of-play” in organic context → friend/group click-through → waitlist or live play with minimal friction.
+- Launch week schedule detailed: prelaunch social proof, waitlist urgency, mod/creator co-announcement is key for jump-starting viral loop. Focus remains on frictionless share-to-signup, maximizing group play and social proof sharing to ordinary fans, not just football experts.
+- Metrics to watch: waitlist conversion per channel/collab, Card shares per daily user, Discord/Reddit engagement posts approved, group pass conversion.
+- Next phase: Approve/review DMs and seed first outreach. Build OUTREACH.md. Move to first public sample Cards. No product mechanic changes required.
