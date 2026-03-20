@@ -154,3 +154,4 @@
 **Why:** Each step is aligned with pre-500 signup target using only organic/prioritized channels.
 **Urgency:** Weekly, sequentially from April 1 to tournament start.
 
+
