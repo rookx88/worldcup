@@ -213,3 +213,12 @@ Reasoning: Design clarity and shareability are complete strengths. No further ma
 - Core loop clarified: Player → Card → group/public share → join/waitlist via easy URL → play. Minimal step onboarding, no paywall, one-click frictionless share.
 - This strategy prioritizes the Group Chat Organizer, leverages match-day meme/FOMO cycles, and shifts “social proof” from leaderboard to “our group’s take vs the world,” creating meaningful share triggers for casuals and superfans alike.
 - No changes needed to product or monetization for this cycle; execution moves to outreach, testimonial capture, and public awareness ahead of test runs.
+
+
+---
+
+## April 1, 2026 — Pre-500 Week-by-Week Launch Action Plan
+
+- Added WKLY launch tasks as explicit PENDING actions in ACTIONS.md, structured by week April 1–June 18. These now detail exactly what posts and outreach Copa must execute (landing page live, WhatsApp/Discord/Reddit seeding, testimonial collection, FOMO pushes, channel cross-posts, launch week turbocharge).
+- This makes the growth plan operational, not theoretical: every week has at least one “do-now” external action aligned to zero-budget viral mechanics and the group chat-first strategy.
+- Next: Approve individual outreach message templates, begin tracking live outreach results in OUTREACH.md, and start collecting first Card testimonials for credibility and FOMO leverage.

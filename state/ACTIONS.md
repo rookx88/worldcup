@@ -141,3 +141,16 @@
 **Why:** Drives credibility and FOMO for new groups to host/join and increases share-to-signup conversion in core viral loop.
 **Urgency:** First round by May 2026, with seeding in next pipeline outreach.
 
+---
+
+## PENDING — Week-by-Week Launch Tasks (April–June 18, 2026)
+
+**Action:** Execute channel-specific posts and outreach per launch sequence:
+- Week of April 1: Landing page live, seed example Copa Cards/images to friendly WhatsApp/Discord groups, DM outreach begins.
+- April 8–30: Collect/curate first Card testimonials, submit modmail/DMs for Reddit/Twitter/Discord collaboration approval.
+- May 1–15: Approve Reddit/Discord posts, coordinate with first partners for launch-week cross-post; expand WhatsApp/Telegram group seeds.
+- May 16–June 9: Push FOMO posts (“can your group beat the crowd?”) and waitlist reminders.
+- June 10–18: Launch daily Cards, post/share in all prioritized channels, turbocharge memeable group results, and track share→waitlist→play funnel.
+**Why:** Each step is aligned with pre-500 signup target using only organic/prioritized channels.
+**Urgency:** Weekly, sequentially from April 1 to tournament start.
+
