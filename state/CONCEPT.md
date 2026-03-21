@@ -149,3 +149,4 @@ Window for joining is always the *next* match — missed days can be browsed (FO
 ---
 
 # END OF DESIGN
+

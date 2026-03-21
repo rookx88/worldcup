@@ -234,3 +234,10 @@ Reasoning: Design clarity and shareability are complete strengths. No further ma
 - Core loop clarified: Player → Card → group/public share → join/waitlist via easy URL → play. Minimal step onboarding, no paywall, one-click frictionless share.
 - This strategy prioritizes the Group Chat Organizer, leverages match-day meme/FOMO cycles, and shifts “social proof” from leaderboard to “our group’s take vs the world,” creating meaningful share triggers for casuals and superfans alike.
 - No changes needed to product or monetization for this cycle; execution moves to outreach, testimonial capture, and public awareness ahead of test runs.
+
+
+---
+
+## April 1, 2026
+
+- Integrated full, finalized Copa Reads gameplay design into CONCEPT.md, reflecting the fully original, non-prediction core mechanic: players "read the room" after each match, estimating crowd opinion on controversial moments rather than predicting outcomes. Design details now cover the entire core flow, scoring logic, viral artifact (shareable card), group play/monetization (Organizer/Jackbox model), and day-one MVP requirements. This update strictly follows all rules: not a prediction or fantasy game, leverages a never-before-used meta-social mechanic in World Cup context, and matches research on what makes viral, shareable, accessible games tick. No new external actions are triggered this cycle; focus is on crystallizing game logic and unique value for the next execution phase.
