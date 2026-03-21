@@ -241,3 +241,14 @@ Reasoning: Design clarity and shareability are complete strengths. No further ma
 ## April 1, 2026
 
 - Integrated full, finalized Copa Reads gameplay design into CONCEPT.md, reflecting the fully original, non-prediction core mechanic: players "read the room" after each match, estimating crowd opinion on controversial moments rather than predicting outcomes. Design details now cover the entire core flow, scoring logic, viral artifact (shareable card), group play/monetization (Organizer/Jackbox model), and day-one MVP requirements. This update strictly follows all rules: not a prediction or fantasy game, leverages a never-before-used meta-social mechanic in World Cup context, and matches research on what makes viral, shareable, accessible games tick. No new external actions are triggered this cycle; focus is on crystallizing game logic and unique value for the next execution phase.
+
+
+---
+
+## April 1, 2026 — Game Mechanic Finalized: Copa Reads
+
+- Replaced fantasy/pick-based design prompt with fully original mechanic as per strict anti-prediction directive. Copa Reads is a “read the room” game: after each match, players estimate what % of fans will side with each interpretation of key moments (not what will happen). Skill = social insight, not football knowledge. No picks, predictions, or fantasy roster at any stage.
+- Design details: five daily Reads (interpretation prompts), a scoring system that rewards closeness-to-crowd and “bold” correct calls, and viral artifact (shareable card showing gap between your read and the crowd’s). Group Chat Organizer pays for group leaderboard (Jackbox model). 
+- Minimum viable build requires only a site with updates, a basic submission form, manual card generation, and manual group code fulfillment. No app, no backend, minimal ops.
+- Key tradeoffs: Prioritizing shareability and World Cup uniqueness over all, at cost of traditional fantasy loop. Irreversibility (one chance per day, 24h window) built in for daily return mechanics.
+- This satisfies all constraints: it is not prediction/fantasy, is genuinely new to sports/gaming, is maximally accessible, and is operationally feasible pre–June 18. ACTIONS.md updated separately as needed.
