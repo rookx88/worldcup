@@ -75,9 +75,10 @@
     - *Why:* Tournament’s biggest Discord; real-time reach.
     - *Reach:* Admin DM.
 
-### National/Diaspora Expansion — For May/June
+### National/Diaspora Expansion — May/June Target
 - Add 3–4 creators/WhatsApp/Discord leads per Spanish/French/Portuguese/Arabic top-market.
 - Offer community-branded Copa Cards, rapid meme support, viral loop training.
+- **Targets:** E.g., @BrasilGlobalTour (Pt), @SomosLaSeleccion (Es), @LionsdelAtlas (Ar/Fr), @FRBlueSoccer (Fr), Discords: “La Peña del Fútbol”, “FutebolPT”, “WorldCup Maroc”.
 
 ---
 
@@ -104,4 +105,3 @@
 - Monitor click-to-waitlist ratio for every unique outreach.
 
 # END (April 1, 2026)
-

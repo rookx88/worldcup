@@ -262,3 +262,14 @@ Reasoning: Design clarity and shareability are complete strengths. No further ma
 - PIPELINE.md updated with 15+ named creators, communities, and high-leverage mods/admins (Twitter, YouTube, Reddit, Discord), each with rationale, outreach path, and offer. Emphasis on meme-fit, rapid FOMO, and "our group vs. the world" proof.
 - ACTIONS.md: Added all pre-500 pathway items as PENDING—including outreach drafting, DM templates, group card seeding, OUTREACH log, and action-by-week for April–June 18. Explicit next steps for messaging, testimonials, and tracking.
 - Viral loop mapped: player→Card→chat share→friend→waitlist→play. Pre-seed testimonials/social proof, minimize onboarding friction, maximize FOMO. All steps documented, no-budget constraints strictly integrated. Next: approve DM/Modmail copy, begin tracked outreach, and seed UGC for credibility.
+
+
+---
+
+## April 2, 2026 — Diaspora/National Language Group Expansion Action Added
+
+Added new PENDING action in ACTIONS.md: identify and reach out to 3–4 creators, WhatsApp admins, or Discord group leads in Spanish, French, Portuguese, and Arabic speaking football communities. Rationale: leverage Copa’s viral loop in diaspora/world language markets, capitalize on the uniquely global, multi-national World Cup audience, and diversify sources of viral group signups ahead of June launch.
+
+PIPELINE.md updated to add example targets and Discord/WhatsApp diaspora group names to the targeting plan, with offer specificity (co-branded/language-localized Cards).
+
+This expands Copa’s growth plan by addressing World Cup’s cross-language, cross-market viral opportunity—a unique lever organic sports games typically underuse. No new steps for other phase trackers; next cycle will formalize first outreach/testimonials in non-English channels.

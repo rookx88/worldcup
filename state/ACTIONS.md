@@ -154,6 +154,13 @@
 **Why:** Each step is aligned with pre-500 signup target using only organic/prioritized channels.
 **Urgency:** Weekly, sequentially from April 1 to tournament start.
 
+---
 
+## PENDING — Diaspora/National Language Group Expansion
 
+**Action:** Identify and reach out to 3–4 creators, WhatsApp group admins, or Discord leads in Spanish, French, Portuguese, and Arabic speaking football communities (e.g., community leads for Brazil, Spain, Morocco, Senegal, Mexico).
+**What:** Offer these leads an exclusive early Copa Card for their group (co-branded or language-localized version), plus launch-week meme amplification help.
+**Why:** This extends the viral loop to diaspora groups and increases international diversity, hitting a key World Cup mechanic and growing signups in new audience segments.
+**Urgency:** Begin in May 2026 (complete first round before June 10).
 
+---
