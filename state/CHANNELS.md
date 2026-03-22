@@ -1,7 +1,7 @@
 # Marketing Channels
 
 ## Status
-Re-ranked as of March 30, 2026, post-strategy cycle. Channel priority, content plan, and assignments clarified for zero-budget, pre-tournament activation.
+Re-ranked as of April 1, 2026, post-strategy cycle. Channel priority, content plan, and assignments clarified for zero-budget, pre-tournament activation.
 ## Updated April 1, 2026 — Zero-to-500 Signup Launch Path
 
 ---

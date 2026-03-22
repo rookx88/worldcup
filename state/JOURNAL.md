@@ -252,3 +252,13 @@ Reasoning: Design clarity and shareability are complete strengths. No further ma
 - Minimum viable build requires only a site with updates, a basic submission form, manual card generation, and manual group code fulfillment. No app, no backend, minimal ops.
 - Key tradeoffs: Prioritizing shareability and World Cup uniqueness over all, at cost of traditional fantasy loop. Irreversibility (one chance per day, 24h window) built in for daily return mechanics.
 - This satisfies all constraints: it is not prediction/fantasy, is genuinely new to sports/gaming, is maximally accessible, and is operationally feasible pre–June 18. ACTIONS.md updated separately as needed.
+
+
+---
+
+## April 1, 2026 — Channel & Influencer Strategy, Viral Loop
+
+- Updated CHANNELS.md with prioritized channel stack, detailed zero-budget content strategy for each (pre-launch, launch week, in-tournament), and explicit weekly sequencing. WhatsApp/Telegram group virality confirmed as top priority, with Twitter, Reddit, and email list built for conversion and retention. Defined what content (Cards, memes, reels, group leaderboard, testimonials) goes on each channel, posted by whom, and at what frequency.
+- PIPELINE.md updated with 15+ named creators, communities, and high-leverage mods/admins (Twitter, YouTube, Reddit, Discord), each with rationale, outreach path, and offer. Emphasis on meme-fit, rapid FOMO, and "our group vs. the world" proof.
+- ACTIONS.md: Added all pre-500 pathway items as PENDING—including outreach drafting, DM templates, group card seeding, OUTREACH log, and action-by-week for April–June 18. Explicit next steps for messaging, testimonials, and tracking.
+- Viral loop mapped: player→Card→chat share→friend→waitlist→play. Pre-seed testimonials/social proof, minimize onboarding friction, maximize FOMO. All steps documented, no-budget constraints strictly integrated. Next: approve DM/Modmail copy, begin tracked outreach, and seed UGC for credibility.
