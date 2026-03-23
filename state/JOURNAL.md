@@ -273,3 +273,13 @@ Added new PENDING action in ACTIONS.md: identify and reach out to 3–4 creators
 PIPELINE.md updated to add example targets and Discord/WhatsApp diaspora group names to the targeting plan, with offer specificity (co-branded/language-localized Cards).
 
 This expands Copa’s growth plan by addressing World Cup’s cross-language, cross-market viral opportunity—a unique lever organic sports games typically underuse. No new steps for other phase trackers; next cycle will formalize first outreach/testimonials in non-English channels.
+
+
+---
+
+## April 1, 2026 — Full Launch & Growth Strategy Mapping
+
+- Updated CHANNELS.md with final channel stack, ranked by audience × relevance × accessibility, and explicit content strategy for each stage: pre-launch, launch week, and in-tournament. Mapped formats (Cards, memes, challenge prompts), assigners (Copa, influencers, users), and post frequency. WhatsApp/Telegram prioritized as viral engine; Twitter/Reddit as public proof; emails for direct retention and key conversion sequence.
+- Updated PIPELINE.md with named list of high-fit creators (Twitter, YouTube, podcasts), Reddit/Discord gatekeepers, and explicit diaspora/linguistic group leaders — all with why/how/what-offer. Expanded approach to ensure coverage of major channels and leverage natural viral archetype.
+- Updated ACTIONS.md with all practical PENDING next steps needed to operationalize strategy: landing page, DM templates, outreach tracking/log, group Card testimonial seeding, diaspora outreach, editorial workflow, and sponsor package.
+- All updates focus on bridging minimum-friction viral loop from individual play → share → group/creator amplification → new signups. Week-by-week plan detailed to hit 500 pre-tournament organic signups using only no-budget channels. No brainstorming or invention — all steps derive strictly from research and product fit. Next: begin approval/execution, then monitor click-to-signup conversion via new OUTREACH.md log.
