@@ -283,3 +283,15 @@ This expands Copa’s growth plan by addressing World Cup’s cross-language, cr
 - Updated PIPELINE.md with named list of high-fit creators (Twitter, YouTube, podcasts), Reddit/Discord gatekeepers, and explicit diaspora/linguistic group leaders — all with why/how/what-offer. Expanded approach to ensure coverage of major channels and leverage natural viral archetype.
 - Updated ACTIONS.md with all practical PENDING next steps needed to operationalize strategy: landing page, DM templates, outreach tracking/log, group Card testimonial seeding, diaspora outreach, editorial workflow, and sponsor package.
 - All updates focus on bridging minimum-friction viral loop from individual play → share → group/creator amplification → new signups. Week-by-week plan detailed to hit 500 pre-tournament organic signups using only no-budget channels. No brainstorming or invention — all steps derive strictly from research and product fit. Next: begin approval/execution, then monitor click-to-signup conversion via new OUTREACH.md log.
+
+
+---
+
+## April 1, 2026 — Channel Stack, Influencer Map, and Week-by-Week Launch Plan Finalized
+
+- Updated CHANNELS.md with ranked channel strategy (WhatsApp/Telegram #1, Twitter/Reddit/Discord channels, YouTube/podcasts/diaspora reach), content-by-channel plan, and week-by-week itemized plan from now to June 18.
+- Updated PIPELINE.md with 15+ specific creator, podcast, Twitter, Discord, Reddit, and diaspora/national community targets, plus offer rationale and outreach plan for each.
+- Added all practical PENDING actions to ACTIONS.md, from domain/landing setup to outreach/template drafting, diaspora language expansion, and group-card social proof collection.
+- The combined system maps every step from first content/testimonials (early April) to viral seeding, social proof, and group-based reposting, designed to maximize conversion to a 500-person high-FOMO zero-budget launch.
+- Each action and channel assignment draws directly from organic/viral mechanics in successful daily and social games cited in research: group-card viral loop (Jackbox model), meme/UGC fit, one-buyer group monetization.
+- Next: Execute pending actions per schedule; begin outreach, testimonial collection, and tracking in real time.
