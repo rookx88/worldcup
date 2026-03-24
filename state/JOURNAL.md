@@ -295,3 +295,14 @@ This expands Copa’s growth plan by addressing World Cup’s cross-language, cr
 - The combined system maps every step from first content/testimonials (early April) to viral seeding, social proof, and group-based reposting, designed to maximize conversion to a 500-person high-FOMO zero-budget launch.
 - Each action and channel assignment draws directly from organic/viral mechanics in successful daily and social games cited in research: group-card viral loop (Jackbox model), meme/UGC fit, one-buyer group monetization.
 - Next: Execute pending actions per schedule; begin outreach, testimonial collection, and tracking in real time.
+
+
+---
+
+## April 2, 2026 — PIPELINE.md Updated: Specific Influencer/Community Targets Mapped
+
+Expanded and finalized PIPELINE.md with a ranked list of 15+ specific creators, Twitter accounts, podcasts, YouTube channels, Discord servers, and Reddit mod targets, including explicit rationale for each pick, outreach method, and connection to Copa’s viral mechanic. Added diaspora/national expansion segment for May/June with named targets in Spanish, French, Portuguese, and Arabic language communities, aligning with Copa’s plan to leverage national identity and WhatsApp/Discord group virality.
+
+Outreach offers and rationale for each pipeline segment included. Clear next steps outlined: DM/email outreach templates, outreach tracking/log, testimonial/UGC seeding, diaspora group expansion, all referenced for ACTIONS.md. This positions Copa to execute the zero-budget viral growth playbook for pre-tournament scaling to 500+ signups, and activates group-focused distribution via organizers and meme-fit creator partners.
+
+No changes yet to other files; next cycles will further operationalize outreach, track metrics, and seed UGC/social proof on prioritized channels.
