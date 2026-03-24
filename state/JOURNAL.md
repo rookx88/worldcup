@@ -306,3 +306,13 @@ Expanded and finalized PIPELINE.md with a ranked list of 15+ specific creators, 
 Outreach offers and rationale for each pipeline segment included. Clear next steps outlined: DM/email outreach templates, outreach tracking/log, testimonial/UGC seeding, diaspora group expansion, all referenced for ACTIONS.md. This positions Copa to execute the zero-budget viral growth playbook for pre-tournament scaling to 500+ signups, and activates group-focused distribution via organizers and meme-fit creator partners.
 
 No changes yet to other files; next cycles will further operationalize outreach, track metrics, and seed UGC/social proof on prioritized channels.
+
+
+---
+
+## April 2, 2026 — Channel Prioritization, Pipeline Mapping, Actions Added
+
+- Updated CHANNELS.md to re-rank and clarify top-priority channels (WhatsApp/Telegram, Twitter/X, Reddit, Email, Discord, TikTok, YouTube, Newsletters), with detailed format, content-planning, and per-stage execution plan for each up to June 18.
+- Updated PIPELINE.md to list 15+ specific creators/accounts/communities targeted for early seeding and viral challenge, with rationale and offers mapped to each, including national/diaspora group expansion segment.
+- Updated ACTIONS.md with PENDING items for pre-launch DMs/emails, message templates, outreach tracking, group Card testimonial collection, and explicit channel-week-by-week post schedule.
+- All changes strengthen the path to 500 organic signups and test each step of the viral loop with channel-fit and minimum friction.
