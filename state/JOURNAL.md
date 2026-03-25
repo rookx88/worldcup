@@ -316,3 +316,13 @@ No changes yet to other files; next cycles will further operationalize outreach,
 - Updated PIPELINE.md to list 15+ specific creators/accounts/communities targeted for early seeding and viral challenge, with rationale and offers mapped to each, including national/diaspora group expansion segment.
 - Updated ACTIONS.md with PENDING items for pre-launch DMs/emails, message templates, outreach tracking, group Card testimonial collection, and explicit channel-week-by-week post schedule.
 - All changes strengthen the path to 500 organic signups and test each step of the viral loop with channel-fit and minimum friction.
+
+
+---
+
+## April 3, 2026 — Channel, Pipeline, and Action Files Synced for Zero-to-500 Signup Launch Plan
+
+- Updated CHANNELS.md to confirm the prioritized channel stack, showing WhatsApp/Telegram as the viral engine, Twitter/Reddit/Discord as meme/recap/memeable credibility channels, and a detailed week-by-week content + frequency plan. Each channel links to an action in the viral loop with best-fit content for share-to-signup conversion (Copa Card, Group Card, meme/leaderboard). Sequence locks in pre-launch, launch, and in-tournament windows.
+- Updated PIPELINE.md with specific influencer/creator/community targets, including rationale, outreach method, offer, and timeline. List covers Twitter, YouTube/podcasts, Reddit, Discord, and four key national/diaspora segments. Plan includes outreach offer structure and key next-step actions for each group.
+- Updated ACTIONS.md: All growth/launch actions for zero-budget run (domain, waitlist, Stripe, outreach, content seeding, group Card collection) present as PENDING tasks, linked to channel phases and pipeline targets. Includes detailed action for outreach tracking, testimonial/UGC seeding, diaspora group expansion, and week-by-week pre-launch sequence.
+- This sync establishes a clear, direct path from channel → pipeline → action → metric for achieving 500 organic Copa Reads signups by June 18, with zero paid budget. All logic, sequencing, and content validated against mechanic and viral fit, with action gating and owner assignment for founder self-serve ops. Next: Approve and begin executing PENDING actions.
