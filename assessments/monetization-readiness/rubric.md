@@ -1,21 +1,19 @@
-# Rubric: monetization-readiness
+# Assessment: Monetization Readiness
 
-**What it measures:** How clearly Copa has researched and defined a viable revenue model based on evidence from comparable products and real user behavior.
+Measures whether Copa's commercial model is clear, defensible, and ready to put in front of a partner's finance team.
 
-## Scoring Guide
+## Score: 0.0 → 1.0
 
 | Score | Meaning |
 |-------|---------|
-| 0.0–0.2 | No monetization research done |
-| 0.2–0.4 | Some research done but no model decided |
-| 0.4–0.6 | Evidence gathered, primary model identified with reasoning |
-| 0.6–0.8 | Primary model chosen based on research, integrated into product design, pricing hypothesis stated |
-| 0.8–0.9 | Primary + secondary model designed with evidence; revenue math based on comparable products |
-| 0.9–1.0 | Full monetization design built from research: pricing, placement, conversion path, revenue projection, free experience preserved |
+| 0.0–0.2 | Revenue model undefined or not validated. |
+| 0.2–0.4 | Basic model defined but no supporting evidence or projections. |
+| 0.4–0.6 | Revenue table built with realistic assumptions. Partner take is clear. |
+| 0.6–0.8 | Model accounts for multiple scenarios (100 / 1k / 10k players). Negotiation ranges defined. |
+| 0.8–0.9 | Model has been reviewed by at least one partner. No major objections to commercial structure. |
+| 0.9–1.0 | First payment or signed term sheet with revenue share terms. |
 
-## Key Questions
-- Is the model based on research into what actually works in comparable products — not assumption?
-- Has Copa looked at what players in this audience have demonstrated willingness to pay for?
-- Is there evidence (not guessing) for the price point and conversion rate?
-- Does the model work without paid acquisition?
-- Does it damage the free experience that drives viral growth?
+## What to Improve
+- Revenue model is already strong (see MONETIZATION.md)
+- Next step: validate assumptions with a real partner conversation
+- Prepare responses to likely finance objections ("how do you prevent gaming of the entry fee system?")

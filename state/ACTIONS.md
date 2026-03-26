@@ -3,175 +3,68 @@
 
 ---
 
-## PENDING — Domain Registration
+## PENDING — Outreach Email: Flutter Group BD
 
-**Action:** Register domain for Copa Reads
-**Suggested domains (in priority order):**
-1. coparead.com
-2. copreads.com
-3. copareads.com
-4. playcopareads.com
+**Action:** Send partnership pitch to Flutter Entertainment's corporate business development team
+**Target:** Flutter Group (covers FanDuel, Paddy Power, Sky Bet, Sportsbet simultaneously)
+**Contact:** investors@flutter.com + LinkedIn outreach to Flutter BD/Partnerships team
+**Why first:** One conversation unlocks 4 markets (US, UK, EU, AU). Flutter already invests heavily in engagement features across their platforms.
 
-**Why:** A web-first game (following Wordle model) needs a memorable URL that appears on the shareable card. Domain should be registered before any public mention of the game name.
+**Subject line:** Copa — 48-day World Cup engagement product (single webhook, one partner per market)
 
-**Cost:** ~$12/year (Namecheap or Cloudflare)
-**Urgency:** Register before announcing the concept publicly. No competitive urgency yet — name not public.
+**Email body:**
+> Hi [Name],
+>
+> I'm building Copa — a squad-based game that runs inside a sportsbook platform during the 2026 World Cup and ties directly to winning bets.
+>
+> Players pay a $10 entry fee to pick four national teams. Every winning bet on your platform earns them a spin that upgrades their squad. The leaderboard runs live across all 104 matches, prize pool pays at the Final.
+>
+> Copa gives your players a reason to come back for all 104 matches — not just the ones they've bet on. The integration is a single webhook; no platform rebuild required.
+>
+> Revenue structure: you keep 20% of all Copa entry fees collected on your platform. At 1,000 players, that's $2,000 in pure revenue share on top of the incremental betting volume Copa drives.
+>
+> Copa is available to one partner per market. I'd like Flutter to be that partner across the markets you operate in.
+>
+> Worth a 20-minute call?
+>
+> [Signature]
 
----
-
-## PENDING — Waitlist Page
-
-**Action:** Create a waitlist landing page before tournament launch
-**Tool:** Carrd (free tier) or Webflow (free tier)
-
-**What it needs:**
-- Game name and one-sentence description
-- "Get notified for Match 1" email signup
-- One example Copa Read Card (mockup) showing what the shareable artifact looks like
-- No other content required at launch
-
-**Why:** Building an email list before June 18 launch is the primary pre-tournament goal. Every email collected before launch = a player guaranteed to be notified for Match 1.
-
-**Copy for hero section:**
-> **Copa Reads**
-> After every World Cup match, 5 contested moments.
-> You don't predict — you read the room.
-> How close can you get to what the crowd actually thinks?
-> [Get notified for Match 1 →] [email field]
-
-**Suggested tool:** Carrd ($0 free tier, $19/year for custom domain)
-**Urgency:** Should be live within 2 weeks of domain registration. Target: April 1, 2026 at latest.
+**Urgency:** Send this week — June 11 is the hard deadline.
 
 ---
 
-## PENDING — Stripe Account Setup
+## PENDING — Outreach Email: Entain Group BD
 
-**Action:** Create Stripe account for Group Hosting payments
-**Product to create in Stripe:** "Copa Reads Group Pass — 2026 World Cup" at $8 one-time
-**Fulfillment at V1:** Manual — after payment confirmation email, manually generate and send a 6-character group code
-
-**Why:** The Jackbox-model group hosting payment needs to be live for tournament start. V1 fulfillment can be manual (founder sends code by email within 24 hours of payment).
-
-**Urgency:** Before June 18. Can be set up in May 2026.
+**Action:** Send partnership pitch to Entain corporate BD (covers Ladbrokes, Coral, bwin, Sportingbet)
+**Contact:** corporate@entain.com + LinkedIn outreach to Entain partnerships team
+**Why:** Same multi-market logic as Flutter. One conversation, multiple market coverage.
+**Email:** Adapt the Flutter email template above for Entain brand context.
 
 ---
 
-## PENDING — Sponsor Outreach Package
+## PENDING — Outreach: DraftKings Partnerships
 
-**Action:** Create a one-page sponsor package for "Copa Canon Presenting Sponsor"
-**What it offers:** Brand name on the Copa Canon reveal for every match in the Group Stage (48 matches). "Today's Copa Canon, presented by [Brand]."
-**Target brands:** Sports betting (check local regulations), sports apparel, streaming services with football rights, sports nutrition brands.
-**Package price:** TBD — needs market research. Comparable: small-scale sports sponsorships at this audience size, $5,000–$25,000 for group stage.
-
-**Why:** Sponsored moments is a V1 monetization layer. Approaching 2–3 brands pre-launch with a sponsor package gives first-mover framing ("be the first brand on a new viral game before anyone's heard of it").
-
-**Urgency:** Outreach should begin 6–8 weeks before tournament start. Target: early May 2026.
+**Action:** Direct outreach to DraftKings partnerships team
+**Contact:** partnerships@draftkings.com / LinkedIn to VP Partnerships
+**Why:** Largest US-only sportsbook not owned by Flutter. Heavy World Cup marketing budget. Copa differentiates from their DFS product.
+**Note:** Messaging should emphasize Copa ≠ DFS. Copa is an engagement/retention layer, not a competing fantasy product.
 
 ---
 
-## PENDING — Editorial Workflow Document
+## PENDING — One-Page Pitch PDF
 
-**Action:** Create internal document for Copa Reads editorial workflow
-**Content needed:**
-1. How to identify and write a good Read (what makes a moment contestable and legible to non-experts)
-2. How to source the crowd opinion data (initial approach: Copa internal poll; what sample size is minimum viable)
-3. How to calculate scores (formula document)
-4. How to manually generate shareable card (Canva template)
-5. How to update Copa Canon archive
-
-**Why:** The editorial workflow is the operational core of the game. Without a clear workflow, the 30-minute post-match window to publish Reads will fail under time pressure.
-
-**Urgency:** Must be complete before the first test match (Copa should run a test on a pre-tournament friendly or a warm-up match before June 18).
+**Action:** Create a clean one-page PDF version of the Copa pitch (based on CONCEPT.md)
+**Why:** Every outreach email needs an attachment. The deck image Sammy shared is the reference design.
+**Format:** Match the deck: dark header with Copa branding, 4 stat callouts (104 matches / 48 days / $10 entry / 80% prize pool), How It Works + What You Get two-column, revenue table.
+**Output:** `materials/copa-pitch-deck.pdf` (or HTML → PDF)
+**Urgency:** Before sending any outreach — attach to every email.
 
 ---
 
-## PENDING — Test Run
+## PENDING — Demo Environment
 
-**Action:** Run Copa Reads on one pre-tournament match as a test
-**Suggested match:** CONCACAF Gold Cup, Euro qualifier, or any high-profile friendly in May/June 2026
-**Scale:** 50–200 players from the waitlist
-**Purpose:** Test editorial workflow end-to-end, test submission form, test card generation, test email delivery of reveal
-
-**Why:** June 18 is the wrong day to discover that the submission form breaks under load or that generating the reveal card takes 3 hours.
-
-**Urgency:** Schedule for May 2026. At least one test run before tournament start.
-
----
-
-## PENDING — Pre-Launch Outreach DMs/Emails
-
-**Action:** Draft and send outreach messages to:
-- Top 10+ influencers/creators (see PIPELINE.md)
-- r/soccer and relevant Reddit mods
-- Admins of large football Discord servers
-- Hosts of target YouTube/podcasts
-
-**What:** 3-sentence pitch to try the new not-prediction World Cup daily game; invite to join waitlist and, if interested, a launch-week guest group leaderboard or exclusive preview card for their audience.
-
-**Reason:** Seeding social proof, UGC, and potentially the first viral loops. Each “authentic” group join can produce dozens of organic installs/signups. See PIPELINE.md for names and structure.
-
-**Urgency:** By mid-April 2026—allows weeks to build relationships, coordinate launch-week plugs.
-
----
-
-## PENDING — DM Templates for Outreach
-
-**Action:** Draft 2–3 message templates for:  
-- Creators/influencers (“guest group/feature your audience’s Card in-game”)  
-- Mods/admins (“can we post shareable daily scorecards in your server/thread?”)  
-
-**Why:** Speed up personal outreach and minimize friction.  
-**Urgency:** With first DMs (early April 2026)
-
----
-
-## PENDING — Outreach Tracking
-
-**Action:** Set up OUTREACH.md log for all influencer, mod, and admin contacts
-**Fields:** Name, channel/contact, message date, response, next action/followup, result (UGC/feature/testimonials)
-**Why:** Ensures no “lost lead,” enables timely follow-up and metric tracking.
-**Urgency:** Track all outreach from April 2026 onward.
-
----
-
-## PENDING — Group Card Social Proof Seeding
-
-**Action:** Collect and share 5+ social proof Copa Read Cards from key group chats and friendly Discords during pre-launch.
-**How:** Obtain explicit permission to share screenshots of group Cards (WhatsApp, Discord, Twitter), then post them on public and owned channels as “look how our group compared to the world.”
-**Why:** Drives credibility and FOMO for new groups to host/join and increases share-to-signup conversion in core viral loop.
-**Urgency:** First round by May 2026, with seeding in next pipeline outreach.
-
----
-
-## PENDING — Week-by-Week Launch Tasks (April–June 18, 2026)
-
-**Action:** Execute channel-specific posts and outreach per launch sequence:
-- Week of April 1: Landing page live, seed example Copa Cards/images to friendly WhatsApp/Discord groups, DM outreach begins.
-- April 8–30: Collect/curate first Card testimonials, submit modmail/DMs for Reddit/Twitter/Discord collaboration approval.
-- May 1–15: Approve Reddit/Discord posts, coordinate with first partners for launch-week cross-post; expand WhatsApp/Telegram group seeds.
-- May 16–June 9: Push FOMO posts (“can your group beat the crowd?”) and waitlist reminders.
-- June 10–18: Launch daily Cards, post/share in all prioritized channels, turbocharge memeable group results, and track share→waitlist→play funnel.
-**Why:** Each step is aligned with pre-500 signup target using only organic/prioritized channels.
-**Urgency:** Weekly, sequentially from April 1 to tournament start.
-
----
-
-## PENDING — Diaspora/National Language Group Expansion
-
-**Action:** Identify and reach out to 3–4 creators, WhatsApp group admins, or Discord leads in Spanish, French, Portuguese, and Arabic speaking football communities (e.g., community leads for Brazil, Spain, Morocco, Senegal, Mexico).
-**What:** Offer these leads an exclusive early Copa Card for their group (co-branded or language-localized version), plus launch-week meme amplification help.
-**Why:** This extends the viral loop to diaspora groups and increases international diversity, hitting a key World Cup mechanic and growing signups in new audience segments.
-**Urgency:** Begin in May 2026 (complete first round before June 10).
-
----
-
-## PENDING — Creator/Community Outreach Tracking
-
-**Action:** For each PIPELINE.md target, log:
-- Outbound touch (DM/email date & content summary)
-- Response/followup state
-- Waitlist signups attributed
-- Social proof Card gained (Y/N)
-**Why:** Allows monitoring cost-benefit for every outreach.
-
-**Urgency:** Start log in OUTREACH.md this week, maintain throughout pre-launch.
+**Action:** Set up a simple demo URL showing Copa's player experience
+**Why:** Any interested partner will ask "can I see it?" A live demo URL closes faster than a description.
+**Minimum viable:** Static page showing squad selection, example leaderboard, and what a "spin" looks like
+**Tool:** Framer, Webflow, or Carrd free tier
+**Urgency:** Within 2 weeks. Can be built after first outreach goes out — but needed before demo calls.

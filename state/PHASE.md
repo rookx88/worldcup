@@ -1,21 +1,35 @@
 # Phase Tracker
 
-## Current Phase: 1 — Design & Strategy
+## Current Phase: 1 — Partner Acquisition
 
-| Phase | Generation | Event |
-|-------|-----------|-------|
-| Phase 1 | Generation 1 | Initialized |
+| Phase | Goal | Exit Criteria |
+|-------|------|--------------|
+| Phase 1 | Sign first partner | ≥1 signed partnership agreement |
+| Phase 2 | Scale partners | ≥3 signed partners across different markets |
+| Phase 3 | Launch & operate | Product live by June 11, 2026 |
 
-## Phase 1 — Design & Strategy
-Goal: Develop a fully designed game concept with clear unique hook, viral mechanic, and no-budget launch plan.
+---
 
-Exit criteria (all must be ≥ 0.90, overall ≥ 0.95):
-- concept-uniqueness
-- market-positioning
-- viral-mechanics
-- marketing-reach
-- product-readiness
+## Phase 1 — Partner Acquisition
+Goal: Identify, pitch, and close at least one betting platform partner.
 
-## Phase 2 — Launch & Growth
-Goal: Real players. Waitlist → MVP → tournament launch.
-Unlocked when Phase 1 exit criteria met.
+**Current priority dimensions:**
+- `partner-pipeline` — Qualified prospects identified and tracked
+- `outreach-execution` — Pitches sent and conversations active
+- `deal-progression` — Deals moving toward signed agreements
+- `pitch-quality` — Materials compelling enough to close
+
+**Exit criteria:** One signed partnership agreement with a betting platform.
+
+---
+
+## Phase 2 — Market Expansion
+Unlocked when Phase 1 exits.
+Goal: Sign additional partners in separate markets (one per market, exclusivity holds).
+Target: UK, US, Canada, Australia, Germany, Brazil as priority markets.
+
+---
+
+## Phase 3 — Pre-Launch Operations
+Unlocked when ≥1 partner signed.
+Goal: Integration complete, product live, player acquisition running through partner channels by June 11, 2026.

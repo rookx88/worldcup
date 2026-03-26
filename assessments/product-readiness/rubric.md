@@ -1,18 +1,20 @@
-# Rubric: product-readiness
+# Assessment: Product Readiness
 
-**What it measures:** How ready Copa is to put something in front of real players — from waitlist page to playable MVP.
+Measures whether Copa has enough built to demonstrate to a partner and get through an integration conversation.
 
-## Scoring Guide
+## Score: 0.0 → 1.0
 
 | Score | Meaning |
 |-------|---------|
-| 0.0–0.3 | Nothing built or specced |
-| 0.3–0.5 | Concept documented but no tech stack chosen and no build plan |
-| 0.5–0.7 | Tech stack chosen, build sequence defined, waitlist page proposed |
-| 0.7–0.9 | Waitlist page live OR full MVP spec written and ready to build |
-| 0.9–1.0 | Waitlist page live with signups coming in, MVP spec complete, data API chosen, development started |
+| 0.0–0.2 | No materials. No demo. |
+| 0.2–0.4 | Pitch deck exists but no demo or integration spec. |
+| 0.4–0.6 | PDF pitch deck + integration spec doc ready to send. |
+| 0.6–0.8 | Demo URL live (even static/mocked). Can show partner the player experience. |
+| 0.8–0.9 | Integration tested with one partner. Webhook spec validated. |
+| 0.9–1.0 | Product is live on at least one partner platform. |
 
-## Key Questions
-- Can a developer build from what Copa has written?
-- Is there a live URL someone can visit today?
-- Is the data source for match results and player stats identified?
+## What to Improve
+- **Immediate:** Build the pitch deck PDF (ACTIONS.md has this as PENDING)
+- **Next:** Create integration spec doc
+- **After first response:** Build a demo URL before demo calls begin
+- Demo does not need to be functional — a mocked player journey is sufficient to close a call

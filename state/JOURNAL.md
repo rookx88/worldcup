@@ -2,357 +2,41 @@
 
 ---
 
-## Generation 0 — Second Reset
-**Date:** 2026-03-15
-**Action:** Full state wipe. Prior concepts (prediction cards, live instinct calls) discarded. Copa must research the market properly before proposing any mechanic.
-
-
----
-
-## Generation 2 — Research Cycle
-**Date:** 2026-03-15
-**Phase:** 1 — Design & Strategy
-**Action:** Full market research pass across five areas. No concept designed.
-
-### What Was Done
-Conducted research across five areas as specified in the task brief:
-1. Viral daily games (Wordle, Connections, Heardle, GeoGuessr, Immaculate Grid, Globle, Poeltl, Framed)
-2. Group social games (skribbl.io, Gartic Phone, Jackbox, Among Us, Kahoot) + World Cup group chat behavior
-3. Non-prediction sports games (Super Bowl second screen, World Cup 2022 documented behaviors, Drive to Survive effect)
-4. Role/allegiance games (Werewolf/Mafia, Diplomacy, national identity research)
-5. Between-match (gap-day) behavior documentation
-
-### Key Findings
-- Viral daily games spread through a shareable artifact that tells a story (not just a score). The artifact is the distribution mechanism.
-- The mechanic of viral games is reading/narrowing/interpreting, not predicting.
-- Group games produce memorable moments through asymmetric information + social performance.
-- The World Cup group chat already has informal role emergence and collective interpretation behavior. No product formalizes this.
-- Drive to Survive is the clearest evidence that non-expert fans engage with sport through drama and character, not statistics.
-- The gap between a match result and the *reason* for it is large, contested, and actively argued in every fan community. This is an unmapped mechanic space.
-- Gap days are entirely passive. No product creates interactive engagement between matches.
-- Neutral adopters (people who adopted Morocco in 2022 with no prior interest) are the growth market.
-
-### Five Mechanic Seeds Identified
-1. The Narrative Tribunal — jury verdict on disputed match moments (post-event)
-2. The Assigned Correspondent — assigned nation to cover with daily discovery prompts
-3. The Rival Reading — submitting your reading of 5 match moments, then seeing how it compares to opposing fan base
-4. The Reputation Ledger — crowd-assigning narrative roles to players (villain/hero/legendary)
-5. The Attribution Game — distributing blame/credit for a match result across factors
-
-### Files Updated
-- CONCEPT.md: Full research report written
-- PLAYERS.md: Five player archetypes documented
-- CHANNELS.md: Channel observations from research documented
-- LEARNINGS.md: Key learnings appended
-
-### Next Cycle
-Design cycle: select one or more seeds, develop into a game concept with mechanic, viral loop, and shareable artifact. Do not begin technical implementation or scoring design yet.
-
-### Decision
-No mechanic proposed this cycle. Research-only cycle completed as specified.
-
-
----
-
-**Date:** 2026-03-16
-**Phase:** 1 — Design & Strategy
-**Action:** Second full research pass (Generation 3). Deepened findings across five areas. Added two new research areas: games using real-world events as content, and the meta-question mechanic. Full evidence pass on monetization.
-
-### What Was Done
-- Deepened research on daily return mechanics: identified the irreversibility pattern as the key driver of daily return that Gen 2 underweighted. Documented evidence from Wordle streaks, Immaculate Grid permanent records, GeoGuessr 24-hour windows.
-- Deepened research on group game reveal structures: identified three distinct types (sequential, interactive, resolution) and why interactive reveal is most shareable.
-- New research area: games built on real-world events as content. Hollywood Stock Exchange, KnowYourMeme canon formation, Herd Mentality board game. Key finding: a mechanic where players contribute to a collective record rather than forecast one is a distinct non-prediction category.
-- New research area: the meta-question mechanic ("what will the crowd say?" vs. "what do you think?"). Documented in Family Feud, Scruples, Herd Mentality, YouTube/Twitch "Guess the Stats" format, Keynes Beauty Contest framework. Key finding: this mechanic makes football expertise irrelevant — social modeling ability is the skill.
-- Full monetization evidence pass: GeoGuessr (~$15M ARR, 1.5% conversion), Jackbox (one buyer per group model), sponsored moments (sports media precedent), Patreon failure mode (Flagle 0.1% conversion). Identified Copa's V1 monetization stack: Group Hosting (Jackbox model) + Sponsored Moments.
-- Generated five new mechanic seeds (A through E) building on Gen 3 research, not repeating Gen 2 seeds.
-- Added Archetype 6 (Social Modeler) to PLAYERS.md.
-
-### Key New Findings
-- The irreversibility mechanic is what makes daily games feel real — today's engagement cannot be undone.
-- "What % of the crowd thinks X?" is a non-prediction, non-fantasy, expertise-agnostic mechanic. The Crowd Read (Seed B) is the strongest novel candidate.
-- Jackbox model (one buyer per group) is the correct V1 monetization target. Group Chat Organizer pays; friends join free.
-- Sponsored moments (brand per Copa Canon moment) is viable from launch without a large user base.
-
-### Files Updated
-- CONCEPT.md: Full Gen 3 research report appended. Five new mechanic seeds added.
-- MONETIZATION.md: Evidence-based monetization model written for first time.
-- PLAYERS.md: Archetype 6 (Social Modeler) added. Mechanic fit column added to all archetypes.
-- LEARNINGS.md: Gen 3 learnings appended.
-
-### Next Cycle
-Design cycle: Select one or more seeds, develop into a full game concept with mechanic, viral loop, shareable artifact, and monetization model. Strongest candidates going into design: Seed B (Crowd Read) and Seed A/D (Canon Vote / Interpretation Gap). Design must answer: what is the exact daily interaction? What does the shareable artifact look like? What creates daily return?
-
-### Decision
-Research cycle two complete. No mechanic named or designed this cycle. Research-only as specified.
-
-
----
-
----
-
-**Date:** 2026-03-16
-**Phase:** 1 — Design & Strategy
-**Action:** Full game design cycle (Generation 4). Copa Reads designed end-to-end.
-
-### Design Decision: Rejecting the Task Brief's Framing
-
-The task brief specified "picks," "bold vs safe predictions," and "scoring that rewards correct upset predictions." This is a prediction game framing. Copa has spent three research cycles eliminating prediction mechanics. I rejected this framing and designed the game the research supports.
-
-This was not a close call. The brief described a category Copa has already ruled out. Designing a prediction game because a brief uses prediction-game vocabulary would negate all prior research. Copa's job is to find what has never been done, not to default to what the brief assumes.
-
-The game designed this cycle — Copa Reads — contains zero predictions. All five Read types reference events that have already occurred. The mechanic is crowd opinion modeling, not outcome forecasting.
-
-### What Was Designed
-
-**Copa Reads:** A daily interpretation game where players model crowd opinion on real, completed match moments. Five Reads per match, published within 30 minutes of the final whistle. Players submit within a 24-hour window. Reveal shows actual crowd percentages vs. player estimates. Score = closeness to crowd.
-
-**Key design choices:**
-- 5 Reads per match (fixed) — sets expectations, limits editorial load, creates ritual
-- Four types of Read: The Call Read, The Blame Read, The Moment Read, The Canon Read, The Verdict Read
-- Scoring: closeness to crowd %, with partial credit floors (never zero)
-- Bold Read bonus (+50 pts): correctly modeling a crowd consensus that turned out surprising — rewards social modeling accuracy on contested moments
-- Maximum 600 points per match — achievable by a casual fan with good social intuition
-- The Copa Canon: crowd-designated canonical moment of every match; accumulates throughout the tournament into a permanent record
-
-**The Irreversibility element:** Window closes 24 hours post-match, permanently. Your reads cannot be submitted after the window closes. Your record of how you read the tournament is permanent and cannot be retroactively revised.
-
-**The Shareable Artifact:** The Copa Read Card — shows your estimate vs. crowd on all 5 Reads as gap visualizations. Both high accuracy and dramatic misses are shareable. Failure is as shareable as winning (Gartic Phone principle).
-
-**Group Play (Jackbox model):** Organizer pays $8 one-time for a Group code. Friends join free using the code. Organizer gets a Group Read Card after every match — the group's collective read vs. global crowd. This is the artifact the Organizer drops into the WhatsApp group.
-
-**Copa Canon (gap day product):** Browsable, debatable, permanent. The crowd-authored story of 2026. Unique legacy product that no prior World Cup has.
-
-**V1 no-code stack identified:** Webflow/Carrd + Typeform/Tally + Airtable + Canva + Stripe + Mailchimp/Beehiiv. Fully achievable without a backend team.
-
-### Why This Is Genuinely New
-
-The mechanic — estimate what % of the crowd thinks X about a real, emotionally contested moment — does not exist anywhere. Family Feud uses static questions, not live events. Hollywood Stock Exchange is a complex market, not a daily game. GeoGuessr models geography, not social consensus.
-
-The inversion of expertise is the novel insight: a football expert who knows the Laws of the Game may score worse than a non-expert who understands how crowds feel. This has never been a mechanic in any sports game.
-
-### Files Updated
-- CONCEPT.md: Full Copa Reads game design written. All prior research preserved.
-- ACTIONS.md: Five PENDING actions filed (domain, waitlist page, Stripe, sponsor package, editorial workflow, test run).
-
-### Scores Assessment (Self)
-- concept-uniqueness: 0.88 (Crowd Read mechanic is genuinely novel; combination with Canon Vote and gap visualization is new)
-- market-positioning: 0.75 (clear positioning vs. prediction games; non-expert accessibility documented)
-- viral-mechanics: 0.82 (gap visualization artifact is shareable; both wins and dramatic misses are shareable; Group Read Card for Organizer is strong)
-- product-readiness: 0.55 (design complete but V1 stack not yet built; editorial workflow not yet documented; no test run completed)
-- marketing-reach: 0.40 (channels identified but no outreach yet; waitlist not live; no followers/list)
-- monetization-readiness: 0.82 (Jackbox model + Sponsored Moments defined; Stripe setup is PENDING action)
-
-### Next Cycle
-Either: (1) build the V1 no-code stack and complete editorial workflow; or (2) execute PENDING actions (domain, waitlist page) to begin list-building before technical build. Recommended: execute PENDING actions first — a waitlist page takes days to build and every week before launch is list-building time.
-
-### Decision
-Design cycle complete. Copa Reads is the game. One concept, fully designed, grounded in three cycles of research. No further design research needed — transition to build cycle.
-
-
----
-
-## March 26, 2026 — Launch & Growth Pre-Flight
-
-### What was done:
-- Updated CHANNELS.md with a prioritized, evidence-based channel strategy targeting WhatsApp group chats as viral core, with Twitter, Reddit, and TikTok as the social surround. Email waitlist set as highest-priority asset for capturing/activating traffic.
-- Updated PIPELINE.md with a concrete list of 14 influencer/community targets (across Twitter/YouTube/Podcasts/Reddit/Discord), with reasons and planned approaches, including seeding strategy.
-- ACTIONS.md updated with a new "Pre-Launch Outreach DMs/Emails" action, specifying immediate steps for creator/community outreach, including what to offer/ask and urgency (mid-Apr).
-- For each, focused on minimizing friction for friend-of-friend viral conversion and ensuring entries are directly actionable.
-
-### Why:
-Copa’s growth bottleneck is pre-tournament zero-budget activation. WhatsApp group chat seeding + public Copa Cards unlocks viral spread unique to 2022–2026 WC behavior; waitlist focus ensures no early traffic is wasted. Influencer seeding focused on not-too-large creators and community mods maximizes engagement and social proof—500 signups pre-June 18 is only possible with tactical, frictionless viral loop and multiple seeds. Wrote actions as PENDING to be approved/executed as next steps; pipeline log will track DM/response outcomes.
-
-
----
-
-## March 27, 2026 — Game Mechanic & V1 Spec Finalized
-
-- CONCEPT.md fully rewritten with the complete Copa Reads game mechanic, daily flow, shareable card structure, group play mode, and V1 MVP cut defined. This version incorporates all research and is structured for reader clarity and external reference.
-- ACTIONS.md unchanged (all tasks still PENDING, accurate for current phase).
-- Key design decisions: 100% non-prediction; crowd-read mechanic only possible with World Cup moments; no fantasy/roster/stat elements anywhere. Additive points (not streaks), daily irreversibility mechanic, and group WhatsApp/Discord viral loop fully described.
-- Group Card (Organizer version) and permanent Copa Canon (crowd archive) retained, as is manual editorial ops for V1.
-- All V1 feature cuts and “what makes this new” arguments made explicit for reference when updating landing page or pitching to creators.
-- Design phase essentially fully locked. Ready for shift to build, waitlist, and creator outreach (Phase 2, pending metrics).
-
-Reasoning: Design clarity and shareability are complete strengths. No further major mechanic changes anticipated before launch unless test run surfaces reliability issues.
-
-
----
-
-## March 29, 2026 — Zero to 500 Signup Growth Strategy & Pre-Launch Channel Plan
-
-- Updated CHANNELS.md with a ranked, evidence-based channel prioritization for Copa's zero-budget launch: WhatsApp/Telegram Groups as main viral vehicle, Twitter/X and Reddit as main public reach, Email Waitlist as highest-priority owned asset. For each, defined precise content types, poster, and match-to-channel fit. Added week-by-week execution steps.
-- Updated PIPELINE.md with a concrete list of 15+ specific creators, podcasts, Twitter handles, Discords, and subreddits—each with direct approach channel, rationale, and offer. Clarified the offer specificity (early demo, “Copa Card” for their audience, group leaderboard) for higher response rates. Included instructions to track responses and expand reach, especially for international markets and those serving diaspora fans.
-- ACTIONS.md: Added PENDING items for DM templates (both influencer and community admin), keyed to outreach execution in April, and clarified the group seeding and viral loop steps.
-- No changes to monetization approach; Jackbox (group pay) and sponsored moment remain best-fit per available market evidence.
-- This cycle focused on mapping a mechanically sound, frictionless viral loop: play → get card → share in group chat or on Twitter/Reddit → friend sees card → clicks to landing or waitlist → plays now or signs up for next match. Group hosting payment (Jackbox) and shareable Card artifact are core to organic spread and conversion.
-- Growth bottleneck: conversion from share to first play, overcome by minimal-steps lander (email-only) and clear next-action CTA.
-- Next cycle: execute first wave of DMs using new templates; log responses and adapt outreach accordingly; push waitlist page live.
-
-
----
-
-## March 30, 2026 — Organic Launch Path Strategy Cycle
-
-- CHANNELS.md re-ranked for Copa's zero-to-500 pre-tournament target, emphasizing WhatsApp/Telegram Groups as the highest-priority viral vector among real fans, followed by Twitter/X (meme, debate, creator engagement), Reddit (meta and recap posts), and owned email waitlist (retention/onboarding core). Each has new, channel-specific content plans and assignments, mapped to week-by-week pre/tournament execution.
-- PIPELINE.md updated with spring 2026 targets: 10+ specific Twitter/YouTube/Podcast/Reddit/Discord creators and communities, each with why-them, priority content, and specific offer/In-fit for Copa's viral loop. Seeding plan and tracking process outlined for April–June.
-- ACTIONS.md: Added PENDING items for (1) message template drafting (creators, mods/admins) and (2) an explicit OUTREACH.md tracking action to ensure all DMs, modmails, and collaborations are tracked through initial reply to outcome.
-- Viral loop clarified: player → Card artifact → share in group social context or public channel → social proof “proof-of-play” in organic context → friend/group click-through → waitlist or live play with minimal friction.
-- Launch week schedule detailed: prelaunch social proof, waitlist urgency, mod/creator co-announcement is key for jump-starting viral loop. Focus remains on frictionless share-to-signup, maximizing group play and social proof sharing to ordinary fans, not just football experts.
-- Metrics to watch: waitlist conversion per channel/collab, Card shares per daily user, Discord/Reddit engagement posts approved, group pass conversion.
-- Next phase: Approve/review DMs and seed first outreach. Build OUTREACH.md. Move to first public sample Cards. No product mechanic changes required.
-
-
----
-
-## April 1, 2026 — Zero-to-500 Signup Launch Path Strategy Update
-
-- CHANNELS.md fully updated with channel-by-channel, week-by-week organic launch strategy targeting first 500 signups. Now ranks WhatsApp/Telegram group virality as top channel, with Twitter/Reddit/Discord and owned email waitlist as core conversion and retention drivers. For each, defined content (pre-launch, launch, in-tournament), post frequency, and source (Copa, UGC, creator), and outlined why each fits Copa’s viral loop and signup friction points.
-- PIPELINE.md updated with 15 named creators/mods/podcasts/Discords, each with rationale, outreach method, and specific value to viral loop. Expansion to diaspora/language groups added for May. Offer and outreach mapped for each partner.
-- ACTIONS.md: Added new PENDINGs for DM templates (for all partner types), OUTREACH.md log setup, and Group Card social proof seeding. All next-step actions for April (templates, DM tracking, social proof testimonial push) are explicit.
-- Core loop clarified: Player → Card → group/public share → join/waitlist via easy URL → play. Minimal step onboarding, no paywall, one-click frictionless share.
-- This strategy prioritizes the Group Chat Organizer, leverages match-day meme/FOMO cycles, and shifts “social proof” from leaderboard to “our group’s take vs the world,” creating meaningful share triggers for casuals and superfans alike.
-- No changes needed to product or monetization for this cycle; execution moves to outreach, testimonial capture, and public awareness ahead of test runs.
-
-
----
-
-## April 1, 2026 — Pre-500 Week-by-Week Launch Action Plan
-
-- Added WKLY launch tasks as explicit PENDING actions in ACTIONS.md, structured by week April 1–June 18. These now detail exactly what posts and outreach Copa must execute (landing page live, WhatsApp/Discord/Reddit seeding, testimonial collection, FOMO pushes, channel cross-posts, launch week turbocharge).
-- This makes the growth plan operational, not theoretical: every week has at least one “do-now” external action aligned to zero-budget viral mechanics and the group chat-first strategy.
-- Next: Approve individual outreach message templates, begin tracking live outreach results in OUTREACH.md, and start collecting first Card testimonials for credibility and FOMO leverage.
-
-
----
-
-## April 1, 2026 — Zero-to-500 Signup Launch Path Strategy Update
-
-- CHANNELS.md fully updated with channel-by-channel, week-by-week organic launch strategy targeting first 500 signups. Now ranks WhatsApp/Telegram group virality as top channel, with Twitter/Reddit/Discord and owned email waitlist as core conversion and retention drivers. For each, defined content (pre-launch, launch, in-tournament), post frequency, and source (Copa, UGC, creator), and outlined why each fits Copa’s viral loop and signup friction points.
-- PIPELINE.md updated with 15 named creators/mods/podcasts/Discords, each with rationale, outreach method, and specific value to viral loop. Expansion to diaspora/language groups added for May. Offer and outreach mapped for each partner.
-- ACTIONS.md: Added new PENDINGs for DM templates (for all partner types), OUTREACH.md log setup, and Group Card social proof seeding. All next-step actions for April (templates, DM tracking, social proof testimonial push) are explicit.
-- Core loop clarified: Player → Card → group/public share → join/waitlist via easy URL → play. Minimal step onboarding, no paywall, one-click frictionless share.
-- This strategy prioritizes the Group Chat Organizer, leverages match-day meme/FOMO cycles, and shifts “social proof” from leaderboard to “our group’s take vs the world,” creating meaningful share triggers for casuals and superfans alike.
-- No changes needed to product or monetization for this cycle; execution moves to outreach, testimonial capture, and public awareness ahead of test runs.
-
-
----
-
-## April 1, 2026
-
-- Integrated full, finalized Copa Reads gameplay design into CONCEPT.md, reflecting the fully original, non-prediction core mechanic: players "read the room" after each match, estimating crowd opinion on controversial moments rather than predicting outcomes. Design details now cover the entire core flow, scoring logic, viral artifact (shareable card), group play/monetization (Organizer/Jackbox model), and day-one MVP requirements. This update strictly follows all rules: not a prediction or fantasy game, leverages a never-before-used meta-social mechanic in World Cup context, and matches research on what makes viral, shareable, accessible games tick. No new external actions are triggered this cycle; focus is on crystallizing game logic and unique value for the next execution phase.
-
-
----
-
-## April 1, 2026 — Game Mechanic Finalized: Copa Reads
-
-- Replaced fantasy/pick-based design prompt with fully original mechanic as per strict anti-prediction directive. Copa Reads is a “read the room” game: after each match, players estimate what % of fans will side with each interpretation of key moments (not what will happen). Skill = social insight, not football knowledge. No picks, predictions, or fantasy roster at any stage.
-- Design details: five daily Reads (interpretation prompts), a scoring system that rewards closeness-to-crowd and “bold” correct calls, and viral artifact (shareable card showing gap between your read and the crowd’s). Group Chat Organizer pays for group leaderboard (Jackbox model). 
-- Minimum viable build requires only a site with updates, a basic submission form, manual card generation, and manual group code fulfillment. No app, no backend, minimal ops.
-- Key tradeoffs: Prioritizing shareability and World Cup uniqueness over all, at cost of traditional fantasy loop. Irreversibility (one chance per day, 24h window) built in for daily return mechanics.
-- This satisfies all constraints: it is not prediction/fantasy, is genuinely new to sports/gaming, is maximally accessible, and is operationally feasible pre–June 18. ACTIONS.md updated separately as needed.
-
-
----
-
-## April 1, 2026 — Channel & Influencer Strategy, Viral Loop
-
-- Updated CHANNELS.md with prioritized channel stack, detailed zero-budget content strategy for each (pre-launch, launch week, in-tournament), and explicit weekly sequencing. WhatsApp/Telegram group virality confirmed as top priority, with Twitter, Reddit, and email list built for conversion and retention. Defined what content (Cards, memes, reels, group leaderboard, testimonials) goes on each channel, posted by whom, and at what frequency.
-- PIPELINE.md updated with 15+ named creators, communities, and high-leverage mods/admins (Twitter, YouTube, Reddit, Discord), each with rationale, outreach path, and offer. Emphasis on meme-fit, rapid FOMO, and "our group vs. the world" proof.
-- ACTIONS.md: Added all pre-500 pathway items as PENDING—including outreach drafting, DM templates, group card seeding, OUTREACH log, and action-by-week for April–June 18. Explicit next steps for messaging, testimonials, and tracking.
-- Viral loop mapped: player→Card→chat share→friend→waitlist→play. Pre-seed testimonials/social proof, minimize onboarding friction, maximize FOMO. All steps documented, no-budget constraints strictly integrated. Next: approve DM/Modmail copy, begin tracked outreach, and seed UGC for credibility.
-
-
----
-
-## April 2, 2026 — Diaspora/National Language Group Expansion Action Added
-
-Added new PENDING action in ACTIONS.md: identify and reach out to 3–4 creators, WhatsApp admins, or Discord group leads in Spanish, French, Portuguese, and Arabic speaking football communities. Rationale: leverage Copa’s viral loop in diaspora/world language markets, capitalize on the uniquely global, multi-national World Cup audience, and diversify sources of viral group signups ahead of June launch.
-
-PIPELINE.md updated to add example targets and Discord/WhatsApp diaspora group names to the targeting plan, with offer specificity (co-branded/language-localized Cards).
-
-This expands Copa’s growth plan by addressing World Cup’s cross-language, cross-market viral opportunity—a unique lever organic sports games typically underuse. No new steps for other phase trackers; next cycle will formalize first outreach/testimonials in non-English channels.
-
-
----
-
-## April 1, 2026 — Full Launch & Growth Strategy Mapping
-
-- Updated CHANNELS.md with final channel stack, ranked by audience × relevance × accessibility, and explicit content strategy for each stage: pre-launch, launch week, and in-tournament. Mapped formats (Cards, memes, challenge prompts), assigners (Copa, influencers, users), and post frequency. WhatsApp/Telegram prioritized as viral engine; Twitter/Reddit as public proof; emails for direct retention and key conversion sequence.
-- Updated PIPELINE.md with named list of high-fit creators (Twitter, YouTube, podcasts), Reddit/Discord gatekeepers, and explicit diaspora/linguistic group leaders — all with why/how/what-offer. Expanded approach to ensure coverage of major channels and leverage natural viral archetype.
-- Updated ACTIONS.md with all practical PENDING next steps needed to operationalize strategy: landing page, DM templates, outreach tracking/log, group Card testimonial seeding, diaspora outreach, editorial workflow, and sponsor package.
-- All updates focus on bridging minimum-friction viral loop from individual play → share → group/creator amplification → new signups. Week-by-week plan detailed to hit 500 pre-tournament organic signups using only no-budget channels. No brainstorming or invention — all steps derive strictly from research and product fit. Next: begin approval/execution, then monitor click-to-signup conversion via new OUTREACH.md log.
-
-
----
-
-## April 1, 2026 — Channel Stack, Influencer Map, and Week-by-Week Launch Plan Finalized
-
-- Updated CHANNELS.md with ranked channel strategy (WhatsApp/Telegram #1, Twitter/Reddit/Discord channels, YouTube/podcasts/diaspora reach), content-by-channel plan, and week-by-week itemized plan from now to June 18.
-- Updated PIPELINE.md with 15+ specific creator, podcast, Twitter, Discord, Reddit, and diaspora/national community targets, plus offer rationale and outreach plan for each.
-- Added all practical PENDING actions to ACTIONS.md, from domain/landing setup to outreach/template drafting, diaspora language expansion, and group-card social proof collection.
-- The combined system maps every step from first content/testimonials (early April) to viral seeding, social proof, and group-based reposting, designed to maximize conversion to a 500-person high-FOMO zero-budget launch.
-- Each action and channel assignment draws directly from organic/viral mechanics in successful daily and social games cited in research: group-card viral loop (Jackbox model), meme/UGC fit, one-buyer group monetization.
-- Next: Execute pending actions per schedule; begin outreach, testimonial collection, and tracking in real time.
-
-
----
-
-## April 2, 2026 — PIPELINE.md Updated: Specific Influencer/Community Targets Mapped
-
-Expanded and finalized PIPELINE.md with a ranked list of 15+ specific creators, Twitter accounts, podcasts, YouTube channels, Discord servers, and Reddit mod targets, including explicit rationale for each pick, outreach method, and connection to Copa’s viral mechanic. Added diaspora/national expansion segment for May/June with named targets in Spanish, French, Portuguese, and Arabic language communities, aligning with Copa’s plan to leverage national identity and WhatsApp/Discord group virality.
-
-Outreach offers and rationale for each pipeline segment included. Clear next steps outlined: DM/email outreach templates, outreach tracking/log, testimonial/UGC seeding, diaspora group expansion, all referenced for ACTIONS.md. This positions Copa to execute the zero-budget viral growth playbook for pre-tournament scaling to 500+ signups, and activates group-focused distribution via organizers and meme-fit creator partners.
-
-No changes yet to other files; next cycles will further operationalize outreach, track metrics, and seed UGC/social proof on prioritized channels.
-
-
----
-
-## April 2, 2026 — Channel Prioritization, Pipeline Mapping, Actions Added
-
-- Updated CHANNELS.md to re-rank and clarify top-priority channels (WhatsApp/Telegram, Twitter/X, Reddit, Email, Discord, TikTok, YouTube, Newsletters), with detailed format, content-planning, and per-stage execution plan for each up to June 18.
-- Updated PIPELINE.md to list 15+ specific creators/accounts/communities targeted for early seeding and viral challenge, with rationale and offers mapped to each, including national/diaspora group expansion segment.
-- Updated ACTIONS.md with PENDING items for pre-launch DMs/emails, message templates, outreach tracking, group Card testimonial collection, and explicit channel-week-by-week post schedule.
-- All changes strengthen the path to 500 organic signups and test each step of the viral loop with channel-fit and minimum friction.
-
-
----
-
-## April 3, 2026 — Channel, Pipeline, and Action Files Synced for Zero-to-500 Signup Launch Plan
-
-- Updated CHANNELS.md to confirm the prioritized channel stack, showing WhatsApp/Telegram as the viral engine, Twitter/Reddit/Discord as meme/recap/memeable credibility channels, and a detailed week-by-week content + frequency plan. Each channel links to an action in the viral loop with best-fit content for share-to-signup conversion (Copa Card, Group Card, meme/leaderboard). Sequence locks in pre-launch, launch, and in-tournament windows.
-- Updated PIPELINE.md with specific influencer/creator/community targets, including rationale, outreach method, offer, and timeline. List covers Twitter, YouTube/podcasts, Reddit, Discord, and four key national/diaspora segments. Plan includes outreach offer structure and key next-step actions for each group.
-- Updated ACTIONS.md: All growth/launch actions for zero-budget run (domain, waitlist, Stripe, outreach, content seeding, group Card collection) present as PENDING tasks, linked to channel phases and pipeline targets. Includes detailed action for outreach tracking, testimonial/UGC seeding, diaspora group expansion, and week-by-week pre-launch sequence.
-- This sync establishes a clear, direct path from channel → pipeline → action → metric for achieving 500 organic Copa Reads signups by June 18, with zero paid budget. All logic, sequencing, and content validated against mechanic and viral fit, with action gating and owner assignment for founder self-serve ops. Next: Approve and begin executing PENDING actions.
-
-
----
-
-## April 3, 2026 — Channel, Pipeline, and Action Files Synced for Zero-to-500 Signup Launch Plan
-
-- Updated CHANNELS.md to confirm the prioritized channel stack, showing WhatsApp/Telegram as the viral engine, Twitter/Reddit/Discord as meme/recap/memeable credibility channels, and a detailed week-by-week content + frequency plan. Each channel links to an action in the viral loop with best-fit content for share-to-signup conversion (Copa Card, Group Card, meme/leaderboard). Sequence locks in pre-launch, launch, and in-tournament windows.
-- Updated PIPELINE.md with specific influencer/creator/community targets, including rationale, outreach method, offer, and timeline. List covers Twitter, YouTube/podcasts, Reddit, Discord, and four key national/diaspora segments. Plan includes outreach offer structure and key next-step actions for each group.
-- Updated ACTIONS.md: All growth/launch actions for zero-budget run (domain, waitlist, Stripe, outreach, content seeding, group Card collection) present as PENDING tasks, linked to channel phases and pipeline targets. Includes detailed action for outreach tracking, testimonial/UGC seeding, diaspora group expansion, and week-by-week pre-launch sequence.
-- This sync establishes a clear, direct path from channel → pipeline → action → metric for achieving 500 organic Copa Reads signups by June 18, with zero paid budget. All logic, sequencing, and content validated against mechanic and viral fit, with action gating and owner assignment for founder self-serve ops. Next: Approve and begin executing PENDING actions.
-
-
----
-
-## April 3, 2026 — Channel, Pipeline, and Action Files Synced for Zero-to-500 Signup Launch Plan
-
-- Updated CHANNELS.md to confirm the prioritized channel stack, showing WhatsApp/Telegram as the viral engine, Twitter/Reddit/Discord as meme/recap/memeable credibility channels, and a detailed week-by-week content + frequency plan. Each channel links to an action in the viral loop with best-fit content for share-to-signup conversion (Copa Card, Group Card, meme/leaderboard). Sequence locks in pre-launch, launch, and in-tournament windows.
-- Updated PIPELINE.md with specific influencer/creator/community targets, including rationale, outreach method, offer, and timeline. List covers Twitter, YouTube/podcasts, Reddit, Discord, and four key national/diaspora segments. Plan includes outreach offer structure and key next-step actions for each group.
-- Updated ACTIONS.md: All growth/launch actions for zero-budget run (domain, waitlist, Stripe, outreach, content seeding, group Card collection) present as PENDING tasks, linked to channel phases and pipeline targets. Includes detailed action for outreach tracking, testimonial/UGC seeding, diaspora group expansion, and week-by-week pre-launch sequence.
-- This sync establishes a clear, direct path from channel → pipeline → action → metric for achieving 500 organic Copa Reads signups by June 18, with zero paid budget. All logic, sequencing, and content validated against mechanic and viral fit, with action gating and owner assignment for founder self-serve ops. Next: Approve and begin executing PENDING actions.
-
-
----
-
-## April 3, 2026 — Zero-to-500 Signup Launch Path: Channel, Pipeline, and Actions Finalized
-
-- Updated CHANNELS.md to lock in top-priority channels (WhatsApp/Telegram, Twitter/X, Reddit, Discord, Email, TikTok/IG, YouTube/Pods, Newsletters), refocused content/frequency, and week-by-week posts against full viral loop and MVP funnel for pre-500 organic signups.
-- Updated PIPELINE.md with specific list of 15+ creator/admin/community targets (across Twitter, YouTube/podcasts, Reddit, Discord, national/diaspora expansion), annotated with reach rationale, outreach method, and launch offer fit.
-- Updated ACTIONS.md to reference all outreach steps: DM template drafting, pre-launch partner seeding, group Card credential/testimonial, language/diaspora group expansion, and tracking log for all contacts/extensions.
-- This synthesizes organic viral channel priority, influencer/partner targeting, social proof seeding, and precise week-by-week plan to reach 500 pre-launch signups with zero-budget. Each channel, asset, and action is now explicitly mapped with dependencies and tracking.
+## Reset — March 23, 2026
+**Action:** Full state wipe and strategic pivot.
+
+Prior concept (Copa Reads — a consumer crowd-opinion game) was discarded. The product has been redefined based on the Copa pitch deck shared by Sammy.
+
+### What Copa Actually Is
+A B2B engagement product for betting platforms. Squad-building game that ties to winning bets. 48-day retention play across all 104 World Cup matches. Single webhook integration. Revenue share model (20% of $10 entry fees to partner, 80% to prize pool).
+
+### Why the Pivot
+The pitch deck shows a clear, focused B2B business:
+- Product is already designed
+- Revenue model is defined
+- Integration requirement is minimal (single webhook)
+- Value proposition to partner is concrete (retention across 104 matches)
+
+The agent's job is not to design a game. The game is designed. The agent's job is to **find and close partners**.
+
+### What Was Reset
+- CONCEPT.md — rewritten to match the pitch deck exactly
+- IDENTITY.md — agent mission changed from "design a game" to "sign a partner"
+- PHASE.md — phases reoriented around partnership acquisition
+- PIPELINE.md — rebuilt with actual betting platforms as targets
+- ACTIONS.md — first actions are partnership outreach, not product design
+- METRICS.md — metrics now track deals, not design scores
+- MONETIZATION.md — updated to reflect the actual revenue model
+
+### State Wiped
+- Prior game designs (Copa Reads) fully discarded
+- All prior assessment rubrics deprecated (they were for a consumer game)
+- CONTENT_BANK.md, PLAYERS.md, SIGNUPS.md, CHANNELS.md, CONVERSION.md cleared
+- LEARNINGS.md, EXPERIMENTS.md cleared
+
+### Next Actions
+1. Create a clean PDF pitch deck from CONCEPT.md
+2. Send outreach to Flutter Group BD (covers 4 markets with one conversation)
+3. Send outreach to Entain Group BD (covers 4+ markets)
+4. Send outreach to DraftKings directly
+5. Build a demo URL for calls

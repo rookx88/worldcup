@@ -198,12 +198,12 @@ STATE_FILES = [
 APPEND_ONLY = {"JOURNAL.md", "LEARNINGS.md", "OUTREACH.md", "SIGNUPS.md"}
 
 # Phase 2 transition thresholds
-PHASE2_OVERALL_THRESHOLD = 0.95
-PHASE2_DIM_THRESHOLD = 0.90
+PHASE2_OVERALL_THRESHOLD = 0.90
+PHASE2_DIM_THRESHOLD = 0.80
 
-# Phase 1 rubrics only — Phase 2 adds execution rubrics
-PHASE1_RUBRICS = {"concept-uniqueness", "market-positioning", "viral-mechanics", "marketing-reach", "product-readiness", "monetization-readiness"}
-PHASE2_RUBRICS = {"user-acquisition", "engagement-quality"}
+# Phase 1 rubrics — B2B partnership acquisition focus
+PHASE1_RUBRICS = {"partner-pipeline", "outreach-execution", "market-positioning", "monetization-readiness", "product-readiness"}
+PHASE2_RUBRICS = {"deal-progression", "partner-retention"}
 
 
 def _read(path: Path, default: str = "") -> str:
@@ -422,14 +422,18 @@ def _select_skill(root: Path, assessment: dict, state: dict[str, str]) -> tuple[
         # Phase 1: research or strategize
         if _content_is_empty(business) or _content_is_empty(audience):
             skill_name = "research"
-        elif weakest in ("concept-uniqueness", "market-positioning"):
+        elif weakest in ("partner-pipeline",):
             skill_name = "research"
-        elif weakest in ("viral-mechanics", "product-readiness"):
-            skill_name = "design"
-        elif weakest in ("marketing-reach",):
+        elif weakest in ("outreach-execution",):
+            skill_name = "grow"
+        elif weakest in ("market-positioning",):
             skill_name = "strategize"
+        elif weakest in ("product-readiness",):
+            skill_name = "build"
+        elif weakest in ("monetization-readiness",):
+            skill_name = "convert"
         else:
-            skill_name = "research"
+            skill_name = "grow"
 
     skill_path = root / "skills" / skill_name / "SKILL.md"
     skill_text = _read(skill_path, f"Make one meaningful change. Focus on: {skill_name}.")

@@ -1,57 +1,43 @@
 # Skill: Strategize
 
-You are building the zero-budget launch and growth strategy for Copa's World Cup fantasy game.
+You are improving Copa's partnership acquisition strategy.
 
 ## Objective
-Map the exact path from zero to 500 signups before June 18, 2026 — using only organic channels, community presence, and viral mechanics built into the game.
+Identify the fastest path to a signed partner. Analyze what's working, what isn't, and what needs to change to close deals before April 15, 2026.
 
-## Strategy Tasks
+## Available Actions
 
-### Monetization Research (if monetization-readiness is weak)
-Research how comparable products actually make money — not brainstorming, evidence-gathering:
-- Find 5–10 sports prediction, daily fantasy, or social sports apps and document their actual monetization model
-- Look for public revenue numbers, App Store/Play Store pricing, or founder interviews discussing what worked
-- Find Reddit threads, App Store reviews, or community posts where users discuss what they paid for or refused to pay for
-- Look for failure cases: products that tried a monetization model and killed their growth — what happened?
-- After research, recommend ONE primary model with specific evidence for why it fits Copa's audience and product
+### Pipeline Analysis
+- Review PIPELINE.md and OUTREACH.md for patterns
+- Identify which companies/markets have the highest close probability
+- Recommend where to focus effort
 
-Do not invent a model. Find one that works elsewhere and explain why it applies here.
+### Offer Refinement
+- Review current pitch and revenue model in MONETIZATION.md
+- Identify friction points that might be causing rejections or slow responses
+- Propose adjustments to offer structure (rev share rate, exclusivity terms, integration requirements)
 
-### Channel Prioritization
-Rank CHANNELS.md entries by:
-- Audience size × relevance × accessibility (can Copa post without being banned/ignored?)
-- Which channels have World Cup content already active now vs closer to June?
-- Where do casual soccer fans (not hardcore fantasy players) actually spend time?
+### Messaging Refinement
+- Review outreach templates in ACTIONS.md
+- Identify what's weak or generic
+- Rewrite with sharper hooks and stronger value props
 
-### Content Strategy
-Plan what Copa posts where and when:
-- Pre-launch (now → June 1): build anticipation, get early signups
-- Launch week (June 10–18): maximum visibility at tournament start
-- During tournament: daily content tied to match results
+### Group Deal Strategy
+- Flutter Group (FanDuel, Paddy Power, Sky Bet, Sportsbet) and Entain (Ladbrokes, Coral, bwin) are multi-market opportunities
+- Develop specific strategy for approaching group BD teams vs. individual brand teams
 
-For each channel, define:
-- What type of content works there (meme, prediction post, game result card, AMA)
-- Who posts it (Copa directly, or does the game content generate it automatically)
-- Frequency
+### Urgency Planning
+- Integration deadline is April 15, 2026
+- Map out what happens if no partner is signed by March 31 vs. April 15 vs. May 1
+- Propose escalation tactics if pipeline is stalling
 
-### Influencer / Partner Map
-Identify 10 specific creators or communities to target:
-- Small-mid YouTube soccer channels (50k–500k subs)
-- Soccer Twitter accounts with engaged followings
-- Fantasy sports podcasts that cover international tournaments
-- Reddit moderators who might feature or pin content
-For each: why them, what to offer, how to reach
-
-### Viral Loop Design
-Map the exact viral loop:
-- Player plays → gets result card → shares to [platform] → friend sees → clicks → lands where? → converts how?
-- What is the minimum friction path from share to first play?
-
-### Launch Sequence
-Write a week-by-week plan from now to June 18.
+## Rules
+1. Strategy changes must be justified by evidence (pipeline data, response patterns, market intel)
+2. Never remove market exclusivity from the offer — it is a closing lever, not a barrier
+3. Propose all strategic changes in ACTIONS.md as PENDING before implementing
+4. Document reasoning in JOURNAL.md
 
 ## Output
-Update CHANNELS.md with prioritized channel strategy.
-Update PIPELINE.md with specific influencers/communities identified.
-Propose any external actions (posts to draft, accounts to contact) in ACTIONS.md as PENDING.
-Document strategy in JOURNAL.md.
+Write strategic recommendations to ACTIONS.md as PENDING.
+Update LEARNINGS.md with any insights.
+Document reasoning in JOURNAL.md.

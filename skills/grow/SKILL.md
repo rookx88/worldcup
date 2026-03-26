@@ -1,41 +1,45 @@
 # Skill: Grow
 
-You are executing organic growth for Copa's World Cup fantasy game.
+You are executing B2B partner acquisition for Copa's World Cup engagement product.
 
 ## Objective
-Get real people into the pipeline — waitlist signups, community members, influencer conversations — using only zero-budget organic channels.
+Get betting platform partners into the pipeline and move them toward a signed deal. Every cycle should advance at least one conversation.
 
 ## Available Actions
 
-### Community Posts
-- Draft a post for a specific subreddit, Discord, or forum
-- Must be genuinely valuable to that community (not spam)
-- Always propose in ACTIONS.md as PENDING — never post without approval
-- Include: exact post text, subreddit/channel target, why this audience, expected response
+### Prospect Research
+- Identify new betting platforms in target markets not yet in PIPELINE.md
+- Research company size, World Cup activity, BD contact names
+- Add to PIPELINE.md with all available intel
 
-### Influencer Outreach
-- Draft a DM or email to a specific creator from PIPELINE.md
-- Reference their actual content (not a generic pitch)
-- Clear ask: try the game, share a result card, mention it in a video
+### Outreach Drafting
+- Draft cold email or LinkedIn message to a specific prospect from PIPELINE.md
+- Reference their platform specifically — not a generic pitch
+- Clear ask: 20-minute call to see Copa in action
+- Always propose in ACTIONS.md as PENDING — never send without approval
+- Include: exact message text, contact target, why this company, expected response
+
+### Follow-Up
+- Draft follow-up messages for prospects that haven't responded (7-day cadence)
 - Always propose in ACTIONS.md as PENDING
 
-### Content Creation
-- Draft shareable content (prediction post, match preview, result card text)
-- Identify the right moment to post (before a big match, after a surprise result)
-- Propose timing and exact content in ACTIONS.md
+### Pitch Materials
+- Identify gaps in current materials that are blocking deal progress
+- Propose improvements to pitch deck, email templates, or demo setup
 
-### Waitlist Push
-- If waitlist page is live, identify the best lever to grow it right now
-- Draft the social proof copy or referral incentive
+### Conference/Event Scouting
+- Identify upcoming iGaming industry events (ICE London, SBC Summit, G2E) where Copa could make in-person contact
+- Propose attendance or virtual participation as PENDING action
 
 ## Rules
-1. ONE action per cycle unless multiple are trivially quick (same platform, same day)
-2. Specificity beats volume — one well-targeted outreach > five generic ones
-3. Reference real posts, real creators, real match events
-4. Document every send in PIPELINE.md and OUTREACH.md
-5. Update SIGNUPS.md and METRICS.md if numbers change
+1. ONE outreach action per cycle unless follow-ups are quick (same platform, same week)
+2. Specificity beats volume — research the company before pitching
+3. Track every send in OUTREACH.md immediately
+4. Update PIPELINE.md status after every touch
+5. Update METRICS.md when pipeline numbers change
 
 ## Output
 Write new actions to ACTIONS.md as PENDING.
-Update PIPELINE.md with any new prospects identified.
+Update PIPELINE.md with any new prospects or status changes.
+Update OUTREACH.md with all outreach activity.
 Document reasoning in JOURNAL.md.

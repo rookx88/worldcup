@@ -1,112 +1,86 @@
-# Growth Pipeline
+# Partner Pipeline
 
-## Target: 500 organic signups pre–June 18, 2026
+## Target Markets & Tier Rankings
 
----
-
-## Influencer & Community Target Map (April 3, 2026 — FINAL, launch path lock-in)
-
-### Twitter/X — Engaged, meme, and “conversation-driver” accounts
-1. **@MenInBlazers (300k):** Meme-forward, English/US, global football crossover; irreverent group-chat fit.
-   - *Why:* Known for viral debate and meme clips. Likely to share unique World Cup twists.
-   - *Reach:* DM, business email.
-   - *Offer:* Early demo for internal staff/fan group, exclusive Group Card.
-
-2. **@FootyAccums (900k):** Drama/controversy moments, wide reach.
-   - *Why:* Shares viral World Cup moments/decisions, triggers debate.
-   - *Reach:* DM.
-   - *Offer:* Feature their Card on feed (custom World Cup moment).
-
-3. **@Zonal_Marking (150k, Michael Cox):** Tactics + mass appeal, debate starter.
-   - *Why:* Trusted for match analysis, open to new group play mechanics.
-   - *Reach:* DM.
-   - *Offer:* “Can the experts match the crowd?” Twitter thread.
-
-4. **@USMNTOnly (120k):** North American focus; active WhatsApp/Discord tie-in.
-   - *Why:* Hits Copa’s US launch demo.
-   - *Reach:* DM/tag.
-
-5. **@ShePlaysGames (68k):** Inclusive, youth demo.
-   - *Why:* Crossover/underrepresented demo; invites non-male group chat organizers.
-   - *Reach:* DM/collab.
-
-### YouTube/Podcast — Small/Mid Creators, Highly Engaged Fans
-6. **Tifo Football (YT 1M, Pod 50k):** Story-first, accessible explainers.
-    - *Why:* Casual fan trust, viral format for demos.
-    - *Reach:* Email/inbound guest form.
-    - *Offer:* On-show Card or segment.
-
-7. **Rabona TV (500k):** Meme/quick reaction audience, group challenge fit.
-    - *Why:* Rapid meme, high engagement.
-    - *Reach:* YT DM/email.
-    - *Offer:* Copa Card live demo.
-
-8. **The Cooligans (Pod 20k + IG):** Humor, bilingual fan group.
-    - *Why:* Inclusive audience, Spanish/English bridge.
-    - *Reach:* IG DM, podcast email.
-    - *Offer:* Demo/group challenge slot.
-
-9. **FootyPrime Podcast (YT 12k / Pod 10k):** Canada, group play on air.
-    - *Why:* Voice-forward group challenge, likely for group leaderboard format.
-    - *Reach:* Email.
-
-10. **Scouted Football (YT 30k, Twitter 80k):** Youth demo/DIScord tie.
-    - *Why:* Reaches under-30, Discord test base.
-    - *Reach:* DM/email.
-
-### Reddit & Discord — Community Gatekeepers for Viral Recap Sharing
-11. **r/soccer mods:**  
-    - *Why:* Crowd/meta posts, meme Card fit.
-    - *Reach:* Modmail (with completed Card/thread copy)
-
-12. **r/WorldCup mods:**
-    - *Why:* Global real-time quadrennial.
-    - *Reach:* Modmail/application.
-
-13. **r/USMNT mods:**
-    - *Why:* US thread + WhatsApp/Discord overlap.
-    - *Reach:* Modmail.
-
-14. **Discord “The Football Chat” (35k):**
-    - *Why:* Active match/test-bed, meme culture.
-    - *Reach:* Admin DM.
-
-15. **Discord “FIFA World Cup Community” (60k):**
-    - *Why:* Top tournament Discord; launches real-time.
-    - *Reach:* Admin DM.
-
-### National/Diaspora Expansion — May/June Target
-- Add 4–5 creators/group leaders per Spanish, French, Portuguese, Arabic markets.
-- Sample:
-    - @BrasilGlobalTour (Pt)
-    - @SomosLaSeleccion (Es)
-    - @LionsdelAtlas (Ar/Fr)
-    - @FRBlueSoccer (Fr)
-    - Discord: La Peña del Fútbol, FutebolPT, WorldCupMaroc
-- Offer: Exclusive early Copa Card for their group, co-branded/language-localized; launch meme/leaderboard showcase.
+Partners are prioritized by: (1) World Cup betting volume, (2) player engagement features they already offer, (3) likelihood of innovation adoption, (4) decision-making speed.
 
 ---
 
-## Outreach Offers/Approach
+## Tier 1 — High Priority (Large player base, World Cup focus, accessible)
 
-- **Offer:** Early demo, co-branded Copa Card, group leaderboard, promo code for Organizer pass, exclusive “first to appear” slot in tournament Canon reveal.
-- **How to reach:** DM/Twitter, podcast email/contact, Reddit modmail, Discord DM.
+### United Kingdom
+| Company | Size | Contact Path | Notes |
+|---------|------|-------------|-------|
+| Bet365 | ~35M users globally | partnerships@bet365.com / LinkedIn BD | Largest UK sportsbook; World Cup engagement is core business |
+| Sky Bet | ~4M UK users | Via Sky Sports partnerships or LinkedIn | Part of Flutter; strong editorial + engagement product history |
+| William Hill | ~2M UK active | partnerships@williamhill.com | Traditional brand, recently acquired by 888; open to product innovation |
+| Paddy Power | ~3M EU/UK | Via Flutter Group BD | Known for marketing creativity; Copa's viral spin mechanic fits brand |
+
+### United States
+| Company | Size | Contact Path | Notes |
+|---------|------|-------------|-------|
+| DraftKings | ~6M active | partnerships@draftkings.com | Already does fantasy; Copa is differentiated (not DFS) |
+| FanDuel | ~5M active | Via Flutter Group BD | Parent company Flutter owns Paddy Power too |
+| BetMGM | ~3M active | Via MGM Resorts partnerships | Casino parent gives budget for engagement innovation |
+| Caesars Sportsbook | ~2M active | partnership@caesars.com | Luxury brand, high-value player base fits Copa premium positioning |
+
+### Australia
+| Company | Size | Contact Path | Notes |
+|---------|------|-------------|-------|
+| Sportsbet | ~2M active | Via Flutter Group BD | Australia's largest bookmaker; World Cup is massive |
+| TAB | ~1M active | commercial@tab.com.au | Government-backed; may need different approach |
+| Ladbrokes Australia | ~1M active | Via Entain BD | Entain's AU arm; Entain HQ may be better entry point |
 
 ---
 
-## Seeding Plan (April–June 2026)
+## Tier 2 — Medium Priority (Good fit, but smaller or harder to reach)
 
-- **By April 7:** DM/email top 10+ creators, Modmail 5+ Reddit/Discord admins.
-- **April–May:** Use Card testimonials as social proof everywhere.
-- **Track:** Clicks/waitlist signups via unique links per partner.
-- **Expand:** Diaspora/national group creators/leads; WhatsApp/Discord group test/seed in new languages.
+### Canada
+| Company | Size | Notes |
+|---------|------|-------|
+| theScore Bet | ~500k | Penn Entertainment owned; World Cup focus |
+| Sports Interaction | ~300k | Canadian-specific; faster decisions |
+| BetRivers Canada | ~500k | Rush Street Gaming; US parent |
+
+### Germany / Europe
+| Company | Size | Notes |
+|---------|------|-------|
+| Bet-at-home | ~1M EU | Independent; faster decisions than conglomerates |
+| Tipico | ~2M DE | Germany's largest; World Cup home market |
+| Unibet | ~5M EU | Kindred Group; strong engagement product history |
+
+### Brazil / LATAM
+| Company | Size | Notes |
+|---------|------|-------|
+| Betano | ~2M BR | Kaizen Gaming; aggressive World Cup investment |
+| Sportingbet | ~1M BR | Entain brand in Brazil |
+| 1xBet | ~5M LATAM | Large but regulatory risk in some markets |
 
 ---
 
-## Next Steps
-- Prepare DM/email templates per persona.
-- Create OUTREACH.md log for all influencer, mod, admin contacts.
-- Move group Card testimonials into Twitter/Reddit threads (with permission).
-- Monitor click→waitlist ratio per outreach.
+## Flutter Group Strategy
+Flutter owns: FanDuel (US), Paddy Power (EU), Sky Bet (UK), Sportsbet (AU), PokerStars (global).
+**Approach:** A single Flutter Group BD conversation could unlock multiple market partners simultaneously. Prioritize Flutter Group BD as a parallel track.
+- Flutter Group contact: investors@flutter.com / LinkedIn: Flutter Entertainment corporate BD
 
-# END (April 3, 2026)
+## Entain Group Strategy
+Entain owns: Ladbrokes, Coral, bwin, PartyPoker, Sportingbet.
+**Approach:** Similar to Flutter — one BD conversation, multiple market partners.
+- Entain BD: corporate@entain.com
+
+---
+
+## Status Key
+- 🔵 IDENTIFIED — prospect added, no contact yet
+- 📤 CONTACTED — outreach sent, awaiting response
+- 💬 ENGAGED — active conversation
+- 📅 DEMO — demo scheduled or completed
+- 📝 NEGOTIATING — commercial terms under discussion
+- ✅ SIGNED — partnership agreement executed
+- ❌ DEAD — passed or unresponsive
+
+---
+
+## Current Status
+All prospects: 🔵 IDENTIFIED
+No outreach sent yet.

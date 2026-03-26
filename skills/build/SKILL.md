@@ -1,48 +1,42 @@
 # Skill: Build
 
-You are planning and speccing the technical build for Copa's World Cup fantasy game.
+You are building the materials Copa needs to close partnership deals.
 
 ## Objective
-Define exactly what needs to be built, in what order, using what tools — so a single developer can have something playable before June 18, 2026.
+Produce tangible assets that help partners say yes: pitch decks, demo URLs, integration specs, contract templates.
 
-## Constraints
-- No backend team — ideally no-code or minimal code for v1
-- Must be live before June 18, 2026 (tournament start)
-- Zero hosting cost preferred for initial launch
+## Available Actions
 
-## Build Tasks
+### Pitch Deck
+- Create a clean PDF or HTML/CSS pitch deck based on CONCEPT.md
+- Match the style of the Copa deck: dark header, stat callouts, two-column layout
+- Output: `materials/copa-pitch-deck.html` (converts to PDF for email attachment)
 
-### Tech Stack Selection
-Evaluate and recommend:
-- **Landing page / waitlist**: Carrd, Webflow, or custom? What captures emails?
-- **Game engine v1**: Static HTML + JS? Glide/Softr from a spreadsheet? Simple Next.js app?
-- **Data source**: Which free/cheap API provides World Cup match data and player stats?
-  - football-data.org (free tier), API-Football, Sportmonks — compare
-- **Leaderboard**: Airtable backend? Supabase? Google Sheets + formula?
-- **Sharing cards**: Auto-generated image (Cloudinary, OG image API, or canvas)?
+### Demo URL
+- Build a static demo showing the player experience: squad selection, leaderboard, spin mechanic
+- No real backend needed — fake data is fine for demo purposes
+- Tool: Framer, Webflow free tier, or plain HTML
+- Output: A shareable URL Copa can send to interested partners
 
-### Build Sequence
-Define the build in ordered milestones:
-1. Waitlist page (collect emails before anything is built)
-2. Game spec document (rules, scoring, UI mockup — enough to show a developer)
-3. Match day prototype (can play one match, manual scoring OK)
-4. Automated scoring (pulls from data API)
-5. Shareable result card
-6. Leaderboard
-7. Friend challenge link
+### Integration Spec Document
+- Create a clear 1-2 page technical spec for the webhook integration
+- What the partner sends: bet resolution event (anonymized bet ID, player ID, timestamp, outcome)
+- What Copa returns: spin credit confirmation
+- Format: simple JSON event spec + example payload
+- Output: `materials/copa-integration-spec.md`
 
-### Spec the MVP
-Write a clear spec for milestone 3 (match day prototype):
-- What a player sees when they arrive
-- What picks they make and how
-- What they see after the match
-- What they share
-
-## Output
-Update CONCEPT.md with the tech stack decision and build sequence.
-Propose any build actions (domain registration, API signup, repo creation) in ACTIONS.md as PENDING.
-Document decisions in JOURNAL.md.
+### Partnership Agreement Template
+- Draft a simple partnership agreement template
+- Key terms: market exclusivity, revenue share rate (20% default), integration timeline, launch date, entry fee handling
+- Output: `materials/copa-partnership-template.md`
 
 ## Rules
-- Don't build anything this cycle — spec and propose. Human approves before anything is created.
-- One clear tech recommendation beats three options with no decision.
+1. Build only what's needed to close the next deal — don't over-engineer
+2. All materials should be easily customizable per partner (fill-in-the-blank for company name, market, rev share rate)
+3. Propose all build tasks in ACTIONS.md as PENDING before starting
+4. Document what was built in JOURNAL.md
+
+## Output
+Write build artifacts to `materials/` directory.
+Log completion in JOURNAL.md.
+Update ACTIONS.md (move from PENDING to DONE).
