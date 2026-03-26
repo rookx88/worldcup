@@ -40,3 +40,12 @@ The agent's job is not to design a game. The game is designed. The agent's job i
 3. Send outreach to Entain Group BD (covers 4+ markets)
 4. Send outreach to DraftKings directly
 5. Build a demo URL for calls
+
+
+---
+
+---
+
+## March 24, 2026 — Next Outreach: Bet365 (UK)
+
+Bet365 is the UK's largest sportsbook and deeply invested in every World Cup. Early engagement with Bet365 not only opens the most lucrative UK market but also creates competitive pressure for Flutter and Entain, who may move faster once they see Bet365 in active conversation. Drafted a tailored outreach email leveraging Copa's exclusivity (one per market) and Bet365's appetite for World Cup innovation. Action added as PENDING so it can be prioritized for sending once the pitch PDF is ready.

@@ -68,3 +68,29 @@
 **Minimum viable:** Static page showing squad selection, example leaderboard, and what a "spin" looks like
 **Tool:** Framer, Webflow, or Carrd free tier
 **Urgency:** Within 2 weeks. Can be built after first outreach goes out — but needed before demo calls.
+
+---
+
+## PENDING — Outreach Email: Bet365 UK Partnerships
+
+**Action:** Send tailored outreach email to Bet365 partnerships team
+**Target:** Bet365 (largest UK sportsbook by volume, strong World Cup focus)
+**Contact:** partnerships@bet365.com / LinkedIn BD manager (search for Head of Partnerships or Business Development Lead)
+**Why now:** Bet365 invests in World Cup engagement products every cycle and has the engineering resources for quick integration. Locking Bet365 for UK would be a huge validation and may push Flutter/Entain to move faster in other markets.
+**Subject line:** Copa for Bet365 — World Cup retention (single webhook, exclusive to one UK book)
+
+**Email body:**
+> Hi [Name],
+>
+> Reaching out to explore a partnership for the 2026 World Cup. I’m building Copa — a squad-based game that integrates directly into a sportsbook and ties bets to a leaderboard running across all 104 matches.
+>
+> With Copa, Bet365 players pay a $10 entry fee to build a persistent World Cup squad. Every winning bet earns a spin to upgrade their team and climb the leaderboard — prize pool pays out at the Final.
+>
+> The integration is a single webhook — no backend rebuild required. You keep 20% of entry fees (e.g., $2,000 per 1,000 participating players), and we handle the rest (squad selection, leaderboards, prize pool).
+>
+> Copa is available exclusively to one UK partner. I want Bet365 to own it for this cycle. Worth a 20-minute call to see how it works?
+>
+> [Signature]
+
+**Urgency:** Early engagement with Bet365 is leverage against Flutter/Entain in the UK and signals credibility to US/AU prospects.
+
