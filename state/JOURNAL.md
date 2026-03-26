@@ -346,3 +346,13 @@ No changes yet to other files; next cycles will further operationalize outreach,
 - Updated PIPELINE.md with specific influencer/creator/community targets, including rationale, outreach method, offer, and timeline. List covers Twitter, YouTube/podcasts, Reddit, Discord, and four key national/diaspora segments. Plan includes outreach offer structure and key next-step actions for each group.
 - Updated ACTIONS.md: All growth/launch actions for zero-budget run (domain, waitlist, Stripe, outreach, content seeding, group Card collection) present as PENDING tasks, linked to channel phases and pipeline targets. Includes detailed action for outreach tracking, testimonial/UGC seeding, diaspora group expansion, and week-by-week pre-launch sequence.
 - This sync establishes a clear, direct path from channel → pipeline → action → metric for achieving 500 organic Copa Reads signups by June 18, with zero paid budget. All logic, sequencing, and content validated against mechanic and viral fit, with action gating and owner assignment for founder self-serve ops. Next: Approve and begin executing PENDING actions.
+
+
+---
+
+## April 3, 2026 — Zero-to-500 Signup Launch Path: Channel, Pipeline, and Actions Finalized
+
+- Updated CHANNELS.md to lock in top-priority channels (WhatsApp/Telegram, Twitter/X, Reddit, Discord, Email, TikTok/IG, YouTube/Pods, Newsletters), refocused content/frequency, and week-by-week posts against full viral loop and MVP funnel for pre-500 organic signups.
+- Updated PIPELINE.md with specific list of 15+ creator/admin/community targets (across Twitter, YouTube/podcasts, Reddit, Discord, national/diaspora expansion), annotated with reach rationale, outreach method, and launch offer fit.
+- Updated ACTIONS.md to reference all outreach steps: DM template drafting, pre-launch partner seeding, group Card credential/testimonial, language/diaspora group expansion, and tracking log for all contacts/extensions.
+- This synthesizes organic viral channel priority, influencer/partner targeting, social proof seeding, and precise week-by-week plan to reach 500 pre-launch signups with zero-budget. Each channel, asset, and action is now explicitly mapped with dependencies and tracking.

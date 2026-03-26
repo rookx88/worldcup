@@ -165,3 +165,13 @@
 
 ---
 
+## PENDING — Creator/Community Outreach Tracking
+
+**Action:** For each PIPELINE.md target, log:
+- Outbound touch (DM/email date & content summary)
+- Response/followup state
+- Waitlist signups attributed
+- Social proof Card gained (Y/N)
+**Why:** Allows monitoring cost-benefit for every outreach.
+
+**Urgency:** Start log in OUTREACH.md this week, maintain throughout pre-launch.
