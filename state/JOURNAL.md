@@ -49,3 +49,10 @@ The agent's job is not to design a game. The game is designed. The agent's job i
 ## March 24, 2026 — Next Outreach: Bet365 (UK)
 
 Bet365 is the UK's largest sportsbook and deeply invested in every World Cup. Early engagement with Bet365 not only opens the most lucrative UK market but also creates competitive pressure for Flutter and Entain, who may move faster once they see Bet365 in active conversation. Drafted a tailored outreach email leveraging Copa's exclusivity (one per market) and Bet365's appetite for World Cup innovation. Action added as PENDING so it can be prioritized for sending once the pitch PDF is ready.
+
+
+---
+
+## March 25, 2026 — Pipeline Expansion: Added OpenBet (Light & Wonder)
+
+Identified and added OpenBet (owned by Light & Wonder) to the pipeline as a new Tier 2 multi-market B2B prospect. OpenBet powers sportsbooks for a range of leading operators (Betfair, Sky Bet, William Hill, DraftKings, Betfred), holds significant technical influence, and already integrates World Cup-themed engagement content for their operator clients. This provides a new go-to-market vector — a single B2B2B or white-label partnership could enable Copa distribution beyond single-operator negotiations. This expands market access and hedges against slower decision cycles or exclusivity walls with Flutter/Entain. Proposed a PENDING action to ACTIONS.md to research and draft an outreach approach for OpenBet.

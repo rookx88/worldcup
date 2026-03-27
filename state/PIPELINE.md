@@ -58,6 +58,15 @@ Partners are prioritized by: (1) World Cup betting volume, (2) player engagement
 
 ---
 
+## Tier 2 — B2B Technology Provider
+
+### Global / Multi-market
+| Company | Size | Contact Path | Notes | Status |
+|---------|------|-------------|-------|--------|
+| OpenBet (Light & Wonder) | $40B+ in annual handle (across clients) | info@openbet.com / partnerships@lnw.com | Powers Betfair, Sky Bet, William Hill, DraftKings, Betfred; leading retail and online sportsbook technology provider. Opportunity for B2B2B or white-label partnership; strong in UK, EU, US | 🔵 IDENTIFIED |
+
+---
+
 ## Flutter Group Strategy
 Flutter owns: FanDuel (US), Paddy Power (EU), Sky Bet (UK), Sportsbet (AU), PokerStars (global).
 **Approach:** A single Flutter Group BD conversation could unlock multiple market partners simultaneously. Prioritize Flutter Group BD as a parallel track.
@@ -82,25 +91,26 @@ Entain owns: Ladbrokes, Coral, bwin, PartyPoker, Sportingbet.
 ---
 
 ## Current Status
-| Company           | Status         |
-|-------------------|---------------|
-| Bet365            | 🔵 IDENTIFIED |
-| Sky Bet           | 🔵 IDENTIFIED |
-| William Hill      | 🔵 IDENTIFIED |
-| Paddy Power       | 🔵 IDENTIFIED |
-| DraftKings        | 🔵 IDENTIFIED |
-| FanDuel           | 🔵 IDENTIFIED |
-| BetMGM            | 🔵 IDENTIFIED |
-| Caesars           | 🔵 IDENTIFIED |
-| Sportsbet         | 🔵 IDENTIFIED |
-| TAB               | 🔵 IDENTIFIED |
+| Company             | Status         |
+|---------------------|---------------|
+| Bet365              | 🔵 IDENTIFIED |
+| Sky Bet             | 🔵 IDENTIFIED |
+| William Hill        | 🔵 IDENTIFIED |
+| Paddy Power         | 🔵 IDENTIFIED |
+| DraftKings          | 🔵 IDENTIFIED |
+| FanDuel             | 🔵 IDENTIFIED |
+| BetMGM              | 🔵 IDENTIFIED |
+| Caesars             | 🔵 IDENTIFIED |
+| Sportsbet           | 🔵 IDENTIFIED |
+| TAB                 | 🔵 IDENTIFIED |
 | Ladbrokes Australia | 🔵 IDENTIFIED |
-| theScore Bet      | 🔵 IDENTIFIED |
-| Sports Interaction| 🔵 IDENTIFIED |
-| BetRivers Canada  | 🔵 IDENTIFIED |
-| Bet-at-home       | 🔵 IDENTIFIED |
-| Tipico            | 🔵 IDENTIFIED |
-| Unibet            | 🔵 IDENTIFIED |
-| Betano            | 🔵 IDENTIFIED |
-| Sportingbet       | 🔵 IDENTIFIED |
-| 1xBet             | 🔵 IDENTIFIED |
+| theScore Bet        | 🔵 IDENTIFIED |
+| Sports Interaction  | 🔵 IDENTIFIED |
+| BetRivers Canada    | 🔵 IDENTIFIED |
+| Bet-at-home         | 🔵 IDENTIFIED |
+| Tipico              | 🔵 IDENTIFIED |
+| Unibet              | 🔵 IDENTIFIED |
+| Betano              | 🔵 IDENTIFIED |
+| Sportingbet         | 🔵 IDENTIFIED |
+| 1xBet               | 🔵 IDENTIFIED |
+| OpenBet (Light & Wonder) | 🔵 IDENTIFIED |

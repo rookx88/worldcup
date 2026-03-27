@@ -94,3 +94,19 @@
 
 **Urgency:** Early engagement with Bet365 is leverage against Flutter/Entain in the UK and signals credibility to US/AU prospects.
 
+---
+
+## PENDING — Prospect Addition: OpenBet (Light & Wonder)
+
+**Action:** Add OpenBet (owned by Light & Wonder) as a prospect to PIPELINE.md
+**Why:** OpenBet provides sportsbook platforms to many major operators (tech provider for Betfair, Sky Bet, and others). They have both direct-to-operator influence and white-label offerings—partnership could enable access to multiple operators at once.
+**Research summary:** 
+- Major B2B sportsbook technology provider (powering $40B+ in annual handle)
+- Clients: Betfair, Sky Bet, William Hill, DraftKings (US), Betfred, and more
+- HQ in London, global reach (strong UK/EU/US presence)
+- Known for World Cup themed integrations and rapid B2B deployments
+- Contact: info@openbet.com (general), or via Light & Wonder BD: partnerships@lnw.com
+**Expected outcome:** Opens consideration for B2B2B deals or a technology partnership route, increasing distribution beyond single-operator deals.
+
+---
+
