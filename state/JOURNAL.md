@@ -63,3 +63,10 @@ Identified and added OpenBet (owned by Light & Wonder) to the pipeline as a new 
 ## March 26, 2026 — New Outreach Action: Sports Interaction Canada
 
 Added a PENDING outreach action for Sports Interaction, a fast-moving, independent Canadian sportsbook. The rationale: Sports Interaction is not locked into multinational BD logjams, is World Cup focused, and is a credible early win for the Canadian market. They could serve as a real-world reference for US/UK prospects and demonstrate Copa’s B2B integration and operational readiness. Email draft tailored for quick decision cycles, positioning exclusivity as a lever and referencing June/July player campaigns. This outreach expands the prospect field and targets an “early win” market while group and tier-1 operator dialogues progress.
+
+
+---
+
+## March 26, 2026 — New Outreach Action: BetRivers (Canada/US)
+
+Added a PENDING action to draft and send cold outreach to BetRivers for both Canada and US operations. Rationale: BetRivers occupies a strategic spot beneath the largest operators — innovative, fast-moving, and can pilot new engagement features rapidly, often before tier-1s move. They are active in both Ontario and the US, making them a valuable early reference partner. This action expands Copa's North American pipeline, increases competitive pressure on DraftKings/FanDuel, and targets a potential quick win in launch-critical markets.

@@ -135,3 +135,28 @@
 **Urgency:** Target for early quick-win market (showcase/reference for US and UK pitches).
 
 ---
+
+## PENDING — Outreach Email: BetRivers (Canada/US)
+
+**Action:** Draft cold outreach to BetRivers (Rush Street Interactive), targeting Canadian and US operations.
+
+**Contact:** partnerships@betrivers.com / LinkedIn: Head of Partnerships or VP Business Development
+
+**Why:** BetRivers is active in both Canada (Ontario) and the US, frequently innovates around major sporting events, and often pilots new engagement formats before larger competitors follow. They have less internal BD red tape than tier-1 operators and could be a fast-mover, especially for a North America reference account. An early BetRivers deal could pressure DraftKings or FanDuel to act.
+
+**Expected response:** Interest in a quick partner demo/preliminary call, especially if exclusivity is emphasized.
+
+**Subject line:** Copa for BetRivers — World Cup engagement (exclusive, single webhook)
+
+**Email body:**
+> Hi [Name],
+>
+> I’m reaching out with a product tailored for the 2026 World Cup. Copa is a new in-platform squad competition: bettors pay a $10 entry, every winning bet earns a spin to upgrade their squad, and a live leaderboard runs through all 104 matches — with 80% of entries to a prize pool and 20% revenue share to BetRivers.
+>
+> Copa integrates via a single webhook — no backend rebuild necessary. It’s available to only one partner per market this summer. I’d love for BetRivers to be our launch partner in North America.
+>
+> Worth a 20-minute intro call this week?
+>
+> [Signature]
+
+**Urgency:** Expands North America prospects, increases FOMO for larger competitors, and accelerates chance at a US/Canada showcase.
