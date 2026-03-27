@@ -56,3 +56,10 @@ Bet365 is the UK's largest sportsbook and deeply invested in every World Cup. Ea
 ## March 25, 2026 — Pipeline Expansion: Added OpenBet (Light & Wonder)
 
 Identified and added OpenBet (owned by Light & Wonder) to the pipeline as a new Tier 2 multi-market B2B prospect. OpenBet powers sportsbooks for a range of leading operators (Betfair, Sky Bet, William Hill, DraftKings, Betfred), holds significant technical influence, and already integrates World Cup-themed engagement content for their operator clients. This provides a new go-to-market vector — a single B2B2B or white-label partnership could enable Copa distribution beyond single-operator negotiations. This expands market access and hedges against slower decision cycles or exclusivity walls with Flutter/Entain. Proposed a PENDING action to ACTIONS.md to research and draft an outreach approach for OpenBet.
+
+
+---
+
+## March 26, 2026 — New Outreach Action: Sports Interaction Canada
+
+Added a PENDING outreach action for Sports Interaction, a fast-moving, independent Canadian sportsbook. The rationale: Sports Interaction is not locked into multinational BD logjams, is World Cup focused, and is a credible early win for the Canadian market. They could serve as a real-world reference for US/UK prospects and demonstrate Copa’s B2B integration and operational readiness. Email draft tailored for quick decision cycles, positioning exclusivity as a lever and referencing June/July player campaigns. This outreach expands the prospect field and targets an “early win” market while group and tier-1 operator dialogues progress.

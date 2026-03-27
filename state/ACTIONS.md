@@ -110,3 +110,28 @@
 
 ---
 
+## PENDING — Outreach Email: Sports Interaction (Canada)
+
+**Action:** Send personalized outreach to Sports Interaction partnerships/BD team
+**Target:** Sports Interaction (mid-sized Canadian sportsbook, fast decision cycles, independent)
+**Contact:** partnerships@sportsinteraction.com / LinkedIn: Head of Partnerships, Sports Interaction
+**Why now:** Candidate for fast win in the Canadian market. Sports Interaction is Canadian-owned, World Cup-focused, and not locked into multinational BD pipelines. Integration could serve as a showcase for Copa in a highly regulated, soccer-focused, and fast-moving market.
+
+**Subject line:** Copa for Sports Interaction — 48 days of World Cup retention
+
+**Email body:**
+> Hi [Name],
+>
+> I’m reaching out with a proposal designed for this summer’s World Cup. Copa is a new squad game that runs inside a sportsbook, giving every winning bet a direct connection to a persistent World Cup leaderboard.
+>
+> Players pay a $10 entry fee to build their squad. Each winning bet unlocks a spin to upgrade their team and climb the leaderboard. 80% of entry fees go to the prize pool; Sports Interaction keeps 20%. The integration is a single webhook, handled in days—not months.
+>
+> Copa is exclusive to one partner per market. I’d love for Sports Interaction to be our Canadian showcase this summer.
+>
+> Would you be open to a quick 20-minute intro call to show how it fits into your player campaigns for June and July?
+>
+> [Signature]
+
+**Urgency:** Target for early quick-win market (showcase/reference for US and UK pitches).
+
+---
