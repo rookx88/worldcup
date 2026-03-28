@@ -70,3 +70,9 @@ Added a PENDING outreach action for Sports Interaction, a fast-moving, independe
 ## March 26, 2026 — New Outreach Action: BetRivers (Canada/US)
 
 Added a PENDING action to draft and send cold outreach to BetRivers for both Canada and US operations. Rationale: BetRivers occupies a strategic spot beneath the largest operators — innovative, fast-moving, and can pilot new engagement features rapidly, often before tier-1s move. They are active in both Ontario and the US, making them a valuable early reference partner. This action expands Copa's North American pipeline, increases competitive pressure on DraftKings/FanDuel, and targets a potential quick win in launch-critical markets.
+
+
+---
+
+## March 27, 2026 — Pipeline Addition: Betano (Brazil/EU)
+Based on pipeline analysis and market opportunity, identified Betano (operated by Kaizen Gaming) as a top candidate for Brazil, Portugal, Spain, and Greece. Betano has a strong reputation for World Cup engagement activations and aggressive product innovation. Added a PENDING action in ACTIONS.md to add Betano to PIPELINE.md and draft tailored outreach. Updated PIPELINE.md to reflect Betano’s presence and multi-market footprint. Rationale: expands Copa’s “early big win” addressable markets, improves international validation, and provides a potential anchor brand in the highest-growth World Cup region. No outreach is sent yet—drafting is PENDING for next cycle.

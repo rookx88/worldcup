@@ -52,7 +52,7 @@ Partners are prioritized by: (1) World Cup betting volume, (2) player engagement
 ### Brazil / LATAM
 | Company | Size | Notes | Status |
 |---------|------|-------|--------|
-| Betano | ~2M BR | Kaizen Gaming; aggressive World Cup investment | 🔵 IDENTIFIED |
+| Betano | ~2M BR, EU | Kaizen Gaming; aggressive World Cup investment, operates in Brazil, Spain, Portugal, Greece | 🔵 IDENTIFIED |
 | Sportingbet | ~1M BR | Entain brand in Brazil | 🔵 IDENTIFIED |
 | 1xBet | ~5M LATAM | Large but regulatory risk in some markets | 🔵 IDENTIFIED |
 
@@ -114,3 +114,4 @@ Entain owns: Ladbrokes, Coral, bwin, PartyPoker, Sportingbet.
 | Sportingbet         | 🔵 IDENTIFIED |
 | 1xBet               | 🔵 IDENTIFIED |
 | OpenBet (Light & Wonder) | 🔵 IDENTIFIED |
+

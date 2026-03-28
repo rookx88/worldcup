@@ -160,3 +160,22 @@
 > [Signature]
 
 **Urgency:** Expands North America prospects, increases FOMO for larger competitors, and accelerates chance at a US/Canada showcase.
+
+---
+
+## PENDING — Prospect Addition: Betano (Brazil/EU)
+
+**Action:** Add Betano to PIPELINE.md and draft initial outreach.
+
+**Why:** Betano, operated by Kaizen Gaming, has a major World Cup footprint, is one of the fastest-growing betting brands in Brazil and select EU markets, and is known for innovative integrations during high-profile sports events. Securing Betano for Brazil (and possibly Iberia/Greece) offers Copa a strong presence both in LATAM’s largest market and several tier-2 UEFA countries. Succeeding here would demonstrate multi-market appeal and serve as a practical reference for the group/consortium B2B2B pitches.
+
+**Research summary:**
+- Brand: Betano (Kaizen Gaming)
+- Size: ~2M+ BR, Spain, Portugal, Greece
+- Notable: World Cup sponsorships, in-product engagement/retention features, aggressive marketing
+- Contact: partnerships@betano.com / LinkedIn: Global Head of Partnerships or Brazil Country Manager
+- Rationale: Early LATAM mover, high product openness, can shift Copa from “UK/US led” perception and build international validation.
+- Next step: Draft an initial tailored outreach — emphasize Copa’s localizable branding, fast integration, and exclusivity for Brazil/EU.
+
+---
+
