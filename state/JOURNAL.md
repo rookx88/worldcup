@@ -89,3 +89,10 @@ Based on pipeline analysis and market opportunity, identified Betano (operated b
 ## March 28, 2026 — Pipeline Expansion: Bet-at-home (Germany/EU) Outreach Action Added
 
 Identified Bet-at-home as a high-potential early win in the German market based on independent status, World Cup product innovation history, and faster-than-conglomerate decision cycles. Added a PENDING outreach action in ACTIONS.md: draft and send a cold pitch email to Bet-at-home's partnerships team (office@bet-at-home.com / LinkedIn). Tailored pitch highlights single webhook, exclusivity, and €10 squad entry for Germany's World Cup player base. This action expands the Euro pipeline, provides an early-mover prospect in a regulated EU market, and supports Copa’s goal of multi-market references by launch.
+
+
+---
+
+## March 28, 2026 — Outreach Action: Bet-at-home (Germany/EU) Outreach Email Drafted
+
+Added a PENDING action in ACTIONS.md to draft and send a cold outreach email to Bet-at-home, focused on their German market. Rationale: Bet-at-home is a leading independent sportsbook in Germany with a reputation for new feature integrations and faster decision cycles than the conglomerates. A tailored pitch was drafted, emphasizing the low integration friction (single webhook), market exclusivity, and Copa’s €10 squad entry mechanic mapped for Germany’s World Cup audience. This expands the direct outreach pipeline for regulated EU markets and supports the multi-market reference case needed to accelerate broader partner adoption.
