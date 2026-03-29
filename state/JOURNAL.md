@@ -82,3 +82,10 @@ Based on pipeline analysis and market opportunity, identified Betano (operated b
 
 ## March 27, 2026 — Pipeline Addition: Betano (Brazil/EU)
 Based on pipeline analysis and market opportunity, identified Betano (operated by Kaizen Gaming) as a top candidate for Brazil, Portugal, Spain, and Greece. Betano has a strong reputation for World Cup engagement activations and aggressive product innovation. Added a PENDING action in ACTIONS.md to add Betano to PIPELINE.md and draft tailored outreach. Updated PIPELINE.md to reflect Betano’s presence and multi-market footprint. Rationale: expands Copa’s “early big win” addressable markets, improves international validation, and provides a potential anchor brand in the highest-growth World Cup region. No outreach is sent yet—drafting is PENDING for next cycle.
+
+
+---
+
+## March 28, 2026 — Pipeline Expansion: Bet-at-home (Germany/EU) Outreach Action Added
+
+Identified Bet-at-home as a high-potential early win in the German market based on independent status, World Cup product innovation history, and faster-than-conglomerate decision cycles. Added a PENDING outreach action in ACTIONS.md: draft and send a cold pitch email to Bet-at-home's partnerships team (office@bet-at-home.com / LinkedIn). Tailored pitch highlights single webhook, exclusivity, and €10 squad entry for Germany's World Cup player base. This action expands the Euro pipeline, provides an early-mover prospect in a regulated EU market, and supports Copa’s goal of multi-market references by launch.

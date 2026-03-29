@@ -114,4 +114,3 @@ Entain owns: Ladbrokes, Coral, bwin, PartyPoker, Sportingbet.
 | Sportingbet         | 🔵 IDENTIFIED |
 | 1xBet               | 🔵 IDENTIFIED |
 | OpenBet (Light & Wonder) | 🔵 IDENTIFIED |
-

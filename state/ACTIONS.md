@@ -179,3 +179,28 @@
 
 ---
 
+## PENDING — Outreach Email: Bet-at-home (Germany/EU)
+
+**Action:** Draft cold outreach email to Bet-at-home, Germany’s leading independent sportsbook.
+
+**Contact:** office@bet-at-home.com / LinkedIn: Head of Partnerships or Business Development
+
+**Why:** Bet-at-home is one of Germany’s largest independent sportsbooks with a strong digital presence, World Cup engagement focus, and a reputation for integrating new player features. They have relatively fast decision cycles compared to conglomerates, providing a path to early traction in a major EU market.
+
+**Expected response:** Interest in a demo or intro call if Copa’s offering is framed as a unique, low-integration, exclusive product for Germany.
+
+**Subject line:** Copa for Bet-at-home — exclusive World Cup engagement (Germany, single webhook)
+
+**Email body:**
+> Hi [Name],
+>
+> I’m reaching out with a World Cup engagement product tailored for Germany. Copa is an in-platform squad competition: players pay a €10 entry fee to build a World Cup squad, with every winning bet on your platform unlocking spins to upgrade their team. Leaderboard runs live for all 104 matches, prize pool pays at the Final.
+>
+> Integration is a single webhook (no backend rebuild), 20% revenue share to Bet-at-home, 80% to the player prize pool. Copa is exclusive to one partner per market—I'd love Bet-at-home to own this for Germany.
+>
+> Open to a 20-minute intro call to see how it would look for your platform this summer?
+>
+> [Signature]
+
+**Urgency:** Expands direct outreach in a major EU market, increases pipeline breadth, and offers a quick-win target in a highly regulated jurisdiction.
+
