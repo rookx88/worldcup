@@ -96,3 +96,10 @@ Identified Bet-at-home as a high-potential early win in the German market based 
 ## March 28, 2026 — Outreach Action: Bet-at-home (Germany/EU) Outreach Email Drafted
 
 Added a PENDING action in ACTIONS.md to draft and send a cold outreach email to Bet-at-home, focused on their German market. Rationale: Bet-at-home is a leading independent sportsbook in Germany with a reputation for new feature integrations and faster decision cycles than the conglomerates. A tailored pitch was drafted, emphasizing the low integration friction (single webhook), market exclusivity, and Copa’s €10 squad entry mechanic mapped for Germany’s World Cup audience. This expands the direct outreach pipeline for regulated EU markets and supports the multi-market reference case needed to accelerate broader partner adoption.
+
+
+---
+
+## March 28, 2026 — Pipeline Expansion: OpenBet (Light & Wonder) Prospect Addition
+
+Added OpenBet (owned by Light & Wonder) as a Tier 2 B2B technology provider prospect to PIPELINE.md and ACTIONS.md. Rationale: OpenBet powers numerous top-tier sportsbooks (Betfair, Sky Bet, William Hill, DraftKings, Betfred); a partnership could unlock B2B2B distribution or a white-label route, increasing potential reach. Their history of rapid B2B deployments and World Cup integration expertise makes them a valuable node for multi-market leverage or accelerated deal volume. This expands the pipeline beyond direct-to-operator sales and adds an additional strategic route for Copa’s World Cup engagement product.
