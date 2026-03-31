@@ -204,3 +204,29 @@
 
 **Urgency:** Expands direct outreach in a major EU market, increases pipeline breadth, and offers a quick-win target in a highly regulated jurisdiction.
 
+---
+
+## PENDING — Outreach Email: OpenBet (Light & Wonder) — B2B2B/Tech Provider
+
+**Action:** Draft cold outreach message to OpenBet (owned by Light & Wonder) partnerships/BD team.
+
+**Contact:** info@openbet.com / partnerships@lnw.com / LinkedIn: Light & Wonder BD leadership
+
+**Why:** OpenBet is a global B2B betting platform provider powering Betfair, Sky Bet, William Hill, DraftKings, Betfred and others. A partnership would allow Copa to rapidly scale as an engagement product available “off the shelf” to their client base, either as white-label or integrated module. OpenBet has a strong history of World Cup integration innovation and can act as both a reference client and a distribution multiplier.
+
+**Subject line:** B2B World Cup engagement — Copa for OpenBet (single webhook integration)
+
+**Email body:**
+> Hi [Name],
+>
+> I’m reaching out with a World Cup engagement product designed for platform providers. Copa is a white-label squad competition integrated via a single webhook, offering a persistent World Cup game to sportsbook clients and their players.
+>
+> Available for all 104 matches: players pay a $10 entry fee, win spin upgrades with every winning bet, and compete across a persistent leaderboard through the Final. 80% of entry fees go to the prize pool, 20% is revenue share — partners can offer bundles or promos via a simple webhook event.
+>
+> Copa offers minimal integration friction and can be appended to your current World Cup rollout. As a partner/tech provider, your clients would be first to access this tool with market exclusivity per operator.
+>
+> Worth a short conversation this week to discuss bundling Copa into your 2026 World Cup offering?
+>
+> [Signature]
+
+**Urgency:** Allows a B2B2B deal route for rapid operator access if direct operator deals are slow, expands distribution and accelerates demo/validation opportunities.

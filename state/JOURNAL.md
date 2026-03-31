@@ -119,3 +119,10 @@ Added OpenBet (owned by Light & Wonder) as a Tier 2 B2B technology provider pros
 No new external outreach this cycle due to "one action per cycle" rule, but ACTIONS.md, PIPELINE.md, and earlier journal entries had become unsynchronized with the latest pipeline changes and prospect additions. This cycle: (1) validated and ensured Betano (Brazil/EU) and OpenBet (Light & Wonder) are both present in PIPELINE.md and ACTIONS.md, (2) confirmed Bet-at-home (Germany) tailored outreach is in ACTIONS.md, (3) verified latest prospect, action, and pitch info for each key market. 
 
 Rationale: This sets up the first significant multi-market outreach burst, while guaranteeing each PENDING outreach action is correctly documented and tracked in accordance with Copa’s process. No actions were executed externally this cycle; focus remains pipeline and outbound planning. Next: pending approval, move forward with initial partner contact.
+
+
+---
+
+## March 29, 2026 — Outreach Action: OpenBet B2B2B/Tech Provider Drafted
+
+Drafted a cold outreach message to OpenBet (Light & Wonder) partnerships team as a PENDING action in ACTIONS.md. This message targets OpenBet as a B2B technology provider, offering Copa as a white-label World Cup engagement module available to their sportsbook operator clients. The pitch highlights Copa’s single-webhook integration, persistent fantasy-like gameplay, and market exclusivity per operator. Rationale: If direct operator deals stall, a B2B2B technology partner with global reach (Betfair, Sky Bet, William Hill, DraftKings, Betfred and others) could rapidly scale Copa’s footprint. This action addresses pipeline diversification, unlocks a multiplier channel, and aligns with Copa’s multi-market strategy ahead of the 8-week integration window for World Cup launch.
