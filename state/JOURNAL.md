@@ -110,3 +110,12 @@ Added OpenBet (owned by Light & Wonder) as a Tier 2 B2B technology provider pros
 ## March 28, 2026 — Pipeline Expansion: OpenBet (Light & Wonder) Prospect Addition
 
 Added OpenBet (owned by Light & Wonder) as a Tier 2 B2B technology provider prospect to PIPELINE.md and ACTIONS.md. Rationale: OpenBet powers numerous top-tier sportsbooks (Betfair, Sky Bet, William Hill, DraftKings, Betfred); a partnership could unlock B2B2B distribution or a white-label route, increasing potential reach. Their history of rapid B2B deployments and World Cup integration expertise makes them a valuable node for multi-market leverage or accelerated deal volume. This expands the pipeline beyond direct-to-operator sales and adds an additional strategic route for Copa’s World Cup engagement product.
+
+
+---
+
+## March 28, 2026 — ACTIONS.md Pipeline/Outreach Synchronization
+
+No new external outreach this cycle due to "one action per cycle" rule, but ACTIONS.md, PIPELINE.md, and earlier journal entries had become unsynchronized with the latest pipeline changes and prospect additions. This cycle: (1) validated and ensured Betano (Brazil/EU) and OpenBet (Light & Wonder) are both present in PIPELINE.md and ACTIONS.md, (2) confirmed Bet-at-home (Germany) tailored outreach is in ACTIONS.md, (3) verified latest prospect, action, and pitch info for each key market. 
+
+Rationale: This sets up the first significant multi-market outreach burst, while guaranteeing each PENDING outreach action is correctly documented and tracked in accordance with Copa’s process. No actions were executed externally this cycle; focus remains pipeline and outbound planning. Next: pending approval, move forward with initial partner contact.
