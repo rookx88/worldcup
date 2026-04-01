@@ -230,3 +230,5 @@
 > [Signature]
 
 **Urgency:** Allows a B2B2B deal route for rapid operator access if direct operator deals are slow, expands distribution and accelerates demo/validation opportunities.
+
+---
