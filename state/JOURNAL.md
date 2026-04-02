@@ -142,3 +142,10 @@ Validated that all pending outreach and prospect addition actions match the part
 Ensured every current pipeline prospect has a tracked, clearly defined outreach or action in ACTIONS.md and is correctly described according to the latest priority markets and route (direct operator vs tech platform). Added a PENDING action for a tailored cold outreach to OpenBet, targeting their role as a B2B2B platform provider (not just an operator), aiming to unlock the accelerator channel: white-label distribution across client operators. This completes the “first wave” of direct and indirect partner reach, ensuring the next cycles can move forward with actual sends and demo material execution once approved.
 
 Rationale: Clears the bottleneck between pipeline readiness and actual live outreach execution. Prioritizes route diversity so Copa can sign either the first-mover operator or the tech partner that enables scale. Maintains strict alignment between pipeline, actions, and partner strategy before external contact. This unlocks true outreach-execution in the very next cycle.
+
+
+---
+
+## March 30, 2026 — Action for Approval: First Outreach to Flutter Group BD
+
+Prepared Copa’s first major outbound partnership pitch: targeted outreach email to Flutter Entertainment Group’s corporate business development team. Rationale: Flutter owns multiple leading brands (FanDuel, Paddy Power, Sky Bet, Sportsbet) spanning US, UK, EU, and AU markets; a single BD discussion could unlock Copa in multiple geographies and create exclusivity-driven urgency. The email draft is now set to PENDING in ACTIONS.md, ready for approval before actual send — fulfilling the “one action per cycle” rule and prioritizing the largest multi-market leverage point. This next step unlocks direct movement into the CONTACTED stage and serves as the pipeline’s spearhead for deal progression.
