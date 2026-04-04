@@ -232,3 +232,28 @@
 **Urgency:** Allows a B2B2B deal route for rapid operator access if direct operator deals are slow, expands distribution and accelerates demo/validation opportunities.
 
 ---
+
+## PENDING — Outreach Email: Tab NZ (New Zealand)
+
+**Action:** Draft cold outreach to Tab New Zealand partnerships team
+
+**Contact:** enquiries@tab.co.nz / LinkedIn: Head of Digital, Tab NZ
+
+**Why:** Tab NZ is the exclusive national betting agency for New Zealand, has a FIFA World Cup broadcast tie-in, and is government-affiliated with streamlined product approval. Their volume is lower than Australia, but Copa would face almost no competition and provide immediate market validation in a soccer-mad, time zone-aligned market. Could be pitched as a test market and proof point for AU operators.
+
+**Expected response:** Interest in a highly localizable, exclusive platform integration for World Cup engagement.
+
+**Subject line:** Copa for Tab NZ — World Cup engagement (exclusive, local, single webhook)
+
+**Email body:**
+> Hi [Name],
+>
+> I’m reaching out with a World Cup engagement product that gives your customers a persistent game throughout every match this June and July. Copa is an in-platform squad builder: $10 entry, every winning bet earns a spin to upgrade, leaderboard runs all 104 matches, 80% of entry fees to the prize pool, 20% revenue share for Tab NZ, and it all plugs in via a single webhook — zero backend rebuild.
+>
+> Copa is exclusive to only one New Zealand partner this summer. I’d love for Tab NZ to be our regional showcase for 2026.
+>
+> Worth a short call this week to discuss?
+>
+> [Signature]
+
+**Urgency:** Fast potential for national showcase, quick cycle — creates Oceania reference, supports AU pitches.
